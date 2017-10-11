@@ -5,3 +5,66 @@
     width:100%;
   }
 } */
+
+/*****************************************************
+HEADER
+*****************************************************/
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/sss/sss07_200px.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	width: 100%;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+}
+
+header ul button {
+	background-color: lightblue;
+	margin: 0 10px 0 0;
+}
+
+header div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+header div h1 {
+	font-size: 500%;
+	font-family: "times new roman";
+	color: white;
+	margin: 50px;
+}
+
+/*****************************************************
+NAV (Menu)
+*****************************************************/
+
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #7BF;
+}
+
+nav ul li {
+	padding: 20px;
+	margin: 0 1px;
+	background-color: #59F;
+}
+
+
