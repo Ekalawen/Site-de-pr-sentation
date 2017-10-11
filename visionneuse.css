@@ -1,0 +1,166 @@
+
+body {
+  width:100%;
+  background-color: #333;
+  font-family: helvetica, calibri, arial;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #f5f5f5;
+}
+
+header, footer {
+  margin: 5em;
+}
+p {
+  color: #ddd;
+}
+
+a {
+  color: #903;
+}
+
+a:visited {
+  #F08080;
+}
+
+/*------------------------------------------------
+ * Overall container
+ *-----------------------------------------------*/
+.terminal-container {
+  background-color: #222;
+  border-radius: .5em;
+  margin: 5%;
+  width: 90%;
+  padding-bottom: 1.5%;
+  box-shadow: 0 2px 2px 2px #aaa, 0 -2px 2px 2px #222, 2px 0 2px 2px #444, -2px 0 2px 2px #444;
+
+}
+
+/*------------------------------------------------
+ * Terminal Buttons
+ *-----------------------------------------------*/
+.terminal-buttons {
+  padding: 2.5% 0 2.5% 2.5%;
+}
+
+.terminal-buttons label {
+    background-color: #666;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    margin: 5% 1% 0 1%;
+    padding: 1%;
+    text-shadow: #333 0 -1px 1px, #aaa 0 1px 1px, #aaa 0 1px 1px, #ccc 0 1px 1px;
+    box-shadow: 0 4px 0 0 #444;
+}
+
+.terminal-buttons label:active {
+  box-shadow: none;
+  background-color: #bbb;
+}
+
+.terminal-buttons label:hover {
+  cursor: pointer;
+}
+
+input.terminal-radio:checked:nth-child(1) ~ .terminal-buttons label:nth-child(1),
+input.terminal-radio:checked:nth-child(2) ~ .terminal-buttons label:nth-child(2),
+input.terminal-radio:checked:nth-child(3) ~ .terminal-buttons label:nth-child(3) {
+  background-color: #aaa;
+  color: #1397ee;
+  text-shadow: rgba(180,132,132, 1) 0 -1px 0, rgba(180,132,132, 1) 0 2px 1px, rgba(180,132,132, 1) 0 0 5px, rgba(180,132,132, 1) 0 0 20px;
+}
+
+/*------------------------------------------------
+ * Terminal Images
+ *-----------------------------------------------*/
+.terminal-images {
+  border-radius: 25px;
+  overflow:hidden;
+  margin: 2.5%;
+  max-height: 400px;
+  position: relative;
+  right: 0;
+}
+
+.terminal-images img {
+  display: none;
+  width: 100%
+}
+
+input.terminal-radio:checked:nth-child(1) ~ .terminal-images img:nth-child(1),
+input.terminal-radio:checked:nth-child(2) ~ .terminal-images img:nth-child(2),
+input.terminal-radio:checked:nth-child(3) ~ .terminal-images img:nth-child(3) {
+  display:inline-block;
+}
+
+.terminal-images label {
+    font-size:6em;
+    color: rgba(187,187,187,.3);
+    position: absolute;
+    top:40%;
+    right: 0;
+    display: none;
+    margin-right: .1em;
+    
+}
+
+.terminal-images label:hover {
+  cursor: pointer;
+  color: rgba(187,187,187,.5);
+}
+
+input.terminal-radio:checked:nth-child(1) ~ .terminal-images label:nth-child(5),
+input.terminal-radio:checked:nth-child(2) ~ .terminal-images label:nth-child(6),
+input.terminal-radio:checked:nth-child(3) ~ .terminal-images label:nth-child(4) {
+  display: block;
+}
+
+/*------------------------------------------------
+ * Terminal Radios
+ *-----------------------------------------------*/
+
+input[type="radio"] {
+  display: none
+}
+
+/*------------------------------------------------
+ * Media Queries
+ *-----------------------------------------------*/
+@media all and (min-width: 900px) {
+  .terminal-container {
+    width: 60%;
+    margin: 5% auto;
+  }
+  
+  .terminal-images {
+    max-height: 300px;
+  }
+  
+  .terminal-buttons {
+    width: 21%;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    height: 150px;
+    vertical-align: top;
+  }
+  
+  .terminal-buttons label {
+    display: inline-block;
+    padding: 5%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+  }
+  
+  .terminal-images {
+    display: inline-block;
+    width: 70%;
+  }
+}
