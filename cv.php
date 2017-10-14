@@ -1,7 +1,9 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("apropos");
+	echo getHeader("", false, false);
+
+	echo getCV();
 
 	echo getFooter();
 
