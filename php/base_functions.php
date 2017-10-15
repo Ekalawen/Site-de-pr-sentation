@@ -8,14 +8,16 @@
 		$ctActif = ($actif == "contact") ? 'class="onglet_actif"' : '';
 
 		$entete = $entete ? '
-			<ul>
-				<li>
-					<button>FR</button>
-				</li>
-				<li>
-					<button>ANG</button>
-				</li>
-			</ul>
+			<div class="relative">
+				<ul class="floatHD">
+					<li>
+						<button>FR</button>
+					</li>
+					<li>
+						<button>ANG</button>
+					</li>
+				</ul>
+			</div>
 			<div>
 				<h1>
 					Alexys Dussier
@@ -107,8 +109,8 @@ $(document).ready( function () {
 	<body>
 		<header>
 			' . $entete . '
-			' . $nav . '
 		</header>
+			' . $nav . '
 		';
 
 		return $header;
@@ -118,6 +120,29 @@ $(document).ready( function () {
 
 		$footer = '
 		<footer>
+			<div>
+				<h1>Alexys Dussier</h1>
+			</div>
+			<div>
+				<p>
+					alexys.dussier@gmail.com
+				</p>
+			</div>
+			<div>
+				<p>
+					(+33) 6 51 02 42 43
+				</p>
+			</div>
+			<div>
+				<p>
+					34 rue de l\'étoile, 31000 Toulouse, France
+				</p>
+			</div>
+			<aside class="relative">
+				<p class="floatBD">
+					V 1.0
+				<p>
+			<aside>
 		</footer>
 	</body>
 </html>
