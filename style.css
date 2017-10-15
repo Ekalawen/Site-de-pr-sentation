@@ -66,7 +66,7 @@ nav ul {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: hsla(220, 100%, 64%, 0.8);
+	background-color: hsla(220, 100%, 64%, 1);
 }
 
 nav ul li {
@@ -175,3 +175,73 @@ section p {
 .theme3 p {
 	color: black;
 }
+
+/*****************************************************
+FOOTER
+*****************************************************/
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	min-height: 10%;
+	padding: 8em 8em 6em;
+	text-align: center;
+
+	background-color: hsla(0, 0%, 10%, 1);
+	color: hsla(360, 100%, 100%, 1);
+	font-size: 100%;
+	font-style: italic;
+
+	/*background-image: url("images/clicker/clicker03_tesseract.png");
+	background-repeat: no-repeat;
+	background-size: contain;*/
+}
+
+footer div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer aside {
+	width: 100%;
+}
+
+.floatBD {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.floatHD {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.relative {
+	position: relative;
+}
+
+footer div * {
+	margin: 0 0 2em;
+}
+
+footer h1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
