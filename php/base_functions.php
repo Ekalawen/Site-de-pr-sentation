@@ -47,7 +47,7 @@
 			<nav>
 				<ul>
 					<li ' . $acActif . '>
-						<a href="acceuil.php">Accueil</a>
+						<a href="index.php">Accueil</a>
 					</li>
 					<li ' . $apActif . '>
 						<a href="a_propos.php">À propos</a>
@@ -102,7 +102,6 @@ $(document).ready( function () {
 		<style type="style.css"></style>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="reset.css">
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<!--<link rel="stylesheet" type="text/css" href="visionneuse.css"> -->
 	</head>
 
@@ -124,18 +123,35 @@ $(document).ready( function () {
 				<h1>Alexys Dussier</h1>
 			</div>
 			<div>
+				<h1>
+					Mail :
+				</h1>
 				<p>
 					alexys.dussier@gmail.com
 				</p>
 			</div>
 			<div>
+				<h1>
+					GitHub :
+				</h1>
 				<p>
-					(+33) 6 51 02 42 43
+					github.com/Ekalawen
 				</p>
 			</div>
 			<div>
+				<h1>
+					Linkdin :
+				</h1>
 				<p>
-					34 rue de l\'étoile, 31000 Toulouse, France
+					Alexys Dussier
+				</p>
+			</div>
+			<div>
+				<h1>
+					Adresse :
+				</h1>
+				<p>
+					Toulouse, France
 				</p>
 			</div>
 			<aside class="relative">
