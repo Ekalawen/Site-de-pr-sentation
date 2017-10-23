@@ -10,7 +10,7 @@
 HEADER
 *****************************************************/
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/sss/sss07_200px.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sss/sss07_200px.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -165,7 +165,7 @@ section p {
 }
 
 .theme3 {
-	background-color: hsla(360, 100%, 58%, 1);
+	background-color: hsla(360, 70%, 58%, 1);
 }
 
 .theme3 h1 {
@@ -243,5 +243,6 @@ footer p {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-left: 3px;
 }
 
