@@ -1,0 +1,32 @@
+
+/* Classes générales de css */
+
+.ligne {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.colonne {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.w50 {
+	width: 50%;
+}
+.w25 {
+	width: 25%;
+}
+.w75 {
+	width: 75%;
+}
+.w33 {
+	width: 33%;
+}
+.w66 {
+	width: 66%;
+}
