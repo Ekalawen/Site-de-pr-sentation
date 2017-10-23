@@ -100,9 +100,9 @@ $(document).ready( function () {
 		<meta name="author" content="Alexys Dussier">
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 		<style type="style.css"></style>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="reset.css">
-		<!--<link rel="stylesheet" type="text/css" href="visionneuse.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<!--<link rel="stylesheet" type="text/css" href="css/visionneuse.css"> -->
 	</head>
 
 	<body>
@@ -124,7 +124,7 @@ $(document).ready( function () {
 			</div>
 			<div>
 				<h1>
-					Mail :
+					Mail : 
 				</h1>
 				<p>
 					alexys.dussier@gmail.com
@@ -132,7 +132,7 @@ $(document).ready( function () {
 			</div>
 			<div>
 				<h1>
-					GitHub :
+					GitHub : 
 				</h1>
 				<p>
 					github.com/Ekalawen
@@ -140,7 +140,7 @@ $(document).ready( function () {
 			</div>
 			<div>
 				<h1>
-					Linkdin :
+					Linkdin : 
 				</h1>
 				<p>
 					Alexys Dussier
@@ -148,7 +148,7 @@ $(document).ready( function () {
 			</div>
 			<div>
 				<h1>
-					Adresse :
+					Adresse :         
 				</h1>
 				<p>
 					Toulouse, France
@@ -160,6 +160,10 @@ $(document).ready( function () {
 				<p>
 			<aside>
 		</footer>
+
+		<script src="js/jquery.js"></script>
+	    <script src="js/alerte.js"></script>	
+
 	</body>
 </html>
 		';
