@@ -1,7 +1,7 @@
 <?php
 
 	function getHeader($actif, $entete = true, $nav = true) {
-		$acActif = ($actif == "acceuil") ? 'class="onglet_actif"' : '';
+		$acActif = ($actif == "accueil") ? 'class="onglet_actif"' : '';
 		$apActif = ($actif == "apropos") ? 'class="onglet_actif"' : '';
 		$prActif = ($actif == "projets") ? 'class="onglet_actif"' : '';
 		$jpActif = ($actif == "jeux") ? 'class="onglet_actif"' : '';
@@ -89,6 +89,8 @@ $(document).ready( function () {
 </script>
 		';
 
+		$onload = ($actif == "accueil") ? " onload=\"alerteDemarrage()\"" : "";
+
 		$header = '
 <!DOCTYPE html>
 <html lang="fr">
@@ -106,7 +108,7 @@ $(document).ready( function () {
 		<!--<link rel="stylesheet" type="text/css" href="css/visionneuse.css"> -->
 	</head>
 
-	<body>
+	<body '. $onload .'>
 		<header>
 			' . $entete . '
 		</header>

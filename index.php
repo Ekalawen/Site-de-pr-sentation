@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("acceuil");
+	echo getHeader("accueil");
 
 	echo getTextAcceuil();
 
