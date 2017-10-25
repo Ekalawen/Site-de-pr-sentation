@@ -89,7 +89,8 @@ $(document).ready( function () {
 </script>
 		';
 
-		$onload = ($actif == "accueil") ? " onload=\"alerteDemarrage()\"" : "";
+		//$onload = ($actif == "accueil") ? " onload=\"alerteDemarrage()\"" : "";
+		$onload = "";
 
 		$header = '
 <!DOCTYPE html>
@@ -130,7 +131,7 @@ $(document).ready( function () {
 					Mail : 
 				</h1>
 				<p>
-					alexys.dussier@gmail.com
+					form coming soon
 				</p>
 			</div>
 			<div>
