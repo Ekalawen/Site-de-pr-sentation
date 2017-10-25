@@ -10,6 +10,15 @@
 
 	function getTextAcceuil() {
 		$text = '
+		<section class="theme4">
+			<div class="ligne 66">
+				<p>
+
+					 Dear Visitor, my website is currently under construction.
+					 Thank you for your understanding.
+				</p>
+			</div>
+		</section>
 		<section class="theme1">
 			<div class="ligne w50">
 				<img class="photo_profile" src="images/moi/photo_profile.JPG" alt="La photo de profile n\'a pas été chargé"/>
