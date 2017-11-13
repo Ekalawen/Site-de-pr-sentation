@@ -21,7 +21,6 @@
 		</section>
 		<section class="theme1">
 			<div class="ligne w50">
-				<img class="photo_profile" src="images/moi/photo_profile.JPG" alt="La photo de profile n\'a pas été chargé"/>
 				<div class="colonne">
 					<h3>
 						Who I am ?
