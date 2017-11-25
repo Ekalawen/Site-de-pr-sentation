@@ -101,11 +101,14 @@ $(document).ready( function () {
 		<meta name="description" content="Page d\'Acceuil">
 		<meta name="keywords" content="Alexys, Dussier, CV, jeux, game, design">
 		<meta name="author" content="Alexys Dussier">
+		<meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1 "/>
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 		<style type="style.css"></style>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/general.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet.css">
+
 		<!--<link rel="stylesheet" type="text/css" href="css/visionneuse.css"> -->
 	</head>
 
