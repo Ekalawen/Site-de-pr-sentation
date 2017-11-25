@@ -47,17 +47,17 @@
 			<nav>
 				<ul>
 					<li ' . $acActif . '>
-						<a href="index.php">Accueil</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li ' . $apActif . '>
-						<a href="a_propos.php">À propos</a>
+						<a href="a_propos.php">About me</a>
 					</li>
 					<li ' . $prActif . '>
-						<a href="projets.php">Projets</a>
+						<a href="projets.php">Projects</a>
 						' . $sousMenuProjets . '
 					</li>
 					<li ' . $jpActif . '>
-						<a href="jeux_preferes.php">Jeux préférés</a>
+						<a href="jeux_preferes.php">Favorite Games</a>
 					</li>
 					<li ' . $ctActif . '>
 						<a href="contact.php">Contact</a>
@@ -166,6 +166,7 @@ $(document).ready( function () {
 		</footer>
 
 		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
 	    <script src="js/alerte.js"></script>	
 
 	</body>
