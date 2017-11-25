@@ -5,7 +5,7 @@ Ce fichier contient la pluspart des fonctions de script
 
 /* Photo de profile */
 jQuery(document).ready(function(){
-	var text1 = "I like taking a step back to thinkg about games, strategies and life.";
+	var text1 = "I like taking a step back to think about games, strategies and life.";
 	var text2 = "I am not hidind, come and found me !";
 
 	$("#text_photo_profile").html(text1);
