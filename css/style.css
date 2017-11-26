@@ -102,14 +102,13 @@ nav ul li a:hover {
 }
 
 
-
 /*****************************************************
 SECTION
 *****************************************************/
 section {
 	min-height: 10%;
 	padding: 3em 6em 2em;
-	text-align: justify;
+	text-align: center;
 }
 
 section > * {

@@ -1,0 +1,16 @@
+/*********************************************************
+Ce fichier est là pour insérer des images en background
+*********************************************************/
+
+#projet_img1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sss/sss07_200px.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img1:hover {
+	background-image: url("../images/sss/sss07_200px.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
