@@ -31,11 +31,12 @@
 					</div>
 				</div>
 			</a>
-			<a href="projets.php">
-				<div class="size300-200" id="projet_img1">
+
+			<a href="projet_sss.php">
+				<div class="size300-200" id="projet_img_sss">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							Speed Skill Style
 						</p>
 					</div>
 				</div>
