@@ -27,7 +27,7 @@
 				The Game
 			</h1>
 			<p class="justifyText">
-				In Speek Skill Style, you are a cube (I also love 3D square !), and you can run like an human, you can run, jump, grab walls and so on.<br>
+				In Speek Skill Style, you are a cube (I also love 3D square !), and you can move like an human, you can run, jump, grab walls and so on.<br>
 				In fact, this strange universe is the inside of a data base, and you are a virus. You want to hack it by unlocking several doors and light walls. And by dodging ennemies !<br>
 				I found that being only able to run like a simple human was boring. So i imagined 4 ways of moving, each with unique and powerful abilities but with big upsides to compensate.<br>
 				I named the 4 forms : the Runner, the Destroyer, the Dasher and the Slider ! (I am french, so it may seems quit weird at first glance :p)
@@ -79,7 +79,7 @@
 				</p>
 				<img src="images/sss/sss13.png" alt="I am an image :D">
 				<p>
-					Me I understand, and you ? are you sure ? :D
+					I understand, and you ? are you sure ? :D
 				</p>
 				<img src="images/sss/sss12.png" alt="I am an image :D">
 			</section>

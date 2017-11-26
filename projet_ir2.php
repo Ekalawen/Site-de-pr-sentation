@@ -17,7 +17,7 @@
 					This is the first video game i created.
 				</h3>
 				<h3>
-					He will, thanks to this, always be my favorite one.
+					It will, thanks to this, always be my favorite one.
 				</h3>
 				<img src="images/ir2/projet_IR_1.png" alt="I am an image :D">
 		</section>
@@ -29,8 +29,8 @@
 					Part one : A color racing (rushing ?) game !
 				</h3>
 				<p class="justifyText">
-					In Icon Rush 2 you are playing a square who represent an Icon. The Icons are usually emblematics, Google, Linux, StarCraft 2, Magic and so on. Yes i will have issues with copyright. No this game is not for sale, don\'t worry.<br> And you are not alone ! You can play up to 6 person on the same computer ! It\'s a local game, and it unleashes the Fun with friends !<br>
-					Soooo, what is the goal ? You must convert the field to your own color. You achieve this by just moving. And by moving you create bonuses. Quick catch them before your opponents for take the advantage. <br>
+					In Icon Rush 2 you are playing a square who represent an Icon. The Icons are usually emblematics : Google, Linux, StarCraft 2, Magic and so on. Yes i will have issues with copyright. No this game is not for sale, don\'t worry.<br> But you are not alone ! You can play up to 6 person on the same computer ! It\'s a local game, and it unleashes the Fun with friends !<br>
+					Soooo, what is the goal ? You must convert the field to your own color. You achieve this by just moving. And by moving you create bonuses. Quickly catch them before your opponents in order to take the advantage. <br>
 					And that\'s all ! =)
 				</p>
 				<section class="theme3 colonne">
