@@ -22,11 +22,11 @@
 		</section>
 
 		<section class="theme2">
-			<a href="projets.php">
-				<div class="size300-200" id="projet_img1">
+			<a href="projet_ir2.php">
+				<div class="size300-200" id="projet_img_ir2">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							Icon Rush 2
 						</p>
 					</div>
 				</div>

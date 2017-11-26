@@ -79,6 +79,15 @@
 .md3 {
 	margin-right: 3em;
 }
+.mt1 {
+	margin-top: 1em;
+}
+.mt2 {
+	margin-top: 2em;
+}
+.mt3 {
+	margin-top: 3em;
+}
 
 .centerText {
 	text-align: center;
@@ -88,6 +97,7 @@
 }
 .volatileText {
 	color: white;
+	font-size: 250%;
 }
 
 .size300-200 {
