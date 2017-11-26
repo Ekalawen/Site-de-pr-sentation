@@ -10,9 +10,9 @@
 	function getTextA_propos() {
 		$text = '
 		<section class="theme1 colonne">
-				<p>
+				<h3>
 					What do I like the most in life ?
-				</p>
+				</h3>
 				<bouton>
 					3 things
 				</bouton>
@@ -36,6 +36,15 @@
 				</div>
 			</div>
 		</section>
+		<a href="projets.php">
+			<section class="theme3 colonne redirection">
+				<div class="ligne w50">
+						<p class="redirection_p">
+							Do you want to see what i have done ?
+						</p>
+				</div>
+			</section>
+		</a>
 		';
 
 		return $text;

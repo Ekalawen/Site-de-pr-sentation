@@ -7,7 +7,6 @@
 	justify-content: center;
 	align-items: center;
 }
-
 .colonne {
 	display: flex;
 	flex-direction: column;
@@ -43,6 +42,12 @@
 .w66 {
 	width: 66%;
 }
+.w100 {
+	width: 100%;
+}
+.h100 {
+	height: 100%;
+}
 
 .mgd1 {
 	margin-right: 1em;
@@ -76,5 +81,33 @@
 }
 
 .centerText {
-	text-align: center
+	text-align: center;
+}
+.justifyText {
+	text-align: justify;
+}
+.volatileText {
+	color: white;
+}
+
+.size300-200 {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	transition: height 800ms ease;
+	margin: 1em;
+}
+.size300-200:hover {
+	height: 300px;
+}
+
+.img_projet {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	transition: height 800ms ease;
+}
+
+.img_projet:hover {
+	height: 300px;
 }

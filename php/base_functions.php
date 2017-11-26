@@ -107,6 +107,7 @@ $(document).ready( function () {
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/general.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/background_images.css">
 		<link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet.css">
 
 		<!--<link rel="stylesheet" type="text/css" href="css/visionneuse.css"> -->

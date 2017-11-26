@@ -21,38 +21,48 @@ jQuery(document).ready(function(){
 	});
 });
 
-/* Redirection About Me */
+/* Redirections en fin de page */
 jQuery(document).ready(function(){
-	$("#redirection_about_me").mouseenter(function() {
-		var elem = $("#redirection_about_me");
+	$(".redirection").mouseenter(function() {
+		var elem = $(".redirection");
 		var css = elem.attr("style");
 		if(css = "undefined") {
 			css = "";
 		}
 		elem.attr("style", css + "background-color: hsla(360, 70%, 30%, 1)");
 
-		var text = $("#redirection_about_me_p");
+		var text = $(".redirection_p");
 		css = text.attr("style");
 		if(css = "undefined") {
 			css = "";
 		}
 		text.attr("style", css + "color: white");
 	});
-	$("#redirection_about_me").mouseleave(function() {
-		var elem = $("#redirection_about_me");
+	$(".redirection").mouseleave(function() {
+		var elem = $(".redirection");
 		var css = elem.attr("style");
 		if(css = "undefined") {
 			css = "";
 		}
 		elem.attr("style", css + "background-color: hsla(360, 70%, 58%, 1)");
 
-		var text = $("#redirection_about_me_p");
+		var text = $(".redirection_p");
 		css = text.attr("style");
 		if(css = "undefined") {
 			css = "";
 		}
 		text.attr("style", css + "color: black");
 	});
-})
+});
+
+/* On triche pour la couleur de volatileText !*/
+jQuery(document).ready(function(){
+	var elem = $(".volatileText");
+	var css = elem.attr("style");
+	if(css = "undefined") {
+		css ="";
+	}
+	elem.attr("style", css + "color: white");
+});
 
 	

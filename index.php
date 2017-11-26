@@ -22,7 +22,7 @@
 				<h3>
 					Who I am ?
 				</h3>
-			<div class="w50">
+			<div class="w50 justifyText">
 				<p>
 					I am an IT engineering student passionate about designing and creating games. My dream is to create the next generation gaming experience.
 				</p>
@@ -32,9 +32,9 @@
 			</p>
 		</section>
 		<a href="a_propos.php">
-			<section class="theme3 colonne" id="redirection_about_me">
+			<section class="theme3 colonne redirection">
 				<div class="ligne w50">
-						<p id="redirection_about_me_p">
+						<p class="redirection_p">
 							Do you want to know more about me ?
 						</p>
 				</div>
