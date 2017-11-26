@@ -14,3 +14,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_ir2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ir2/projet_IR_1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_ir2:hover {
+	background-image: url("../images/ir2/projet_IR_1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
