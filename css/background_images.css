@@ -40,3 +40,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_ra {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ra/symbole.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_ra:hover {
+	background-image: url("../images/ra/symbole.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
