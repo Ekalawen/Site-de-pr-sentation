@@ -20,7 +20,11 @@
 					But i loved each part of each of them.
 				</h3>
 		</section>
-
+		<section class="theme3 colonne">
+			<p>
+				Click on them ! On each of them !
+			</p>
+		</section>
 		<section class="theme2">
 			<a href="projet_ir2.php">
 				<div class="size300-200" id="projet_img_ir2">
@@ -41,11 +45,12 @@
 					</div>
 				</div>
 			</a>
-			<a href="projets.php">
-				<div class="size300-200" id="projet_img1">
+
+			<a href="projet_ra.php">
+				<div class="size300-200" id="projet_img_ra">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							RagnArcane
 						</p>
 					</div>
 				</div>
