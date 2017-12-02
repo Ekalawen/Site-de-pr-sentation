@@ -20,7 +20,7 @@
 		</section>
 		<section class="theme1 colonne">
 				<h3>
-					Who I am ?
+					Who am I ?
 				</h3>
 			<div class="w50 justifyText">
 				<p>

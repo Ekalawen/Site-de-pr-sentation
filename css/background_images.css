@@ -53,3 +53,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_clicker {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/clicker/clicker01_tesseract.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_clicker:hover {
+	background-image: url("../images/clicker/clicker01_tesseract.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}

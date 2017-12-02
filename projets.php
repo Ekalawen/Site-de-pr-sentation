@@ -55,11 +55,12 @@
 					</div>
 				</div>
 			</a>
-			<a href="projets.php">
-				<div class="size300-200" id="projet_img1">
+
+			<a href="projet_clicker.php">
+				<div class="size300-200" id="projet_img_clicker">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							Pixel Clicker
 						</p>
 					</div>
 				</div>
