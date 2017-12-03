@@ -5,6 +5,8 @@
 
 	echo getTextProjet_clicker();
 
+	echo getEndProjet();
+	
 	echo getFooter();
 
 	function getTextProjet_clicker() {

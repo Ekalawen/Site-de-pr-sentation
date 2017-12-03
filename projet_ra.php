@@ -5,6 +5,8 @@
 
 	echo getTextProjet_ra();
 
+	echo getEndProjet();
+	
 	echo getFooter();
 
 	function getTextProjet_ra() {

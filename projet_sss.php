@@ -5,6 +5,8 @@
 
 	echo getTextProjet_sss();
 
+	echo getEndProjet();
+
 	echo getFooter();
 
 	function getTextProjet_sss() {
@@ -17,10 +19,12 @@
 					Mirror\'s Edge was too slow. So I made my game.<br>
 					A game of flow.
 				</h3>
-				<img src="images/sss/sss07.png" alt="I am an image :D">
-				<p>
-					Here is a Mirror\'s Edge theme.
-				</p>
+				<section class="theme2 colonne">
+					<img src="images/sss/sss07.png" alt="I am an image :D">
+					<p>
+						Here is a Mirror\'s Edge theme.
+					</p>
+				</section>
 		</section>
 		<section class="theme2 colonne">
 			<h1>

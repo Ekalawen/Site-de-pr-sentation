@@ -65,11 +65,22 @@
 					</div>
 				</div>
 			</a>
-			<a href="projets.php">
-				<div class="size300-200" id="projet_img1">
+
+			<a href="projet_projet_long.php">
+				<div class="size300-200" id="projet_img_projet_long">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							RogueLike
+						</p>
+					</div>
+				</div>
+			</a>
+			
+			<a href="projet_bus.php">
+				<div class="size300-200" id="projet_img_bus">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Greed house bus
 						</p>
 					</div>
 				</div>
@@ -78,7 +89,7 @@
 				<div class="size300-200" id="projet_img1">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							Coming soon !
 						</p>
 					</div>
 				</div>
@@ -87,7 +98,7 @@
 				<div class="size300-200" id="projet_img1">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							Coming soon !
 						</p>
 					</div>
 				</div>
@@ -96,7 +107,7 @@
 				<div class="size300-200" id="projet_img1">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							Coming soon !
 						</p>
 					</div>
 				</div>
@@ -105,7 +116,7 @@
 				<div class="size300-200" id="projet_img1">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
+							Coming soon !
 						</p>
 					</div>
 				</div>
@@ -114,16 +125,7 @@
 				<div class="size300-200" id="projet_img1">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							bonjour
-						</p>
-					</div>
-				</div>
-			</a>
-			<a href="projets.php">
-				<div class="size300-200" id="projet_img1">
-					<div class="ligne w100 h100">
-						<p class="volatileText">
-							bonjour
+							Coming soon !
 						</p>
 					</div>
 				</div>

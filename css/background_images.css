@@ -66,3 +66,29 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_projet_long {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/projet_long/symbole01.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_projet_long:hover {
+	background-image: url("../images/projet_long/symbole01.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#projet_img_bus {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bus/bus05.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_bus:hover {
+	background-image: url("../images/bus/bus05.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
