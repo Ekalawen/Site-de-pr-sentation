@@ -188,4 +188,19 @@ $(document).ready( function () {
 
 		return $cv;
 	}
+
+	function getEndProjet() {
+		$text = '
+		<a href="projets.php">
+			<section class="theme3 colonne redirection">
+				<div class="ligne w50">
+						<p class="redirection_p">
+							Come back to projects !
+						</p>
+				</div>
+			</section>
+		</a>';
+
+		return $text;
+	}
 ?>

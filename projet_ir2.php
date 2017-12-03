@@ -5,6 +5,8 @@
 
 	echo getTextProjet_ir2();
 
+	echo getEndProjet();
+
 	echo getFooter();
 
 	function getTextProjet_ir2() {
@@ -19,7 +21,9 @@
 				<h3>
 					It will, thanks to this, always be my favorite one.
 				</h3>
-				<img src="images/ir2/projet_IR_1.png" alt="I am an image :D">
+				<section class="theme2 colonne">
+					<img src="images/ir2/projet_IR_1.png" alt="I am an image :D">
+				</section>
 		</section>
 		<section class="theme2 colonne">
 				<h1>
