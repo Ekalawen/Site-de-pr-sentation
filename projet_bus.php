@@ -28,7 +28,7 @@
 				<img src="images/bus/bus02.png" alt="I am an image :D">
 				<p>
 					Catch them all my bus !<br>
-					Make them stop polluting !
+					Stop them from polluting !
 				</p>
 			</section>
 		</section>
