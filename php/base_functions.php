@@ -47,13 +47,13 @@
 			<nav>
 				<ul>
 					<li ' . $acActif . '>
-						<a href="index.php">Home</a>
+						<a href="accueil.php">Home</a>
 					</li>
 					<li ' . $apActif . '>
 						<a href="a_propos.php">About me</a>
 					</li>
 					<li ' . $prActif . '>
-						<a href="projets.php">Projects</a>
+						<a href="index.php">Projects</a>
 						' . $sousMenuProjets . '
 					</li>
 					<li ' . $jpActif . '>

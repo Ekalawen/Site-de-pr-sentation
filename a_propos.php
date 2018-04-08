@@ -36,7 +36,7 @@
 				</div>
 			</div>
 		</section>
-		<a href="projets.php">
+		<a href="index.php">
 			<section class="theme3 colonne redirection">
 				<div class="ligne w50">
 						<p class="redirection_p">
