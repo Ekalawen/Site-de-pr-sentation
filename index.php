@@ -1,48 +1,149 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("accueil");
+	echo getHeader("projets");
 
-	echo getTextAcceuil();
+	echo getTextProjets();
 
 	echo getFooter();
 
-
-	function getTextAcceuil() {
+	function getTextProjets() {
 		$text = '
-		<section class="theme4">
-			<div class="ligne">
-				<p>
-					 Dear Visitor, my website is currently under construction.
-					 Thank you for your understanding.
-				</p>
-			</div>
-		</section>
 		<section class="theme1 colonne">
 				<h3>
-					Who am I ?
+					I have done some stuff.
 				</h3>
-			<div class="w50 justifyText">
-				<p>
-					I am an IT engineering student passionate about designing and creating games. My dream is to create the next generation gaming experience.
-				</p>
-			</div>
-			<img id="photo_profile" src="images/moi/photo_profile.jpg" alt="Vous ne me voyez pas ?" />
-			<p id="text_photo_profile" class="centerText">
+				<h3>
+					None of them is imposing.
+				</h3>
+				<h3>
+					But i loved each part of each of them.
+				</h3>
+		</section>
+		<section class="theme3 colonne">
+			<p>
+				Click on them ! On each of them !
 			</p>
 		</section>
-		<a href="a_propos.php">
+		<section class="theme2">
+			<a href="projet_ir2.php">
+				<div class="size300-200" id="projet_img_ir2">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Icon Rush 2
+						</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="projet_sss.php">
+				<div class="size300-200" id="projet_img_sss">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Speed Skill Style
+						</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="projet_ra.php">
+				<div class="size300-200" id="projet_img_ra">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							RagnArcane
+						</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="projet_clicker.php">
+				<div class="size300-200" id="projet_img_clicker">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Pixel Clicker
+						</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="projet_projet_long.php">
+				<div class="size300-200" id="projet_img_projet_long">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							RogueLike
+						</p>
+					</div>
+				</div>
+			</a>
+			
+			<a href="projet_bus.php">
+				<div class="size300-200" id="projet_img_bus">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Greed house bus
+						</p>
+					</div>
+				</div>
+			</a>
+			<a href="index.php">
+				<div class="size300-200" id="projet_img1">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Coming soon !
+						</p>
+					</div>
+				</div>
+			</a>
+			<a href="index.php">
+				<div class="size300-200" id="projet_img1">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Coming soon !
+						</p>
+					</div>
+				</div>
+			</a>
+			<a href="index.php">
+				<div class="size300-200" id="projet_img1">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Coming soon !
+						</p>
+					</div>
+				</div>
+			</a>
+			<a href="index.php">
+				<div class="size300-200" id="projet_img1">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Coming soon !
+						</p>
+					</div>
+				</div>
+			</a>
+			<a href="index.php">
+				<div class="size300-200" id="projet_img1">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							Coming soon !
+						</p>
+					</div>
+				</div>
+			</a>
+		</section>
+
+		<a href="jeux_preferes.php">
 			<section class="theme3 colonne redirection">
 				<div class="ligne w50">
 						<p class="redirection_p">
-							Do you want to know more about me ?
+							Do you want to see what inspired me ?
 						</p>
 				</div>
 			</section>
 		</a>
 		';
 
-		return $text;	 
+		return $text;
 	}
- ?>
 
+ ?>
