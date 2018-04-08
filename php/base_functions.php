@@ -191,7 +191,7 @@ $(document).ready( function () {
 
 	function getEndProjet() {
 		$text = '
-		<a href="projets.php">
+		<a href="index.php">
 			<section class="theme3 colonne redirection">
 				<div class="ligne w50">
 						<p class="redirection_p">
