@@ -33,7 +33,7 @@
 			<p class="justifyText">
 				In Speek Skill Style, you are a cube (I also love 3D square !), and you can move like an human, you can run, jump, grab walls and so on.<br>
 				In fact, this strange universe is the inside of a data base, and you are a virus. You want to hack it by unlocking several doors and light walls. And by dodging ennemies !<br>
-				I found that being only able to run like a simple human was boring. So i imagined 4 ways of moving, each with unique and powerful abilities but with big upsides to compensate.<br>
+				I found that being only able to run like a simple human was boring. So I imagined 4 ways of moving, each with unique and powerful abilities but with big upsides to compensate.<br>
 				I named the 4 forms : the Runner, the Destroyer, the Dasher and the Slider ! (I am french, so it may seems quit weird at first glance :p)
 			</p>
 		</section>
@@ -45,8 +45,8 @@
 				Part one : Have you ever tried to make a 3D game ... in 2D ?
 			</h3>
 			<p class="justifyText">
-				This was the real challenge of this game : i wanted to create a 3D running game, but i only mastered 2D at that time.<br>
-				So i assumed that i would print everything in a 2D isometric vue, while my whole model was a 3D model !<br>
+				This was the real challenge of this game : I wanted to create a 3D running game, but I only mastered 2D at that time.<br>
+				So I assumed that I would print everything in a 2D isometric vue, while my whole model was a 3D model !<br>
 				I had one difficulty, how the player will understand a 3D environment if he can only observes it from just one standpoint ?<br>
 				I tried some stuff, transparency, lower the blocks, 90° rotations ... none of them really shine. That\'s when I reallized that
 				I had to create levels where the depth was less important, I had to create a corridor map ! And it works :D

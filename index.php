@@ -17,7 +17,7 @@
 					None of them is imposing.
 				</h3>
 				<h3>
-					But i loved each part of each of them.
+					But I loved each part of each of them.
 				</h3>
 		</section>
 		<section class="theme3 colonne">

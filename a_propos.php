@@ -40,7 +40,7 @@
 			<section class="theme3 colonne redirection">
 				<div class="ligne w50">
 						<p class="redirection_p">
-							Do you want to see what i have done ?
+							Do you want to see what I have done ?
 						</p>
 				</div>
 			</section>
