@@ -128,7 +128,7 @@
 				Because. That\'s the most common and easy answer.<br>
 				But I am not satisfied.<br>
 				I want to test, I want to prove, I want to show that\'s it\'s the best thing to do.<br>
-				And so i tried. But every time I fall back to the numbers field. The reason ? It\'s a soooooooo powerful tool to help the 
+				And so I tried. But every time I fall back to the numbers field. The reason ? It\'s a soooooooo powerful tool to help the 
 				Game Designer to balance his game. And it help showing the power of an action.<br>
 				And even if we don\'t want number in our game, there are here anyway : we are X players, we have Y cards in hand, there are Z turns !<br>
 				However, I succeed in making diverse win-conditions (still number-based !) that could fluctuate over the game !
@@ -194,7 +194,7 @@
 			</h3>
 			<p class="justifyText">
 				WoW ! This was (and is !) the real difficulty of this game.<br>
-				To achieve it, i made a lot patches (more than 15), and I question myself everytime to understand if what I am doing is the right 
+				To achieve it, I made a lot patches (more than 15), and I question myself everytime to understand if what I am doing is the right 
 				thing to do. And it often wasn\'t ! But it\'s by making mistakes that we learn.<br>
 				I am also simplifying my game all the time. I even reduced my game to the Minimal Viable Product (MVP) in order to extract the
 				core of the game.<br>

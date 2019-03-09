@@ -92,3 +92,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_AI {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/AIBootCamp/maze_troncated.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_AI:hover {
+	background-image: url("../images/AIBootCamp/maze_troncated.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
