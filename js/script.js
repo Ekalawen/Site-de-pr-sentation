@@ -24,7 +24,7 @@ jQuery(document).ready(function(){
 /* Redirections en fin de page */
 jQuery(document).ready(function(){
 	$(".redirection").mouseenter(function() {
-		var elem = $(".redirection");
+		var elem = $(this);
 		var css = elem.attr("style");
 		if(css = "undefined") {
 			css = "";
@@ -39,7 +39,7 @@ jQuery(document).ready(function(){
 		text.attr("style", css + "color: white");
 	});
 	$(".redirection").mouseleave(function() {
-		var elem = $(".redirection");
+		var elem = $(this);
 		var css = elem.attr("style");
 		if(css = "undefined") {
 			css = "";
