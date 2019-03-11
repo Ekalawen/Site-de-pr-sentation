@@ -71,7 +71,7 @@
 				<div class="size300-200" id="projet_img1">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							Le Prince des Voleurs
+							Prince des Voleurs
 						</p>
 					</div>
 				</div>
