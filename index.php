@@ -117,11 +117,11 @@
 				</div>
 			</a>
 			
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
+			<a href="projet_ImmersiveFactory.php">
+				<div class="size300-200" id="projet_img_ImmersiveFactory">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
-							Immersive Factory ?
+							Immersive Factory
 						</p>
 					</div>
 				</div>
