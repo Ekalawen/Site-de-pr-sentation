@@ -118,3 +118,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_ImmersiveFactory {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ImmersiveFactory/screenshot3.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_ImmersiveFactory:hover {
+	background-image: url("../images/ImmersiveFactory/screenshot3.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
