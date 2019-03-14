@@ -32,10 +32,10 @@
 					</div>
 				</a>
 				<section class="theme2 inlineBlock">
-					<img class="size40percent" src="images/DigitalWorld/icon.png" alt="I am an image :D">
-					<img class="size40percent" src="images/DigitalWorld/img1.png" alt="I am an image :D">
-					<img class="size40percent" src="images/DigitalWorld/img2.png" alt="I am an image :D">
-					<img class="size40percent" src="images/DigitalWorld/img3.png" alt="I am an image :D">
+					<img class="size500" src="images/DigitalWorld/icon.png" alt="I am an image :D">
+					<img class="size500" src="images/DigitalWorld/img1.png" alt="I am an image :D">
+					<img class="size500" src="images/DigitalWorld/img2.png" alt="I am an image :D">
+					<img class="size500" src="images/DigitalWorld/img3.png" alt="I am an image :D">
 					<p>
 						Here are some screeshots of the game :)
 					</p>
@@ -100,10 +100,10 @@
 				difficult to encapsulate all it\'s potential into controlled paterns. Here are my first results :<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size40percent" src="images/DigitalWorld/trophe3.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/trophe3.png" alt="I am an image :D">
 				<img src="images/DigitalWorld/trophe.png" alt="I am an image :D">
-				<img class="size40percent" src="images/DigitalWorld/trophe4.png" alt="I am an image :D">
-				<img class="size40percent" src="images/DigitalWorld/trophe5.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/trophe4.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/trophe5.png" alt="I am an image :D">
 				<p>
 					As you can see, there are a lot of potential by combining all of these patterns ! <3<br>
 					<br>
@@ -117,8 +117,8 @@
 				Here are some examples :
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size40percent" src="images/DigitalWorld/tree1.png" alt="I am an image :D">
-				<img class="size40percent" src="images/DigitalWorld/tree2.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/tree1.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/tree2.png" alt="I am an image :D">
 				<p>
 					It\'s esthetic but not-functional !
 				</p>
@@ -156,7 +156,7 @@
 				- but if the player is talented, he can use the push to make big jumps into the air, which is really useful !
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size40percent" src="images/DigitalWorld/ennemy.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/ennemy.png" alt="I am an image :D">
 				<p>
 					I am both your friend and your ennemy, do you want to play with me ? <3
 				</p>
@@ -177,16 +177,42 @@
 				- Explosive Bubble : cast a growing bubble in front of you. When it explodes, it destroy all the blocks around it and push back all ennemies far away ! :)
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size40percent" src="images/DigitalWorld/bridge1.png" alt="I am an image :D">
-				<img class="size40percent" src="images/DigitalWorld/bridge2.png" alt="I am an image :D">
-				<img class="size40percent" src="images/DigitalWorld/dash.png" alt="I am an image :D">
-				<img class="size40percent" src="images/DigitalWorld/explosion.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/bridge1.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/bridge2.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/dash.png" alt="I am an image :D">
+				<img class="size500" src="images/DigitalWorld/explosion.png" alt="I am an image :D">
 				<p>
 					1) & 2) Bridge Builder examples<br>
 					3) Triple Dash time-freezing and visualisation of the range of the dash<br>
 					4) Explosive Bubble : what your player do when you allow him to destroy your loved map :\'(
 				</p>
 			</section>
+		</section>
+		<section class="theme2 colonne">
+			<h1>
+				Some videos of gameplay ! :)
+			</h1>
+			<div class="">
+				<h3>
+					The tutorial !
+				</h3>
+				<video controls class="m3 size500">
+				  <source src="images/DigitalWorld/tutorial.mp4" type="video/mp4">
+				  Your browser does not support HTML5 video.
+				</video>
+			</div>
+			<div class="">
+				<h3>
+					A classic Run !
+				</h3>
+				<video controls class="m3 size500">
+				  <source class="size500" src="images/DigitalWorld/video.mp4" type="video/mp4">
+				  Your browser does not support HTML5 video.
+				</video>
+				<p>
+					The frame rate is slow because of the video ^^\'
+				</p>
+			</div>
 		</section>
 			';
 

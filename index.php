@@ -97,8 +97,8 @@
 				</div>
 			</a>
 			
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
+			<a href="projet_FindTheBear.php">
+				<div class="size300-200" id="projet_img_FindTheBear">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
 							Find the Bear
