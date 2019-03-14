@@ -133,13 +133,13 @@ Ce fichier est là pour insérer des images en background
 }
 
 #projet_img_DigitalWorld {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/DigitalWorld/screenshot3.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/DigitalWorld/icon.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_DigitalWorld:hover {
-	background-image: url("../images/DigitalWorld/screenshot3.jpg");
+	background-image: url("../images/DigitalWorld/icon.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
