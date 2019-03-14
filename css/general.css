@@ -153,9 +153,9 @@
 	transition: height 800ms ease;
 	margin: 1em;
 }
-.size40percent {
+.size500 {
 	display: inline-block;
-	width: 40%;
+	width: 600px;
 	transition: height 800ms ease;
 	margin: 1em;
 }
