@@ -13,6 +13,12 @@
 	justify-content: center;
 	align-items: center;
 }
+.inlineBlock {
+	display: inline-block;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 .colonne3-1 {
 	position: absolute;
@@ -139,6 +145,19 @@
 }
 .size300-200:hover {
 	height: 300px;
+}
+.size600-400 {
+	display: inline-block;
+	width: 600px;
+	height: 400px;
+	transition: height 800ms ease;
+	margin: 1em;
+}
+.size40percent {
+	display: inline-block;
+	width: 40%;
+	transition: height 800ms ease;
+	margin: 1em;
 }
 
 .img_projet {
