@@ -13,7 +13,7 @@
 		$text = '
 		<section class="theme1 colonne">
 				<h1>
-					DigitalWorld
+					Digital World
 				</h1>
 				<h3>
 					This is the follow up of my Speed Skill Style project, several years later.<br>

@@ -157,3 +157,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_LaFievreDuSommet {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/LaFievreDuSommet/icon.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_LaFievreDuSommet:hover {
+	background-image: url("../images/LaFievreDuSommet/icon.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
