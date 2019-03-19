@@ -172,13 +172,13 @@ Ce fichier est là pour insérer des images en background
 }
 
 #projet_img_PrinceDesVoleurs {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/PrinceDesVoleurs/icon.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/PrinceDesVoleurs/all.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_PrinceDesVoleurs:hover {
-	background-image: url("../images/PrinceDesVoleurs/icon.png");
+	background-image: url("../images/PrinceDesVoleurs/all.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
