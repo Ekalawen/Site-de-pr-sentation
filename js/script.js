@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 		}
 		elem.attr("style", css + "background-color: hsla(360, 70%, 30%, 1)");
 
-		var text = $(".redirection_p");
+		var text = elem.find(".redirection_p");
 		css = text.attr("style");
 		if(css = "undefined") {
 			css = "";
@@ -46,7 +46,7 @@ jQuery(document).ready(function(){
 		}
 		elem.attr("style", css + "background-color: hsla(360, 70%, 58%, 1)");
 
-		var text = $(".redirection_p");
+		var text = elem.find(".redirection_p");
 		css = text.attr("style");
 		if(css = "undefined") {
 			css = "";

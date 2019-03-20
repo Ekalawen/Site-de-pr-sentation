@@ -31,6 +31,20 @@
 			<p id="text_photo_profile" class="centerText">
 			</p>
 		</section>
+		<section class="theme2 colonne">
+			<h3>
+				You can find more about me by checking my LinkedIn account :<br>
+			</h3>
+			<a href="https://www.linkedin.com/in/alexys-dussier/" class="" target="_blank">
+				<div>
+					<section class="theme3 colonne redirection pb3">
+						<h3 class="resetPaddingMargin">
+							LinkedIn
+						</h3>
+					</section>
+				</div>
+			</a>
+		</section>
 		<a href="a_propos.php">
 			<section class="theme3 colonne redirection">
 				<div class="ligne w50">

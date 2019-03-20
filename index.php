@@ -17,8 +17,20 @@
 					None of them is imposing.
 				</h3>
 				<h3>
-					But I loved each part of each of them.
+					But I loved each part of them.
 				</h3>
+				<h3>
+					Find most of them on GitHub !
+				</h3>
+				<a href="https://github.com/Ekalawen" class="" target="_blank">
+					<div>
+						<section class="theme3 colonne redirection pb3">
+							<h3 class="resetPaddingMargin">
+								GitHub
+							</h3>
+						</section>
+					</div>
+				</a>
 		</section>
 		<section class="theme3 colonne">
 			<p>

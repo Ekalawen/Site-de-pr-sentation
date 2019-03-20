@@ -134,7 +134,7 @@ $(document).ready( function () {
 				<h1>
 					Mail : 
 				</h1>
-				<p>
+				<p class="mg1">
 					form coming soon
 				</p>
 			</div>
@@ -142,23 +142,31 @@ $(document).ready( function () {
 				<h1>
 					GitHub : 
 				</h1>
-				<p>
-					github.com/Ekalawen
-				</p>
+				<a href="https://www.github.com/Ekalawen" class="mg1" target="_blank">
+					<div class="resetPaddingMargin">
+						<p class="resetPaddingMargin textDecorationNone white underline" >
+							github.com/Ekalawen
+						</p>
+					</div>
+				</a>
 			</div>
 			<div>
 				<h1>
-					Linkdin : 
+					Linkedin : 
 				</h1>
-				<p>
-					Alexys Dussier
-				</p>
+				<a href="https://www.linkedin.com/in/alexys-dussier/" class="mg1" target="_blank">
+					<div class="resetPaddingMargin">
+						<p class="resetPaddingMargin textDecorationNone white underline" >
+							https://www.linkedin.com/in/alexys-dussier/
+						</p>
+					</div>
+				</a>
 			</div>
 			<div>
 				<h1>
 					Adresse :         
 				</h1>
-				<p>
+				<p class="mg1">
 					Toulouse, France
 				</p>
 			</div>
