@@ -200,52 +200,6 @@
 				</div>
 			</a>
 
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
-					<div class="ligne w100 h100">
-						<p class="volatileText">
-							Coming soon !
-						</p>
-					</div>
-				</div>
-			</a>
-
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
-					<div class="ligne w100 h100">
-						<p class="volatileText">
-							Coming soon !
-						</p>
-					</div>
-				</div>
-			</a>
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
-					<div class="ligne w100 h100">
-						<p class="volatileText">
-							Coming soon !
-						</p>
-					</div>
-				</div>
-			</a>
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
-					<div class="ligne w100 h100">
-						<p class="volatileText">
-							Coming soon !
-						</p>
-					</div>
-				</div>
-			</a>
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
-					<div class="ligne w100 h100">
-						<p class="volatileText">
-							Coming soon !
-						</p>
-					</div>
-				</div>
-			</a>
 		</section>
 
 		<a href="jeux_preferes.php">
