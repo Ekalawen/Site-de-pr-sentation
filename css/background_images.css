@@ -196,3 +196,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_ParanoCrisis {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ParanoCrisis/main_screen.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_ParanoCrisis:hover {
+	background-image: url("../images/ParanoCrisis/main_screen.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
