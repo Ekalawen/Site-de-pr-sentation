@@ -27,7 +27,7 @@
 				<section class="theme2 inlineBlock">
 					<img class="size500" src="images/ParanoCrisis/main_screen.png" alt="I am an image :D">
 					<p>
-						Greetings !
+						Greetings 	!
 					</p>
 				</section>
 		</section>

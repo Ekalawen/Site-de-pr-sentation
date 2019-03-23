@@ -39,8 +39,8 @@
 		</section>
 		<section class="theme2">
 
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
+			<a href="projet_BattleForPangora.php">
+				<div class="size300-200" id="projet_img_BattleForPangora">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
 							Battle for Pangora
