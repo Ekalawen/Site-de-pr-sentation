@@ -209,3 +209,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_BattleForPangora {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BattleForPangora/neelf.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_BattleForPangora:hover {
+	background-image: url("../images/BattleForPangora/neelf.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
