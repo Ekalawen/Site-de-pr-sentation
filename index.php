@@ -119,8 +119,8 @@
 				</div>
 			</a>
 			
-			<a href="index.php">
-				<div class="size300-200" id="projet_img1">
+			<a href="projet_GJ2018.php">
+				<div class="size300-200" id="projet_img_GJ2018">
 					<div class="ligne w100 h100">
 						<p class="volatileText">
 							GameJam 2018

@@ -183,3 +183,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_GJ2018 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/GJ2018/map.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_GJ2018:hover {
+	background-image: url("../images/GJ2018/map.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
