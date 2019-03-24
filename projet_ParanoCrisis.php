@@ -44,23 +44,26 @@
 				- Number of players : 4-10<br>
 				- Game genre : Bluff and Cooperation Card game<br>
 				- Targeted audience : 7-77 years, with a preference to rational players<br>
-				- Difficulty of the game : 3/10 (rules are very easy to understand)<br>
-				- Depth of the game : 9/10 (there is not a single obvious choice)<br>
+				- Difficulty of the game : 3/10 because rules are very easy to understand<br>
+				- Depth of the game : 9/10 because there is not a single obvious choice<br>
 			</p>
 			<h3>
 				The speech
 			</h3>
 			<p class="justifyText">
 				In ParanoCrisis, players are victims of a Psychopath who imprisoned them.<br>
-				However, the Psychopath give them a glimpse of hope : if a player survive for long enough OR if he is the last alive, then it will be released.<br>
-				Players will have to participate to a series of about 12 polls where they will kill each others. You start with 5 hearts, if you ever go to 0, you are dead.
-				And trust me when I say that hearts aren\'t lost one by one ... !<br>
+				The Psychopath give them an unique glimpse of hope : if a player survive for long enough OR if he is the last alive, then it will be released.<br>
+				Players will have to participate to a series of polls where they will kill each others.<br>
+				<br>
 				All polls represents fundamentally different gameplay mechanics. There is currently more than 25 polls.<br>
+				<br>
+				You start with 5 hearts, if you ever go to 0, you are dead. And trust me when I say that hearts aren\'t lost one by one ... !<br>
+				<br>
 				Will you try to survive together ? Or will you be rational and betray what you dare call "your friends" ?<br>
 				<br>
 				<mark>ParanoCrisis goal is to represent the perpetual tension that exists between empathy and rationality.</mark><br>
 				<br>
-				This game is largely inspired by Doubt and Judge from Yoshiki Tonogai.
+				This game is largely inspired by Game Theory such as Prisoner\'s Dilemma and Nash Equilibrium.
 			</p>
 			<section class="theme3 inlineBlock">
 				<img class="size500" src="images/ParanoCrisis/attention.png" alt="I am an image :D">
