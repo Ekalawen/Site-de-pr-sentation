@@ -9,35 +9,7 @@
 
 	function getTextProjets() {
 		$text = '
-		<section class="theme1 colonne">
-				<h3>
-					I have done some stuff.
-				</h3>
-				<h3>
-					None of them is imposing.
-				</h3>
-				<h3>
-					But I loved each part of them.
-				</h3>
-				<h3>
-					Find most of them on GitHub !
-				</h3>
-				<a href="https://github.com/Ekalawen" class="" target="_blank">
-					<div>
-						<section class="theme3 colonne redirection pb3">
-							<h3 class="resetPaddingMargin">
-								GitHub
-							</h3>
-						</section>
-					</div>
-				</a>
-		</section>
-		<section class="theme3 colonne">
-			<p>
-				Click on them ! On each of them !
-			</p>
-		</section>
-		<section class="theme2">
+		<section class="theme1">
 
 			<a href="projet_BattleForPangora.php">
 				<div class="size300-200" id="projet_img_BattleForPangora">
@@ -200,6 +172,29 @@
 				</div>
 			</a>
 
+		</section>
+		<section class="theme2 colonne">
+				<h3>
+					I have done some stuff.
+				</h3>
+				<h3>
+					None of them is imposing.
+				</h3>
+				<h3>
+					But I loved each part of them.
+				</h3>
+				<h3>
+					Find most of them on GitHub !
+				</h3>
+				<a href="https://github.com/Ekalawen" class="" target="_blank">
+					<div>
+						<section class="theme3 colonne redirection pb3">
+							<h3 class="resetPaddingMargin">
+								GitHub
+							</h3>
+						</section>
+					</div>
+				</a>
 		</section>
 
 		<a href="jeux_preferes.php">

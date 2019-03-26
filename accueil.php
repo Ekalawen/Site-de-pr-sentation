@@ -10,21 +10,25 @@
 
 	function getTextAcceuil() {
 		$text = '
-		<section class="theme4">
-			<div class="ligne">
-				<p>
-					 Dear Visitor, my website is currently under construction.
-					 Thank you for your understanding.
-				</p>
-			</div>
-		</section>
 		<section class="theme1 colonne">
 				<h3>
 					Who am I ?
 				</h3>
 			<div class="w50 justifyText">
-				<p>
-					I am an IT engineering student passionate about designing and creating games. My dream is to create the next generation gaming experience.
+				<p class="justifyText">
+					I am an IT engineering student passionate about designing and creating games. My dream is to create the next generation gaming experience.<br>
+					<br>
+					Creating universes and gameplay concepts is what motivates me and makes me vibrate forever since forever.
+					For this reason, I naturally became developer where achieving my dreams has never been easier.<br>
+					<br>
+					Imagining, visualizing, designing, developing, testing and balancing.<br>
+					That\'s how I have already design and develop numerous board games and video games.<br>
+					<br>
+					Realizing, concretizing and distributing.<br>
+					Those are the steps that lack to my experience, and that\'s where I am heading today.<br>
+					<br>
+					Participating to the development and progress in Artificial Intelligence est also a non-negligeable  part of my ambitions.<br>
+					<br>
 				</p>
 			</div>
 			<img id="photo_profile" src="images/moi/photo_profile.jpg" alt="Vous ne me voyez pas ?" />
