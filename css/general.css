@@ -19,6 +19,15 @@
 	justify-content: center;
 	align-items: center;
 }
+.inlineBlockLigne {
+	display: inline-block;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.hidden {
+	display: none;
+}
 
 .colonne3-1 {
 	position: absolute;
@@ -113,6 +122,15 @@
 	margin-bottom: 3em;
 }
 
+.p1 {
+	padding: 1em;
+}
+.p2 {
+	padding: 2em;
+}
+.p3 {
+	padding: 3em;
+}
 .pb3 {
 	padding-bottom: 3em;
 }

@@ -65,4 +65,46 @@ jQuery(document).ready(function(){
 	elem.attr("style", css + "color: white");
 });
 
+/* Les boutons du a_propos ! */
+$("#btn3Things").click(function() {
+	$("#btn3ThingsAppear").toggle("fast");
+});
+
+$("#btnDesign").click(function() {
+	$("#btnDesignAppear").toggle("fast");
+});
+$("#btnProgramming").click(function() {
+	$("#btnProgrammingAppear").toggle("fast");
+});
+$("#btnPlaying").click(function() {
+	$("#btnPlayingAppear").toggle("fast");
+});
+
+$("#btnGames").click(function() {
+	$("#btnGamesAppear").toggle("fast");
+});
+$("#btnAIDesigning").click(function() {
+	$("#btnAIDesigningAppear").toggle("fast");
+});
+$("#btnSystems").click(function() {
+	$("#btnSystemsAppear").toggle("fast");
+});
+$("#btnMathematics").click(function() {
+	$("#btnMathematicsAppear").toggle("fast");
+});
+$("#btnAIProgramming").click(function() {
+	$("#btnAIProgrammingAppear").toggle("fast");
+});
+$("#btnArchitecture").click(function() {
+	$("#btnArchitectureAppear").toggle("fast");
+});
+$("#btnHardCore").click(function() {
+	$("#btnHardCoreAppear").toggle("fast");
+});
+$("#btnCompetitive").click(function() {
+	$("#btnCompetitiveAppear").toggle("fast");
+});
+$("#btnDeep").click(function() {
+	$("#btnDeepAppear").toggle("fast");
+});
 	
