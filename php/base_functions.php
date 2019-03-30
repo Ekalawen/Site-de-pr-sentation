@@ -134,9 +134,13 @@ $(document).ready( function () {
 				<h1>
 					Mail : 
 				</h1>
-				<p class="mg1">
-					form coming soon
-				</p>
+				<a href="contact.php" class="mg1">
+					<div class="resetPaddingMargin">
+						<p class="resetPaddingMargin textDecorationNone white underline" >
+							use form please
+						</p>
+					</div>
+				</a>
 			</div>
 			<div>
 				<h1>

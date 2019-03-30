@@ -293,3 +293,28 @@ bouton:active {
 	color: black;
 	box-shadow: 8px 8px 12px white;
 }
+
+
+/*****************************************************
+FORM
+*****************************************************/
+
+input, textarea {
+	border: solid;
+	border-color: hsla(0, 0%, 10%, 1);
+	margin: 1em;
+	padding: 1em;
+	font-size: 150%;
+}
+input:hover, textarea:hover {
+	background-color: hsla(205, 100%, 87%, 1);
+}
+
+.activable {
+	color: hsla(360, 100%, 58%, 1);
+	font-size: 200%;
+	font-weight: bold;
+}
+.activable:active {
+	background-color: hsla(205, 100%, 98%, 1);
+}

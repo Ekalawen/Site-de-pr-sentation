@@ -208,6 +208,9 @@
 	transition: height 800ms ease;
 	margin: 1em;
 }
+.verticalSize250 {
+	height: 250px;
+}
 
 .img_projet {
 	display: inline-block;

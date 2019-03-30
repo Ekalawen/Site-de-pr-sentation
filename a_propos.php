@@ -46,7 +46,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnSystemsAppear">
 							<p class="m1">
-								I only feel alive when I create, alone or with others, something that is enough complex to surpass it\'s creator !<br>
+								I only feel alive when I create, alone or with others, something that is complex enough to surpass it\'s creator !<br>
 								It\'s even better if complex rhyme with beautiful.
 							</p>
 						</section>
