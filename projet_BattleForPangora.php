@@ -22,18 +22,26 @@
 					4 Heros are playing together to defeat the Grand Demon Davros !
 				</h3>
 				<section class="theme2 inlineBlock">
-					<img class="size500" src="images/BattleForPangora/neelf.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/kiara.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/shanyl.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/aeres.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/davros.png" alt="I am an image :D">
+					<img class="size500" src="images/BattleForPangora/images/neelf.png" alt="I am an image :D">
+					<img class="size500" src="images/BattleForPangora/images/kiara.png" alt="I am an image :D">
+					<img class="size500" src="images/BattleForPangora/images/shanyl.png" alt="I am an image :D">
+					<img class="size500" src="images/BattleForPangora/images/aeres.png" alt="I am an image :D">
+					<img class="size500" src="images/BattleForPangora/images/davros.png" alt="I am an image :D">
 					<p>
 						Here are some screeshots of the game :)<br>
 						They directly come from Paragon.
 					</p>
 				</section>
-		</section>
-		<section class="theme2 colonne">
+		</section>'.
+		//- présentation de l\'équipe : DDJV + agile + 4 mois à 7
+		//- partie explicative du jeu
+		//- conception globale : thinking of the game + UML
+		//- partie IA
+		//- partie gameplay : combat
+		//- partie gameplay : sorts
+		//- tous les documents à insérer à la fin de chaque partie : GDD, rapports
+		//- insérer gitlab : https://gitlab.com/RiedelAndreas/violetmurder_battleforpangora_codefinal
+		'<section class="theme2 colonne">
 			<h1>
 				Description
 			</h1>
@@ -42,7 +50,7 @@
 				This game is currently under development, so I won\'t go into details here.<br>
 				However you can find our Document Design and our first presentation here and here :<br>
 			</p>
-			<a href="images/BattleForPangora/Document_Design___VioletMurder.pdf" class="" target="_blank">
+			<a href="images/BattleForPangora/pdf/Document_Design___VioletMurder.pdf" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
 						<h3 class="resetPaddingMargin">
@@ -51,7 +59,7 @@
 					</section>
 				</div>
 			</a>
-			<a href="images/BattleForPangora/Présentation VioletMurder.pdf" class="" target="_blank">
+			<a href="images/BattleForPangora/pdf/Présentation VioletMurder.pdf" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
 						<h3 class="resetPaddingMargin">
@@ -63,7 +71,7 @@
 			<p class="justifyText">
 				You can also find a link the design of the AI and a starting global UML :
 			</p>
-			<a href="images/BattleForPangora/VioletMurder___IA.pdf" class="" target="_blank">
+			<a href="images/BattleForPangora/pdf/VioletMurder___IA.pdf" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
 						<h3 class="resetPaddingMargin">
@@ -72,7 +80,7 @@
 					</section>
 				</div>
 			</a>
-			<a href="images/BattleForPangora/UML_general.pdf" class="" target="_blank">
+			<a href="images/BattleForPangora/schemas/UML_general.pdf" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
 						<h3 class="resetPaddingMargin">
@@ -94,7 +102,7 @@
 				</div>
 			</a>
 			<section class="theme3 inlineBlock">
-				<img class="size500" src="images/BattleForPangora/environment.png" alt="I am an image :D">
+				<img class="size500" src="images/BattleForPangora/images/environment.png" alt="I am an image :D">
 				<p>
 					The theme of the game :)
 				</p>
