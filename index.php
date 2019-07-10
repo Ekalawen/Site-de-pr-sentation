@@ -199,7 +199,7 @@
 
 		<a href="jeux_preferes.php">
 			<section class="theme3 colonne redirection">
-				<div class="ligne w50">
+				<div class="ligne w50 resp_extend">
 						<p class="redirection_p">
 							Do you want to see what inspired me ?
 						</p>

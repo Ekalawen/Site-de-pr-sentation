@@ -185,6 +185,11 @@
 .size300-200:hover {
 	height: 300px;
 }
+@media all and (max-width:500px) {
+	.size300-200 {
+		width: 90%;
+	}
+}
 .size600-400 {
 	display: inline-block;
 	width: 600px;
