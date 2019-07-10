@@ -1,0 +1,29 @@
+
+/* POUR DU RESPONSIVE !!!
+@media only screen and (max-width:620px) {
+  .menu, .main, .right {
+    width:100%;
+  }
+} */
+
+/* TABLETTE ET SMARTPHONES */
+@media all and (max-width:980px) {
+	header div h1 {
+		font-size: 375%;
+	}
+
+	header div h3 {
+		font-size: 150%;
+	}
+}
+
+/* SMARTPHONES */
+@media all and (max-width:500px) {
+	header div h1 {
+		font-size: 250%;
+	}
+
+	header div h3 {
+		font-size: 100%;
+	}
+}

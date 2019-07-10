@@ -7,22 +7,25 @@
 		$jpActif = ($actif == "jeux") ? 'class="onglet_actif"' : '';
 		$ctActif = ($actif == "contact") ? 'class="onglet_actif"' : '';
 
-		$entete = $entete ? '
-			<div class="relative">
-				<ul class="floatHD">
-					<li>
-						<button>FR</button>
-					</li>
-					<li>
-						<button>ANG</button>
-					</li>
-				</ul>
-			</div>
-			<div>
-				<h1>
+		$entete = $entete ?
+			// On supprime les boutons FR/ANG
+			// '
+			// <div class="relative">
+			// 	<ul class="floatHD">
+			// 		<li>
+			// 			<button>FR</button>
+			// 		</li>
+			// 		<li>
+			// 			<button>ANG</button>
+			// 		</li>
+			// 	</ul>
+			// </div>
+			'
+			<div class="colonne">
+				<h1 class="centerText">
 					Alexys Dussier
 				</h1>
-				<h3>
+				<h3 class="centerText">
 					Engineering Student, Aspiring Game Designer
 				</h3>
 			</div>
@@ -108,6 +111,7 @@ $(document).ready( function () {
 		<link rel="stylesheet" type="text/css" href="css/general.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/background_images.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 		<link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet.css">
 
 		<!--<link rel="stylesheet" type="text/css" href="css/visionneuse.css"> -->
