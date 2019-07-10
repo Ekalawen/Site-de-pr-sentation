@@ -22,7 +22,7 @@
 					This is how I knew that AI would became one of my greatest passions.
 				</h3>
 				<section class="theme2 colonne">
-					<img src="images/AIBootCamp/intro.gif" alt="I am an image :D">
+					<img class="resp_extend" src="images/AIBootCamp/intro.gif" alt="I am an image :D">
 				</section>
 		</section>
 		<section class="theme2 colonne">
@@ -86,7 +86,7 @@
 					We first start this project alone, then after a first iteration essentialy focusing on pathfinding, we merge into team of 3 peoples. The project was now focused on cooperation and multiple Npcs planning. We then split the team and merge again in teams of 5 peoples. I had the chance that we keep my code as a solid base to continue work together each time. Now the project was focusing on improving performances, up to 15 milliseconds ! Finaly, we had a last iteration focused both on optimisation - we have to go up to 5 milliseconds ! - and the integration of a nightmarish and beautiful element : the doors ! <3<br>
 				</p>
 				<section class="theme2 colonne">
-					<img src="images/AIBootCamp/maze.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/AIBootCamp/maze.png" alt="I am an image :D">
 					<p>
 						Here an example of a rather complicated map, espacialy because of his size ! :)<br>
 						Our algorithm find an optimal solution, can you ? (don\'t forget vision range !)
@@ -131,9 +131,9 @@
 				<h1>
 					Here are some examples of what our algorithm is capable of ! <3
 				</h1>
-				<div class="ligne w100">
+				<div class="ligne w100 resp_colone">
 					<div class="">
-						<video controls class="m3">
+						<video controls class="m3 resp_extend">
 						  <source src="images/AIBootCamp/example1.mp4" type="video/mp4">
 						  Your browser does not support HTML5 video.
 						</video>
@@ -142,7 +142,7 @@
 						</p>
 					</div>
 					<div class="">
-						<video controls class="m3">
+						<video controls class="m3 resp_extend">
 						  <source src="images/AIBootCamp/example2.mp4" type="video/mp4">
 						  Your browser does not support HTML5 video.
 						</video>

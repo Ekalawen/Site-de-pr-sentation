@@ -121,7 +121,7 @@
 				familier with the environment, with his Home.<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="" src="images/LaFievreDuSommet/full_level_design.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/LaFievreDuSommet/full_level_design.png" alt="I am an image :D">
 				<p>
 					Here is the complete Level Design !<br>
 					I think, we get the better game life time of the Game Jam ;)

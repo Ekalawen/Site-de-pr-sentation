@@ -214,16 +214,18 @@
 	.size300-200 {
 		width: 90%;
 	}
-	.size600-400 {
+	.size400 {
 		width: 90%;
 	}
+}
+@media all and (max-width:980px) {
 	.size500 {
 		width: 90%;
 	}
 	.size600 {
 		width: 90%;
 	}
-	.size400 {
+	.size600-400 {
 		width: 90%;
 	}
 }

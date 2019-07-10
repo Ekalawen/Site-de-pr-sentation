@@ -25,7 +25,7 @@
 					So I made this game.
 				</h3>
 			<section class="theme2 colonne">
-				<img src="images/bus/bus02.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/bus/bus02.png" alt="I am an image :D">
 				<p>
 					Catch them all my bus !<br>
 					Stop them from polluting !
@@ -74,7 +74,7 @@
 				the other, are colliding but their segments aren\'t !<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="" src="images/bus/polygons_inscrits.jpg" alt="I am an image :D">
+				<img class="resp_extend" class="" src="images/bus/polygons_inscrits.jpg" alt="I am an image :D">
 				<p>
 					Segments aren\'t intersecting, but Polygons are colliding !
 				</p>

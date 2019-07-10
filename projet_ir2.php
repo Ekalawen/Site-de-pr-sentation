@@ -22,7 +22,7 @@
 					It will, thanks to this, always be my favorite one.
 				</h3>
 				<section class="theme2 colonne">
-					<img src="images/ir2/projet_IR_1.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_1.png" alt="I am an image :D">
 				</section>
 		</section>
 		<section class="theme2 colonne">
@@ -44,15 +44,15 @@
 					<p>
 						At the beginning of the game ...
 					</p>
-					<img src="images/ir2/projet_IR_7.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_7.png" alt="I am an image :D">
 					<p>
 						A few seconds later ...
 					</p>
-					<img src="images/ir2/projet_IR_6.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_6.png" alt="I am an image :D">
 					<p>
 						When everything go crazy !
 					</p>
-					<img src="images/ir2/projet_IR_5.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_5.png" alt="I am an image :D">
 				</section>
 				<h3 class="mt3">
 					Part two : I love squares !
@@ -70,19 +70,19 @@
 					<p>
 						When you lauch the game ...
 					</p>
-					<img src="images/ir2/projet_IR_9.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_9.png" alt="I am an image :D">
 					<p>
 						I delete the buttons for you ;)
 					</p>
-					<img src="images/ir2/projet_IR_16.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_16.png" alt="I am an image :D">
 					<p>
 						When everything go crazy ! (again :p)
 					</p>
-					<img src="images/ir2/projet_IR_13.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_13.png" alt="I am an image :D">
 					<p>
 						It could be softer and class too.
 					</p>
-					<img src="images/ir2/projet_IR_11.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_11.png" alt="I am an image :D">
 					<p>
 						And it\'s the same algorithm, only inputs are differents.
 					</p>

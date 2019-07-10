@@ -23,7 +23,7 @@
 					The main topic was about Health, Safety and Environment.
 				</h3>
 				<section class="theme2 colonne">
-					<iframe width="889" height="500" src="https://www.youtube.com/embed/dbohci16kl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+					<iframe width="889" height="500" class="resp_extend" src="https://www.youtube.com/embed/dbohci16kl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 					<p>
 						Here is a trailer of the project I was working on as the main Unity Developer.<br>
 						It ended up being published :)
@@ -73,7 +73,7 @@
 				... But also a sending rapport system from the simulation to the plateform, which was rather instructive. Even if I do not really like dealing with web haha.
 			</p>
 			<section class="theme3 colonne">
-				<img src="images/ImmersiveFactory/screenshot2.jpg" alt="I am an image :D">
+				<img class="resp_extend" src="images/ImmersiveFactory/screenshot2.jpg" alt="I am an image :D">
 				<p>
 					Can you find the hazard ? :p
 				</p>

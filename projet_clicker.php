@@ -23,7 +23,7 @@
 					With some more features.
 				</h3>
 				<section class="theme2 colonne">
-					<img src="images/clicker/clicker13.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/clicker/clicker13.png" alt="I am an image :D">
 				</section>
 		</section>
 		<section class="theme2 colonne">
@@ -51,11 +51,11 @@
 				<p>
 					How the game look like (it\'s an animation of a 3D Tesseract !)
 				</p>
-				<img src="images/clicker/clicker04.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/clicker/clicker04.png" alt="I am an image :D">
 				<p>
 					After 15 minutes of playing ...
 				</p>
-				<img src="images/clicker/clicker07.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/clicker/clicker07.png" alt="I am an image :D">
 				<p>
 					After sooo much time, finally buying my first Hexagon :D
 				</p>
@@ -88,15 +88,15 @@
 				<p>
 					At the beginning ...
 				</p>
-				<img src="images/clicker/clicker08.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/clicker/clicker08.png" alt="I am an image :D">
 				<p>
 					A few moments laters ...
 				</p>
-				<img src="images/clicker/clicker10.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/clicker/clicker10.png" alt="I am an image :D">
 				<p>
 					They start to group together !
 				</p>
-				<img src="images/clicker/clicker11.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/clicker/clicker11.png" alt="I am an image :D">
 			</section>
 		</section>
 		';

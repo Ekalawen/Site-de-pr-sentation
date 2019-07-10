@@ -22,7 +22,7 @@
 					So I made my own.
 				</h3>
 				<section class="theme2 colonne">
-				<img src="images/ra/symbole.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/ra/symbole.png" alt="I am an image :D">
 				</section>
 				<p>
 					Here is it, the RagnArcane.<br>
@@ -55,7 +55,7 @@
 				And I anwsered them.<br>
 			</p>
 			<section class="theme1 colonne">
-				<img src="images/ra/arcanes.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/ra/arcanes.png" alt="I am an image :D">
 				<p class="centreText">
 					Some cards of the game !
 				</p>
@@ -82,14 +82,14 @@
 			<section class="theme3 colonne">
 				<div class="ligne">
 					<div class="colonne">
-						<img src="images/ra/feu.png" alt="I am an image :D">
+						<img class="resp_extend" src="images/ra/feu.png" alt="I am an image :D">
 						<p class="centreText">
 							A typical Fire card !<br>
 							But they are all differents !
 						</p>
 					</div>
 					<div class="colonne">
-						<img src="images/ra/eau.png" alt="I am an image :D">
+						<img class="resp_extend" src="images/ra/eau.png" alt="I am an image :D">
 						<p class="centreText">
 							Kind of it\'s Water opposite !<br>
 							And still not symetrical ;)
@@ -144,7 +144,7 @@
 				(or the spells) that create quick and powerful advantages !
 			</p>
 			<section class="theme2 colonne">
-				<img src="images/ra/avatars.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/ra/avatars.png" alt="I am an image :D">
 				<p class="centreText">
 					Say "Hello !" to the Avatars !
 				</p>
@@ -211,7 +211,7 @@
 				- etc !<br>
 			</p>
 			<section class="theme2 colonne">
-				<img src="images/ra/tout.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/ra/tout.png" alt="I am an image :D">
 				<p class="centreText">
 					It\'s hard to balance !<br>
 					But it\'s what I love, I don\'t mind :D
