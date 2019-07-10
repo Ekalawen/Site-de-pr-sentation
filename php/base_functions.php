@@ -134,7 +134,7 @@ $(document).ready( function () {
 			<div>
 				<h1>Alexys Dussier</h1>
 			</div>
-			<div>
+			<div class="resp_small_colone">
 				<h1>
 					Mail : 
 				</h1>
@@ -146,7 +146,7 @@ $(document).ready( function () {
 					</div>
 				</a>
 			</div>
-			<div>
+			<div class="resp_small_colone">
 				<h1>
 					GitHub : 
 				</h1>
@@ -158,7 +158,7 @@ $(document).ready( function () {
 					</div>
 				</a>
 			</div>
-			<div>
+			<div class="resp_small_colone">
 				<h1>
 					Linkedin : 
 				</h1>
@@ -170,7 +170,7 @@ $(document).ready( function () {
 					</div>
 				</a>
 			</div>
-			<div>
+			<div class="resp_small_colone">
 				<h1>
 					Adresse :         
 				</h1>

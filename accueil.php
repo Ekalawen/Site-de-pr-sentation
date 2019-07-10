@@ -14,7 +14,7 @@
 				<h3>
 					Who am I ?
 				</h3>
-			<div class="w50 justifyText">
+			<div class="w50 justifyText resp_extend">
 				<p class="justifyText">
 					I am an IT engineering student passionate about designing and creating games. My dream is to create the next generation gaming experience.<br>
 					<br>
@@ -31,7 +31,7 @@
 					<br>
 				</p>
 			</div>
-			<img id="photo_profile" src="images/moi/photo_profile.jpg" alt="Vous ne me voyez pas ?" />
+			<img id="photo_profile" class="resp_small_extend" src="images/moi/photo_profile.jpg" alt="Vous ne me voyez pas ?" />
 			<p id="text_photo_profile" class="centerText">
 			</p>
 		</section>
@@ -51,7 +51,7 @@
 		</section>
 		<a href="a_propos.php">
 			<section class="theme3 colonne redirection">
-				<div class="ligne w50">
+				<div class="ligne w50 centerText resp_extend">
 						<p class="redirection_p">
 							Do you want to know more about me ?
 						</p>

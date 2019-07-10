@@ -31,6 +31,17 @@
 	nav {
 		position: unset;
 	}
+
+	.resp_extend {
+		width: 100%;
+	}
+
+	.resp_colone{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 /* SMARTPHONES */
@@ -41,5 +52,20 @@
 
 	header div h3 {
 		font-size: 100%;
+	}
+
+	.resp_small_extend {
+		width: 100%;
+	}
+
+	section {
+		padding: 1em 2em 1em;
+	}
+
+	.resp_small_colone {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }

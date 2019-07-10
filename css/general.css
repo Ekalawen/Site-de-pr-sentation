@@ -131,8 +131,10 @@
 .p3 {
 	padding: 3em;
 }
-.pb3 {
-	padding-bottom: 3em;
+@media all and (min-width:981px) {
+	.pb3 {
+		padding-bottom: 3em;
+	}
 }
 .resetPaddingMargin {
 	margin: 0;
