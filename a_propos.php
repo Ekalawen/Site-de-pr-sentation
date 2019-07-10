@@ -18,8 +18,8 @@
 				</bouton>
 		</section>
 		<section class="theme2 hidden" id="btn3ThingsAppear">
-			<div class="ligne">
-				<section class="theme1 w33 centerText colonne">
+			<div class="ligne resp_colone">
+				<section class="theme1 w33 centerText colonne resp_extend">
 					<bouton id="btnDesign">
 						Designing
 					</bouton>
@@ -52,7 +52,7 @@
 						</section>
 					</section>
 				</section>
-				<section class="theme1 w33 centerText colonne">
+				<section class="theme1 w33 centerText colonne resp_extend">
 					<bouton id="btnProgramming">
 						Programming
 					</bouton>
@@ -83,7 +83,7 @@
 						</section>
 					</section>
 				</section>
-				<section class="theme1 w33	centerText colonne">
+				<section class="theme1 w33	centerText colonne resp_extend">
 					<bouton id="btnPlaying">
 						Playing
 					</bouton>
@@ -118,7 +118,7 @@
 		</section>
 		<a href="index.php">
 			<section class="theme3 colonne redirection">
-				<div class="ligne w50">
+				<div class="ligne w50 resp_extend">
 						<p class="redirection_p">
 							Do you want to see what I have done ?
 						</p>
