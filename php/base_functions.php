@@ -48,7 +48,7 @@
 
 		$nav = $nav ? '
 			<nav>
-				<ul>
+				<ul id="nav_id">
 					<li ' . $acActif . '>
 						<a href="accueil.php">Home</a>
 					</li>

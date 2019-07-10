@@ -15,6 +15,22 @@
 	header div h3 {
 		font-size: 150%;
 	}
+
+	#nav_id {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	nav {
+		position: unset;
+	}
 }
 
 /* SMARTPHONES */
