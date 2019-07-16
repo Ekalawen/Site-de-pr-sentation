@@ -22,12 +22,12 @@
 			// </div>
 			'
 			<div class="colonne">
-				<h1 class="centerText">
+				<div id="header_title" class="centerText">
 					Alexys Dussier
-				</h1>
-				<h3 class="centerText">
+				</div>
+				<div id="header_sub_title" class="centerText">
 					Engineering Student, Aspiring Game Designer
-				</h3>
+				</div>
 			</div>
 		' : '';
 
@@ -135,12 +135,12 @@ $(document).ready( function () {
 		$footer = '
 		<footer>
 			<div>
-				<h1>Alexys Dussier</h1>
+				<div class="footer_title">Alexys Dussier</div>
 			</div>
 			<div class="resp_small_colone">
-				<h1>
+				<div class="footer_title">
 					Mail : 
-				</h1>
+				</div>
 				<a href="contact.php" class="mg1">
 					<div class="resetPaddingMargin">
 						<p class="resetPaddingMargin textDecorationNone white underline" >
@@ -150,9 +150,9 @@ $(document).ready( function () {
 				</a>
 			</div>
 			<div class="resp_small_colone">
-				<h1>
+				<div class="footer_title">
 					GitHub : 
-				</h1>
+				</div>
 				<a href="https://www.github.com/Ekalawen" class="mg1" target="_blank">
 					<div class="resetPaddingMargin">
 						<p class="resetPaddingMargin textDecorationNone white underline" >
@@ -162,9 +162,9 @@ $(document).ready( function () {
 				</a>
 			</div>
 			<div class="resp_small_colone">
-				<h1>
+				<div class="footer_title">
 					Linkedin : 
-				</h1>
+				</div>
 				<a href="https://www.linkedin.com/in/alexys-dussier/" class="mg1" target="_blank">
 					<div class="resetPaddingMargin">
 						<p class="resetPaddingMargin textDecorationNone white underline" >
@@ -174,9 +174,9 @@ $(document).ready( function () {
 				</a>
 			</div>
 			<div class="resp_small_colone">
-				<h1>
+				<div class="footer_title">
 					Adresse :         
-				</h1>
+				</div>
 				<p class="mg1">
 					Toulouse, France
 				</p>

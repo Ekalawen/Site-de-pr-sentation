@@ -8,11 +8,11 @@
 
 /* TABLETTE ET SMARTPHONES */
 @media all and (max-width:980px) {
-	header div h1 {
+	header div #header_title {
 		font-size: 375%;
 	}
 
-	header div h3 {
+	header div #header_sub_title {
 		font-size: 150%;
 	}
 
@@ -46,11 +46,11 @@
 
 /* SMARTPHONES */
 @media all and (max-width:500px) {
-	header div h1 {
+	header div #header_title {
 		font-size: 250%;
 	}
 
-	header div h3 {
+	header div #header_sub_title {
 		font-size: 100%;
 	}
 

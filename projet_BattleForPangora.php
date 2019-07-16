@@ -15,12 +15,12 @@
 				<h1>
 					Battle for Pangora
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					Battle for Pangora is a 3D multiplayer asymetric video game.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					4 Heros are playing together to defeat the Grand Demon Davros !
-				</h3>
+				</h2>
 				<section class="theme2 inlineBlock">
 					<img class="size500 resp_extend" src="images/BattleForPangora/images/neelf.png" alt="I am an image :D">
 					<img class="size500 resp_extend" src="images/BattleForPangora/images/kiara.png" alt="I am an image :D">
@@ -45,9 +45,9 @@
 		//- insérer gitlab : https://gitlab.com/RiedelAndreas/violetmurder_battleforpangora_codefinal
 		'
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Presentation
-			</h1>
+			</h2>
 			<p class="justifyText">
 				Battle for Pangora is a video game developped in 4 months in a team of 7 persons at the DDJV (Double Diplome en Jeu vidéos).<br>
 				We put all our work and energy into it as it was our last school project, the one that we had to be proud of !<br>
@@ -81,9 +81,9 @@
 			</p>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				The Game
-			</h1>
+			</h2>
 			<h3>
 				4 versus 1
 			</h3>
@@ -132,9 +132,9 @@
 			</p>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Description
-			</h1>
+			</h2>
 			<p class="justifyText">
 				Battle for Pangora is a video game developped in 3-4 months in a team of 7 persons at the DDJV (Double Diplome en Jeu vidéos).<br>
 				This game is currently under development, so I won\'t go into details here.<br>
