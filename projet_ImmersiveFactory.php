@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("");
+	echo getHeader("", "Immersive Factory");
 
 	echo getTextProjet_ImmersiveFactory();
 

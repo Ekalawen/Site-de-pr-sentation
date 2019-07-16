@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("");
+	echo getHeader("", "Prince of Thieves");
 
 	echo getTextProjet_PrinceDesVoleurs();
 

@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("");
+	echo getHeader("", "Game Jam 2018");
 
 	echo getTextProjet_GJ2018();
 
@@ -13,7 +13,7 @@
 		$text = '
 		<section class="theme1 colonne">
 				<h1>
-					Game Jame 2018
+					Game Jam 2018
 				</h1>
 				<h3>
 					This was an intern Game Jam into my internship company : ImmersiveFactory.

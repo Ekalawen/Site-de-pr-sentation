@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("projets");
+	echo getHeader("projets", "Projets");
 
 	echo getTextProjets();
 

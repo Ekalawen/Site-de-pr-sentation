@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("");
+	echo getHeader("", "RagnArcane");
 
 	echo getTextProjet_ra();
 

@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("");
+	echo getHeader("", "HadokeMDP");
 
 	echo getTextProjet_AIBootCamp();
 

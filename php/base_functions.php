@@ -1,6 +1,6 @@
 <?php
 
-	function getHeader($actif, $entete = true, $nav = true) {
+	function getHeader($actif, $title = "", $entete = true, $nav = true) {
 		$acActif = ($actif == "accueil") ? 'class="onglet_actif"' : '';
 		$apActif = ($actif == "apropos") ? 'class="onglet_actif"' : '';
 		$prActif = ($actif == "projets") ? 'class="onglet_actif"' : '';
@@ -95,11 +95,13 @@ $(document).ready( function () {
 		//$onload = ($actif == "accueil") ? " onload=\"alerteDemarrage()\"" : "";
 		$onload = "";
 
+		$title = ($title === "") ? "" : (" - " . $title);
+
 		$header = '
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Alexys Dussier</title>
+		<title>Alexys Dussier'. $title .'</title>
 		<meta charset="UTF-8">
 		<meta name="description" content="Page d\'Acceuil">
 		<meta name="keywords" content="Alexys, Dussier, CV, jeux, game, design">

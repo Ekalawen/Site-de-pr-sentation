@@ -1,7 +1,7 @@
 <?php
 	require_once("php/base_functions.php");
 
-	echo getHeader("apropos");
+	echo getHeader("apropos", "About me");
 
 	echo getTextA_propos();
 
