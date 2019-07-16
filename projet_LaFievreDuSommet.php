@@ -22,7 +22,7 @@
 					It\'s a plaformer game made in 2 days.
 				</h3>
 				<section class="theme2 inlineBlock">
-					<img class="size500" src="images/LaFievreDuSommet/icon.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/LaFievreDuSommet/icon.png" alt="I am an image :D">
 					<p>
 						Here is what the game look like :)
 					</p>
@@ -81,7 +81,7 @@
 				<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size500" src="images/LaFievreDuSommet/bridge.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/LaFievreDuSommet/bridge.png" alt="I am an image :D">
 				<p>
 					A bridge and 2 different stairs :)<br>
 					The power of the pallet !

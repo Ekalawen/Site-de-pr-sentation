@@ -22,11 +22,11 @@
 					4 Heros are playing together to defeat the Grand Demon Davros !
 				</h3>
 				<section class="theme2 inlineBlock">
-					<img class="size500" src="images/BattleForPangora/images/neelf.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/images/kiara.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/images/shanyl.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/images/aeres.png" alt="I am an image :D">
-					<img class="size500" src="images/BattleForPangora/images/davros.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/BattleForPangora/images/neelf.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/BattleForPangora/images/kiara.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/BattleForPangora/images/shanyl.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/BattleForPangora/images/aeres.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/BattleForPangora/images/davros.png" alt="I am an image :D">
 					<p>
 						Here are some screeshots of the game :)<br>
 						They directly come from Paragon.
@@ -192,7 +192,7 @@
 				</div>
 			</a>
 			<section class="theme3 inlineBlock">
-				<img class="size500" src="images/BattleForPangora/images/environment.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/BattleForPangora/images/environment.png" alt="I am an image :D">
 				<p>
 					The theme of the game :)
 				</p>

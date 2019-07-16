@@ -22,7 +22,7 @@
 					We coded the engine of the game from scratch and built the game with it ! :)
 				</h3>
 				<section class="theme2 colonne">
-					<img class="size500" src="images/FindTheBear/oscillations.gif" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/FindTheBear/oscillations.gif" alt="I am an image :D">
 					<p>
 						In this game we are controlling a little cloud which is constantly oscillating :)
 					</p>
@@ -52,7 +52,7 @@
 				<br>
 			</p>
 			<section class="theme3 colonne">
-				<img class="size500" src="images/FindTheBear/death.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/FindTheBear/death.png" alt="I am an image :D">
 				<p>
 					Oh, you died :\'(<br>
 					Maybe you need to restart the game ? :3
@@ -76,7 +76,7 @@
 				Here is a diagram to better understand it :
 			</p>
 			<section class="theme3 colonne">
-				<img class="size500" src="images/FindTheBear/movement_decomposition.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/FindTheBear/movement_decomposition.png" alt="I am an image :D">
 				<p>
 					Movements of the player
 				</p>
@@ -101,7 +101,7 @@
 				carefull ! :)
 			</p>
 			<section class="theme3 colonne">
-				<img class="size500" src="images/FindTheBear/nightmare.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/FindTheBear/nightmare.png" alt="I am an image :D">
 				<p>
 					Don\'t be scared ! Or maybe you should ?
 				</p>
@@ -116,7 +116,7 @@
 				"The Forest" !
 			</p>
 			<section class="theme3 colonne">
-				<img class="size500" src="images/FindTheBear/vue_terrain_haute.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/FindTheBear/vue_terrain_haute.png" alt="I am an image :D">
 				<p>
 					The Castel in the center and the Forest arround.
 				</p>
@@ -132,7 +132,7 @@
 					What\'s more the Perlin Noise of the map is precalculated offline so that we can generated a random map but still don\'t lose time at the main loading :)
 			</p>
 			<section class="theme2 colonne">
-				<img class="size500" src="images/FindTheBear/perlin.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/FindTheBear/perlin.png" alt="I am an image :D">
 				<p>
 					When can obtain some cool terrain variations !
 				</p>
