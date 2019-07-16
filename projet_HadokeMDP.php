@@ -15,13 +15,13 @@
 				<h1>
 					HadokeMDP
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					HadokeMDP is my first attempt to design a Reinforcement Learning AI.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					I used the classical StreetFighter combat system as the AI environment.<br>
 					Just a bit redesigned :)
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 					<img class="resp_extend" src="images/HadokeMDP/icon.png" alt="I am an image :D">
 					<p>
@@ -34,9 +34,9 @@
 				</p>
 		</section>
 		<section class="theme2 colonne">
-				<h1>
+				<h2>
 					The environment : The Game
-				</h1>
+				</h2>
 				<h3>
 					Why a StreetFighter game ?
 				</h3>
@@ -77,9 +77,9 @@
 				</section>
 		</section>
 		<section class="theme1 colonne">
-				<h1>
+				<h2>
 					The Reinforcement Learning Algorithm
-				</h1>
+				</h2>
 				<p class="justifyText">
 					The first document that really catch my eyes was this one, I couldn\'t be more grateful to Leslie Pack Kaelbling, Michael L. Littman and Andrew W. 
 					Moore for their paper which was really instructive. Even if it is as old as me !<br>
@@ -157,9 +157,9 @@
 				</a>
 		</section>
 		<section class="theme2 colonne">
-				<h1>
+				<h2>
 					The results : beyond all expectations !
-				</h1>
+				</h2>
 				<p class="justifyText">
 					I won\'t be modest here, the results were just incredible and I didn\'t think it was even possible to reach such a level of mastering for an 
 					AI with such simplicity !<br>

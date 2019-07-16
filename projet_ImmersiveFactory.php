@@ -15,13 +15,13 @@
 				<h1>
 					Immersive Factory
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					I made an internship at Immersive Factory during 2018 summer, for 3 months.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					It is a Virtual Reality company dealing with Serious Gaming.<br>
 					The main topic was about Health, Safety and Environment.
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 					<iframe width="889" height="500" class="resp_extend" src="https://www.youtube.com/embed/dbohci16kl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 					<p>
@@ -31,9 +31,9 @@
 				</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Hazard Spotting : Gameplay
-			</h1>
+			</h2>
 			<p class="justifyText">
 				The main goal of the project was to educate people about the potential dangers and good practice to prevent them in a Glass Factory environment.<br>
 				<br>
@@ -58,9 +58,9 @@
 			</a>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				What I have done
-			</h1>
+			</h2>
 			<p class="justifyText">
 				I was in charge of the development on this project. Even if some of the architecture was already in place, because they are doing a lot of similar projects,
 				there was still place for refactoring or redesigning some stuff. As an instance, I took care about the photo taking picture in order to make it more

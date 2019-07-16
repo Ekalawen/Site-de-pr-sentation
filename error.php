@@ -13,16 +13,16 @@
 		$errorText = $_GET['error'];
 		$text = '
 			<section class="theme1 colonne">
-				<h3>
+				<h1 class="fontSize200 no_underline">
 					There was an error !<br>
 					' . $errorText . '
-				</h3>
+				</h1>
 				<a href="contact.php" class="">
 					<div>
 						<section class="theme3 colonne redirection pb3">
-							<h3 class="resetPaddingMargin">
+							<h2 class="fontSize200 resetPaddingMargin">
 								Go back to form
-							</h3>
+							</h2>
 						</section>
 					</div>
 				</a>

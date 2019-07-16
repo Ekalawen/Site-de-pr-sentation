@@ -15,10 +15,10 @@
 				<h1>
 					Speed Skill Style !
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					Mirror\'s Edge was too slow. So I made my game.<br>
 					A game of flow.
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 					<img class="resp_extend" src="images/sss/sss07.png" alt="I am an image :D">
 					<p>
@@ -27,9 +27,9 @@
 				</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The Game
-			</h1>
+			</h2>
 			<p class="justifyText">
 				In Speek Skill Style, you are a cube (I also love 3D square !), and you can move like an human, you can run, jump, grab walls and so on.<br>
 				In fact, this strange universe is the inside of a data base, and you are a virus. You want to hack it by unlocking several doors and light walls. And by dodging ennemies !<br>
@@ -38,9 +38,9 @@
 			</p>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				The concept : two part
-			</h1>
+			</h2>
 			<h3>
 				Part one : Have you ever tried to make a 3D game ... in 2D ?
 			</h3>
@@ -52,10 +52,10 @@
 				I had to create levels where the depth was less important, I had to create a corridor map ! And it works :D
 			</p>
 			<section class="theme3 colonne">
-				<h1>
+				<h2>
 					Let\'s look the differents ways<br>
 					of rendering this environment !
-				</h1>
+				</h2>
 				<p>
 					As you can see, you don\'s see. But it\'s beautiful :3
 				</p>

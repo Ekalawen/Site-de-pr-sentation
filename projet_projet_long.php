@@ -15,12 +15,12 @@
 				<h1>
 					A RogueLike Game !
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					I created this in a group of 6 persons.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					I was both the Game Designer and the Development architect.
-				</h3>
+				</h2>
 			<section class="theme2 colonne">
 				<img class="resp_extend" src="images/projet_long/projet_long01.png" alt="I am an image :D">
 				<p>
@@ -29,9 +29,9 @@
 			</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The Random Map Generator
-			</h1>
+			</h2>
 			<p class="justifyText">
 				As in all RogueLike games, we were needed that the map was always different, but always interesting. In fact we have several
 				criteria :<br>

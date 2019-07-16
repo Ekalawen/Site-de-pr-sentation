@@ -15,12 +15,12 @@
 				<h1>
 					La Fievre du Sommet
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					La Fievre du Sommet (Fever of the Summit) is the game we made during the Global Game Jam 2019 !
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					It\'s a plaformer game made in 2 days.
-				</h3>
+				</h2>
 				<section class="theme2 inlineBlock">
 					<img class="size500 resp_extend" src="images/LaFievreDuSommet/icon.png" alt="I am an image :D">
 					<p>
@@ -41,9 +41,9 @@
 				</a>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The subject of the Jam
-			</h1>
+			</h2>
 			<p class="justifyText">
 				The subject was "What Home means to you" !<br>
 				We were rather ambitious, but after some hours of open and active debate in a team of 7, we came to the following idea : our main character was
@@ -54,9 +54,9 @@
 			</p>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				The Gameplay
-			</h1>
+			</h2>
 			<h3>
 				Movements
 			</h3>
@@ -129,9 +129,9 @@
 			</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				You can get a windows build of the game here ! :)
-			</h1>
+			</h2>
 			<a href="images/LaFievreDuSommet/LaFievreDuSommet_Windows.zip" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
@@ -141,9 +141,9 @@
 					</section>
 				</div>
 			</a>
-			<h1>
+			<h2>
 				And if you don\'t have time, there is a little video here :)
-			</h1>
+			</h2>
 			<video controls class="m3 size500">
 			  <source src="images/LaFievreDuSommet/video.mp4" type="video/mp4">
 			  Your browser does not support HTML5 video.

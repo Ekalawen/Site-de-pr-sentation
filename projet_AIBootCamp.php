@@ -15,20 +15,20 @@
 				<h1>
 					AI Boot Camp
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					AI Boot Camp is a AI coding challenges designed to teach the fundamentals of Symbolic AI.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					This is how I knew that AI would became one of my greatest passions.
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 					<img class="resp_extend" src="images/AIBootCamp/intro.gif" alt="I am an image :D">
 				</section>
 		</section>
 		<section class="theme2 colonne">
-				<h1>
+				<h2>
 					Description of the Challenge
-				</h1>
+				</h2>
 				<h3>
 					The Rules
 				</h3>
@@ -58,9 +58,9 @@
 				<p>
 
 				<section class="theme3 colonne w100">
-					<h1>
+					<h2>
 						Technical challenges
-					</h1>
+					</h2>
 					<p class="leftAlignText">
 						In AIBootCamp there a lot of different challenges that we had to overcome, here is a list of a few of them :<br>
 						<br>
@@ -79,9 +79,9 @@
 
 		</section>
 		<section class="theme1 colonne">
-				<h1 class="">
+				<h2 class="">
 					Iterations of the project
-				</h1>
+				</h2>
 				<p class="justifyText">
 					We first start this project alone, then after a first iteration essentialy focusing on pathfinding, we merge into team of 3 peoples. The project was now focused on cooperation and multiple Npcs planning. We then split the team and merge again in teams of 5 peoples. I had the chance that we keep my code as a solid base to continue work together each time. Now the project was focusing on improving performances, up to 15 milliseconds ! Finaly, we had a last iteration focused both on optimisation - we have to go up to 5 milliseconds ! - and the integration of a nightmarish and beautiful element : the doors ! <3<br>
 				</p>
@@ -94,9 +94,9 @@
 				</section>
 		</section>
 		<section class="theme2 colonne">
-				<h1>
+				<h2>
 					How we solve it !
-				</h1>
+				</h2>
 				<p class="justifyText">
 					We had the chance to have testing maps, which you can observe on the website. They helped us to focused on what was a problem and to found edges cases. However the final goal of this entire project was to be able to achieve maps that we would <mark>never have seen before</mark> !!!<br>
 					<br>
@@ -128,9 +128,9 @@
 					</a>
 				</p>
 			<section class="theme3 colonne">
-				<h1>
+				<h2>
 					Here are some examples of what our algorithm is capable of ! <3
-				</h1>
+				</h2>
 				<div class="ligne w100 resp_colone">
 					<div class="">
 						<video controls class="m3 resp_extend">

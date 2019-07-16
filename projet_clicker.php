@@ -15,21 +15,21 @@
 				<h1>
 					Pixel Clicker
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					I am currently designing this game with a friend.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					We loved the famous Coockie Clicker, and wanted to create our own.<br>
 					With some more features.
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 					<img class="resp_extend" src="images/clicker/clicker13.png" alt="I am an image :D">
 				</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The Skinner Effect
-			</h1>
+			</h2>
 			<p class="justifyText">
 				As aspiring Game Designers, we both knew about the Skinner Box Effect. When you jailed a rat (or an human !) in a room with a button,
 				if the button delivers food every time the subject push on it, then the subject will be ever more enthusiastic to press it if it only

@@ -15,12 +15,12 @@
 				<h1>
 					Find the Bear
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					Find the Bear is a Racing game that we made in a team of 5 persons in DDJV using agile methods.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					We coded the engine of the game from scratch and built the game with it ! :)
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 					<img class="size500 resp_extend" src="images/FindTheBear/oscillations.gif" alt="I am an image :D">
 					<p>
@@ -41,9 +41,9 @@
 				</a>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The initial speech
-			</h1>
+			</h2>
 			<p class="justifyText">
 				In Find the Bear we are playing a dreaming child. However in his dream, not everything is going as wonderfully as we expect ... In fact the 
 				child is trapped into his dream where he has to collect all of his cute Teddy Bear in order to wake up, or he will falls in limbo ...<br>
@@ -108,9 +108,9 @@
 			</section>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				The Map
-			</h1>
+			</h2>
 			<p class="justifyText">
 				We wanted to represent a child dream. So the map is a flying island in the sky, which is circular. The center of the map is "The Castel" and the exterior is 
 				"The Forest" !
@@ -153,9 +153,9 @@
 			</p>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				A video of gameplay ! :)
-			</h1>
+			</h2>
 			<div class="">
 				<video controls class="m3 size500">
 				  <source src="images/FindTheBear/video.mp4" type="video/mp4">

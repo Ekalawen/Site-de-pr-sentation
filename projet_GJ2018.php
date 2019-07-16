@@ -15,15 +15,15 @@
 				<h1>
 					Game Jam 2018
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					This was an intern Game Jam into my internship company : ImmersiveFactory.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					The subject was "An alive world".
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					You can find a link to what I have done at Immersive Factory just below :
-				</h3>
+				</h2>
 				<a href="projet_ImmersiveFactory.php" class="" target="_blank">
 					<div>
 						<section class="theme3 colonne redirection pb3">
@@ -42,9 +42,9 @@
 				</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Description
-			</h1>
+			</h2>
 			<h3>
 				The idea
 			</h3>
@@ -61,9 +61,9 @@
 			</p>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				The Worm player
-			</h1>
+			</h2>
 			<h3>
 				Eating muscles
 			</h3>
@@ -91,9 +91,9 @@
 			</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The Human player
-			</h1>
+			</h2>
 			<h3>
 				Understanding the pain
 			</h3>

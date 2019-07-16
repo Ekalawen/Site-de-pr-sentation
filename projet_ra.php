@@ -15,12 +15,12 @@
 				<h1>
 					RagnArcane
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					I love HearthStone, I love Magic, I love strategic card games !
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					So I made my own.
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 				<img class="resp_extend" src="images/ra/symbole.png" alt="I am an image :D">
 				</section>
@@ -30,9 +30,9 @@
 				</p>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				A Card Game, for the first time !
-			</h1>
+			</h2>
 			<h3>
 				Collectible card game ?
 			</h3>
@@ -62,9 +62,9 @@
 			</section>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				Key elements
-			</h1>
+			</h2>
 			<p class="centerText">
 				Feel free to only read sections that interest you ;)
 			</p>

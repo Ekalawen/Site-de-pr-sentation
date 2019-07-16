@@ -15,13 +15,13 @@
 				<h1>
 					The Prince of Thieves
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					It\'s a Deck Building board game where play order matters a lot.<br>
 					I named it a Tempo Deck Building.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					As a thief, steal them all ! :)
-				</h3>
+				</h2>
 				<section class="theme2 inlineBlock">
 					<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/all.png" alt="I am an image :D">
 					<p>
@@ -30,9 +30,9 @@
 				</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The main idea
-			</h1>
+			</h2>
 			<p class="justifyText">
 				After designing RagnArcane, I felt that I have made a really complicated game. Even if it\'s depth was amazing, the amount of knowledge needed to get
 				into it was too important.<br>
@@ -90,9 +90,9 @@
 			</p>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				Deck composition
-			</h1>
+			</h2>
 			<p class="justifyText">
 				Ok, but there is one more issue right now. As Treasures cards are rather difficult to steal (we need several Steal cards to steal only one Treasure card,
 				in order to prevent our deck to grow too fast) and as they will be added to our deck, this means that we will draw less and less Steal cards the more
@@ -123,9 +123,9 @@
 			</p>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Guilds Cards
-			</h1>
+			</h2>
 			<p class="justifyText">
 				It is well known that thieves are, for the most part, part of Guilds which are protecting them from other Guilds. In this game I wanted to add this aspect
 				of thieves, and I also wanted to create something that we can buy with the golds of our Treasures. That\'s how I created Guidls cards.<br>
@@ -179,9 +179,9 @@
 			</p>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				Allegence cards
-			</h1>
+			</h2>
 			<p class="justifyText">
 				I have observed that it will rather difficult for players to gather in the same hand multiples cards of the same guild, which is problematic as they 
 				are scaling with being multiples in your hand !<br>
@@ -214,9 +214,9 @@
 			</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				The end of the game
-			</h1>
+			</h2>
 			<p class="justifyText">
 				And now ? How does the game end ? Well we could have put into play some timers or counters to decide it, but I prefer to let my player decide of it.<br>
 				To achieve that, I have created a sub-kind of Treasure cards, the Wonders ! Wonders are like Treasure cards, except that they are difficult to steal

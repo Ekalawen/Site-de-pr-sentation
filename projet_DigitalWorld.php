@@ -15,13 +15,13 @@
 				<h1>
 					Digital World
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					This is the follow up of my Speed Skill Style project, several years later.<br>
 					But this time, I have access to 3D technology ! <3
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					It\'s a real time parkour game, inspired my Mirror Edge.
-				</h3>
+				</h2>
 				<a href="projet_sss.php" class="" target="_blank">
 					<div>
 						<section class="theme3 colonne redirection pb3">
@@ -42,9 +42,9 @@
 				</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Procedural Generated Map
-			</h1>
+			</h2>
 			<p class="justifyText">
 				In order to design a good parkour game, the most foundamental item is the map. Because it\'s where the player will be able to express his skills and 
 				ability. If the map is boring, so is the game. If the map is well designed, then the player will be able to discover new moves and will, eventualy, 
@@ -125,9 +125,9 @@
 			</section>
 		</section>
 		<section class="theme1 colonne">
-			<h1>
+			<h2>
 				Gameplay
-			</h1>
+			</h2>
 			<h3>
 				Wall Jumping
 			</h3>
@@ -189,9 +189,9 @@
 			</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Some videos of gameplay ! :)
-			</h1>
+			</h2>
 			<div class="">
 				<h3>
 					The tutorial !

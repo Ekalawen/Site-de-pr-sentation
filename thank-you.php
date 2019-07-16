@@ -12,10 +12,10 @@
 	function getTextThankYou() {
 		$text = '
 			<section class="theme1">
-				<h3>
+				<h1 class="no_underline fontSize200">
 					Your message has been sent successfully !<br>
 					Thank you ! :)
-				</h3>
+				</h1>
 			</section>
 		';
 

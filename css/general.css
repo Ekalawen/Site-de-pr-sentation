@@ -155,6 +155,9 @@
 .underline {
 	text-decoration: underline;
 }
+.no_underline {
+	text-decoration: none;
+}
 
 .centerText {
 	text-align: center;

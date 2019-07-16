@@ -15,15 +15,15 @@
 				<h1>
 					Greed House Bus
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					I created this game in 2 weeks for a School Geek Week.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					Our group decided to talk about bus pollution.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					So I made this game.
-				</h3>
+				</h2>
 			<section class="theme2 colonne">
 				<img class="resp_extend" src="images/bus/bus02.png" alt="I am an image :D">
 				<p>
@@ -33,9 +33,9 @@
 			</section>
 		</section>
 		<section class="theme2 colonne">
-			<h1>
+			<h2>
 				Description
-			</h1>
+			</h2>
 			<h3>
 				The concept
 			</h3>

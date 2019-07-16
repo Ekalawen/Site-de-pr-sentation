@@ -15,20 +15,20 @@
 				<h1>
 					Icon Rush 2 !
 				</h1>
-				<h3>
+				<h2 class="fontSize200">
 					This is the first video game I created.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					It will, thanks to this, always be my favorite one.
-				</h3>
+				</h2>
 				<section class="theme2 colonne">
 					<img class="resp_extend" src="images/ir2/projet_IR_1.png" alt="I am an image :D">
 				</section>
 		</section>
 		<section class="theme2 colonne">
-				<h1>
+				<h2>
 					The concept : two parts
-				</h1>
+				</h2>
 				<h3>
 					Part one : A color racing (rushing ?) game !
 				</h3>

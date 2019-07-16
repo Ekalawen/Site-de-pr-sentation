@@ -11,9 +11,9 @@
 	function getTextAcceuil() {
 		$text = '
 		<section class="theme1 colonne">
-				<h3>
+				<h1>
 					Who am I ?
-				</h3>
+				</h1>
 			<div class="w50 justifyText resp_extend">
 				<p class="justifyText">
 					I am an IT engineering student passionate about designing and creating games. My dream is to create the next generation gaming experience.<br>
@@ -36,9 +36,9 @@
 			</p>
 		</section>
 		<section class="theme2 colonne">
-			<h3>
+			<h2 class="fontSize200">
 				You can find more about me by checking my LinkedIn account :<br>
-			</h3>
+			</h2>
 			<a href="https://www.linkedin.com/in/alexys-dussier/" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">

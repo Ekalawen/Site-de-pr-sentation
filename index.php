@@ -10,7 +10,9 @@
 	function getTextProjets() {
 		$text = '
 		<section class="theme1">
-
+			<h1>
+				Projects
+			</h1>
 			<a href="projet_BattleForPangora.php">
 				<div class="size300-200" id="projet_img_BattleForPangora">
 					<div class="ligne w100 h100">
@@ -174,18 +176,18 @@
 
 		</section>
 		<section class="theme2 colonne">
-				<h3>
+				<h2 class="fontSize200">
 					I have done some stuff.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					None of them is imposing.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					But I loved each part of them.
-				</h3>
-				<h3>
+				</h2>
+				<h2 class="fontSize200">
 					Find most of them on GitHub !
-				</h3>
+				</h2>
 				<a href="https://github.com/Ekalawen" class="" target="_blank">
 					<div>
 						<section class="theme3 colonne redirection pb3">
