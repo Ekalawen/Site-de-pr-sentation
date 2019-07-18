@@ -13,6 +13,9 @@
 			<h1>
 				Projects
 			</h1>
+			<h2 class="fontSize200">
+				'. getDescription() .'
+			</h2>
 			<a href="projet_BattleForPangora.php">
 				<div class="size300-200" id="projet_img_BattleForPangora">
 					<div class="ligne w100 h100">

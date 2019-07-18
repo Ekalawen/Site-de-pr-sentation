@@ -18,7 +18,7 @@
 				<p class="justifyText">
 					I am an IT engineering student passionate about designing and creating games. My dream is to create the next generation gaming experience.<br>
 					<br>
-					Creating universes and gameplay concepts is what motivates me and makes me vibrate forever since forever.
+					Creating universes and gameplay concepts is what motivates me and makes me vibrate since forever.
 					For this reason, I naturally became developer where achieving my dreams has never been easier.<br>
 					<br>
 					Imagining, visualizing, designing, developing, testing and balancing.<br>
@@ -27,7 +27,7 @@
 					Realizing, concretizing and distributing.<br>
 					Those are the steps that lack to my experience, and that\'s where I am heading today.<br>
 					<br>
-					Participating to the development and progress in Artificial Intelligence est also a non-negligeable  part of my ambitions.<br>
+					Participating to the development and progress in Artificial Intelligence is also a non-negligeable part of my ambitions.<br>
 					<br>
 				</p>
 			</div>

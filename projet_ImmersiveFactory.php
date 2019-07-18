@@ -23,7 +23,7 @@
 					The main topic was about Health, Safety and Environment.
 				</h2>
 				<section class="theme2 colonne">
-					<iframe width="889" height="500" class="resp_extend" src="https://www.youtube.com/embed/dbohci16kl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+					<iframe width="889" height="500" src="https://www.youtube.com/embed/TAu8WsAK-J4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<p>
 						Here is a trailer of the project I was working on as the main Unity Developer.<br>
 						It ended up being published :)

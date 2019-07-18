@@ -1,6 +1,6 @@
 <?php
 
-	function getHeader($actif, $title = "", $entete = true, $nav = true) {
+	function getHeader($actif, $title = "", $description = "", $entete = true, $nav = true) {
 		$acActif = ($actif == "accueil") ? 'class="onglet_actif"' : '';
 		$apActif = ($actif == "apropos") ? 'class="onglet_actif"' : '';
 		$prActif = ($actif == "projets") ? 'class="onglet_actif"' : '';
@@ -96,6 +96,7 @@ $(document).ready( function () {
 		$onload = "";
 
 		$title = ($title === "") ? "" : (" - " . $title);
+		$description = ($description === "") ? getDescription() : $description;
 
 		$header = '
 <!DOCTYPE html>
@@ -108,6 +109,7 @@ $(document).ready( function () {
 		<meta name="author" content="Alexys Dussier">
 		<meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1 "/>
 		<meta name="google-site-verification" content="qLZqJfks6yUeRWOtgBsEUA7F11bV7Qf8LiNJ-BwJ28c" />
+		<meta name="description" content="'. $description .'" />
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 		<style type="style.css"></style>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -221,5 +223,9 @@ $(document).ready( function () {
 		</a>';
 
 		return $text;
+	}
+
+	function getDescription() {
+		return "I am a newly graduated computer engineering student looking for ever more challenging projects. You will find on this site an overview of my main projects.";
 	}
 ?>

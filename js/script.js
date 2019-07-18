@@ -5,7 +5,7 @@ Ce fichier contient la pluspart des fonctions de script
 
 /* Photo de profile */
 jQuery(document).ready(function(){
-	var text1 = "Life is a Game. What are you playing at ?";
+	var text1 = "Life is a Game. Let's play with the world !";
 	var text2 = "I like taking a step back to think about games, strategies and life.";
 
 	$("#text_photo_profile").html(text1);
