@@ -34,8 +34,8 @@
 					</div>
 				</a>
 				<section class="theme2 inlineBlock">
-					<img class="size500 resp_extend" src="images/GJ2018/worm.png" alt="I am an image :D">
-					<img class="size500 resp_extend" src="images/GJ2018/VR_view.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/GJ2018/worm.jpg" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/GJ2018/VR_view.jpg" alt="I am an image :D">
 					<p>
 						Here are some screeshots of the game :)
 					</p>
@@ -84,7 +84,7 @@
 				and aren\'t symetricals because they are more flabby ^^
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size500 resp_extend" src="images/GJ2018/map.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/GJ2018/map.jpg" alt="I am an image :D">
 				<p>
 					The map ... or the body, as you wish :)
 				</p>
@@ -102,9 +102,9 @@
 				Here are they :<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size500 resp_extend" src="images/GJ2018/first_screen.png" alt="I am an image :D">
-				<img class="size500 resp_extend" src="images/GJ2018/second_screen.png" alt="I am an image :D">
-				<img class="size500 resp_extend" src="images/GJ2018/third_screen.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/GJ2018/first_screen.jpg" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/GJ2018/second_screen.jpg" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/GJ2018/third_screen.jpg" alt="I am an image :D">
 				<p>
 					The 3 screens of control.<br>
 				</p>

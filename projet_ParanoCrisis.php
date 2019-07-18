@@ -25,7 +25,7 @@
 					The game is intended to be edited and publish soon, so I won\'t go to much into details here.
 				</h2>
 				<section class="theme2 inlineBlock">
-					<img class="size500 resp_extend" src="images/ParanoCrisis/main_screen.png" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/ParanoCrisis/main_screen.jpg" alt="I am an image :D">
 					<p>
 						Greetings 	!
 					</p>
@@ -66,7 +66,7 @@
 				This game is largely inspired by Game Theory such as Prisoner\'s Dilemma and Nash Equilibrium.
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size500 resp_extend" src="images/ParanoCrisis/attention.png" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/ParanoCrisis/attention.jpg" alt="I am an image :D">
 				<p>
 					We take games very seriously.<br>
 					Especially when friendship can be at stake.<br>

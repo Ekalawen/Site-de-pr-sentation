@@ -86,7 +86,7 @@
 					We first start this project alone, then after a first iteration essentialy focusing on pathfinding, we merge into team of 3 peoples. The project was now focused on cooperation and multiple Npcs planning. We then split the team and merge again in teams of 5 peoples. I had the chance that we keep my code as a solid base to continue work together each time. Now the project was focusing on improving performances, up to 15 milliseconds ! Finaly, we had a last iteration focused both on optimisation - we have to go up to 5 milliseconds ! - and the integration of a nightmarish and beautiful element : the doors ! <3<br>
 				</p>
 				<section class="theme2 colonne">
-					<img class="resp_extend" src="images/AIBootCamp/maze.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/AIBootCamp/maze.jpg" alt="I am an image :D">
 					<p>
 						Here an example of a rather complicated map, espacialy because of his size ! :)<br>
 						Our algorithm find an optimal solution, can you ? (don\'t forget vision range !)

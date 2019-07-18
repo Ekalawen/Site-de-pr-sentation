@@ -23,7 +23,7 @@
 					As a thief, steal them all ! :)
 				</h2>
 				<section class="theme2 inlineBlock">
-					<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/all.png" alt="I am an image :D">
+					<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/all.jpg" alt="I am an image :D">
 					<p>
 						What I am working with !
 					</p>
@@ -66,7 +66,7 @@
 				The second thing that came to my mind was that thiefs are stealing gold, they are stealing buttin, chests and treasures ! So the second type of card
 				was a Treasure card.<br>
 				<section class="theme3 inlineBlock">
-					<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/explication.png" alt="I am an image :D">
+					<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/explication.jpg" alt="I am an image :D">
 					<p>
 						The most basic cards !
 					</p>
@@ -168,7 +168,7 @@
 				opponent in the same time.<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/guildes.png" alt="I am an image :D">
+				<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/guildes.jpg" alt="I am an image :D">
 				<p>
 					The most emblematic card of all guilds !
 				</p>
@@ -207,7 +207,7 @@
 				the Night to represent that they are usable.<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/allegence.png" alt="I am an image :D">
+				<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/allegence.jpg" alt="I am an image :D">
 				<p>
 					An Allegence card
 				</p>
@@ -230,7 +230,7 @@
 				to finish the game, he cans also ! :)
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/merveille.png" alt="I am an image :D">
+				<img class="size40percent resp_extend" src="images/PrinceDesVoleurs/merveille.jpg" alt="I am an image :D">
 				<p>
 					A typical Wonder !
 				</p>

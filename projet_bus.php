@@ -25,7 +25,7 @@
 					So I made this game.
 				</h2>
 			<section class="theme2 colonne">
-				<img class="resp_extend" src="images/bus/bus02.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/bus/bus02.jpg" alt="I am an image :D">
 				<p>
 					Catch them all my bus !<br>
 					Stop them from polluting !

@@ -22,7 +22,7 @@
 					I was both the Game Designer and the Development architect.
 				</h2>
 			<section class="theme2 colonne">
-				<img class="resp_extend" src="images/projet_long/projet_long01.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/projet_long/projet_long01.jpg" alt="I am an image :D">
 				<p>
 					It\'s dangerous to go alone.
 				</p>
@@ -42,11 +42,11 @@
 				- and we don\'t want to create these walls, corridors, rooms manually, so they have to be entirely generated !<br>
 			</p>
 			<section class="theme3 colonne">
-				<img class="resp_extend" src="images/projet_long/exemple01.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/projet_long/exemple01.jpg" alt="I am an image :D">
 				<p>
 					But I never said : "we will place a room here !"
 				</p>
-				<img class="resp_extend" src="images/projet_long/symbole02.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/projet_long/symbole02.jpg" alt="I am an image :D">
 				<p>
 					It can generates BIG maps =)
 				</p>
@@ -84,7 +84,7 @@
 				Now we have a playable map.
 			</p>
 			<section class="theme3 colonne">
-				<img class="resp_extend" src="images/projet_long/projet_long07.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/projet_long/projet_long07.jpg" alt="I am an image :D">
 				<p>
 					Can you see the submaps ? (they look like squares)
 				</p>
@@ -92,7 +92,7 @@
 					And then we add monsters !<br>
 					And items =)
 				</h3>
-				<img class="resp_extend" src="images/projet_long/projet_long09.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/projet_long/projet_long09.jpg" alt="I am an image :D">
 				<p>
 					OMG, they are everywhere !
 				</p>

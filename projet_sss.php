@@ -20,7 +20,7 @@
 					A game of flow.
 				</h2>
 				<section class="theme2 colonne">
-					<img class="resp_extend" src="images/sss/sss07.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/sss/sss07.jpg" alt="I am an image :D">
 					<p>
 						Here is a Mirror\'s Edge theme.
 					</p>
@@ -59,19 +59,19 @@
 				<p>
 					As you can see, you don\'s see. But it\'s beautiful :3
 				</p>
-				<img class="resp_extend" src="images/sss/sss03.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss03.jpg" alt="I am an image :D">
 				<p>
 					Trying transparency ... work a bit, but it\'s too hard to understand.
 				</p>
-				<img class="resp_extend" src="images/sss/sss02.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss02.jpg" alt="I am an image :D">
 				<p>
 					Playing with colors ... work a bit too.
 				</p>
-				<img class="resp_extend" src="images/sss/sss08.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss08.jpg" alt="I am an image :D">
 				<p>
 					Lowering blocks, not working :D
 				</p>
-				<img class="resp_extend" src="images/sss/sss11.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss11.jpg" alt="I am an image :D">
 				<h3>
 					That\'s why level design and engine programming<br>
 					should always work together !<br>
@@ -81,11 +81,11 @@
 					It\'s easier to understand, isn\'t it ?<br>
 					(yeah this level is handmade)
 				</p>
-				<img class="resp_extend" src="images/sss/sss13.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss13.jpg" alt="I am an image :D">
 				<p>
 					I understand, and you ? are you sure ? :D
 				</p>
-				<img class="resp_extend" src="images/sss/sss12.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss12.jpg" alt="I am an image :D">
 			</section>
 			<h3 class="mt3">
 				Part two : the procedural map generation !
@@ -105,13 +105,13 @@
 				<p>
 					It looks like that ;)
 				</p>
-				<img class="resp_extend" src="images/sss/sss09.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss09.jpg" alt="I am an image :D">
 				<p>
 					Let\'s raise up the walls !<br>
 					And ... omg where I am ?!?<br>
 					I NEED to found the exit =)
 				</p>
-				<img class="resp_extend" src="images/sss/sss15.png" alt="I am an image :D">
+				<img class="resp_extend" src="images/sss/sss15.jpg" alt="I am an image :D">
 			</section>
 		</section>
 		';

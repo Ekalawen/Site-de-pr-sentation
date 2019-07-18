@@ -23,7 +23,7 @@
 					Just a bit redesigned :)
 				</h2>
 				<section class="theme2 colonne">
-					<img class="resp_extend" src="images/HadokeMDP/icon.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/HadokeMDP/icon.jpg" alt="I am an image :D">
 					<p>
 						Ryu against Ryu, who will win ? :D
 					</p>
@@ -70,7 +70,7 @@
 					Here is a diagram of the state machine of the game :<br>
 				</p>
 				<section class="theme3 colonne">
-					<img class="resp_extend" src="images/HadokeMDP/diagram.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/HadokeMDP/diagram.jpg" alt="I am an image :D">
 					<p>
 						As you can see, Kick and Uppercut both take 2 frames long to arm.
 					</p>
@@ -103,7 +103,7 @@
 					Here is the loop that is used in RL algorithms :<br>
 				</p>
 				<section class="theme3 colonne">
-					<img class="resp_extend" src="images/HadokeMDP/loop.png" alt="I am an image :D">
+					<img class="resp_extend" src="images/HadokeMDP/loop.jpg" alt="I am an image :D">
 					<p>
 						All actions are coupled to states of the game.<br>
 						The same action in a different state could have a very different reward.<br>

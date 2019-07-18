@@ -3,117 +3,117 @@ Ce fichier est là pour insérer des images en background
 *********************************************************/
 
 #projet_img1 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sss/sss07_200px.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sss/sss07_200px.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img1:hover {
-	background-image: url("../images/sss/sss07_200px.png");
+	background-image: url("../images/sss/sss07_200px.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_ir2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ir2/projet_IR_1.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ir2/projet_IR_1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_ir2:hover {
-	background-image: url("../images/ir2/projet_IR_1.png");
+	background-image: url("../images/ir2/projet_IR_1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_sss {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sss/sss07.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sss/sss07.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_sss:hover {
-	background-image: url("../images/sss/sss07.png");
+	background-image: url("../images/sss/sss07.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_ra {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ra/symbole.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ra/symbole.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_ra:hover {
-	background-image: url("../images/ra/symbole.png");
+	background-image: url("../images/ra/symbole.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_clicker {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/clicker/clicker01_tesseract.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/clicker/clicker01_tesseract.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_clicker:hover {
-	background-image: url("../images/clicker/clicker01_tesseract.png");
+	background-image: url("../images/clicker/clicker01_tesseract.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_projet_long {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/projet_long/symbole01.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/projet_long/symbole01.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_projet_long:hover {
-	background-image: url("../images/projet_long/symbole01.png");
+	background-image: url("../images/projet_long/symbole01.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_bus {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bus/bus05.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bus/bus05.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_bus:hover {
-	background-image: url("../images/bus/bus05.png");
+	background-image: url("../images/bus/bus05.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_AI {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/AIBootCamp/maze_troncated.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/AIBootCamp/maze_troncated.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_AI:hover {
-	background-image: url("../images/AIBootCamp/maze_troncated.png");
+	background-image: url("../images/AIBootCamp/maze_troncated.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_HadokeMDP {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/HadokeMDP/icon.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/HadokeMDP/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_HadokeMDP:hover {
-	background-image: url("../images/HadokeMDP/icon.png");
+	background-image: url("../images/HadokeMDP/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -133,91 +133,91 @@ Ce fichier est là pour insérer des images en background
 }
 
 #projet_img_DigitalWorld {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/DigitalWorld/icon.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/DigitalWorld/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_DigitalWorld:hover {
-	background-image: url("../images/DigitalWorld/icon.png");
+	background-image: url("../images/DigitalWorld/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_FindTheBear {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/FindTheBear/icon.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/FindTheBear/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_FindTheBear:hover {
-	background-image: url("../images/FindTheBear/icon.png");
+	background-image: url("../images/FindTheBear/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_LaFievreDuSommet {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/LaFievreDuSommet/icon.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/LaFievreDuSommet/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_LaFievreDuSommet:hover {
-	background-image: url("../images/LaFievreDuSommet/icon.png");
+	background-image: url("../images/LaFievreDuSommet/icon.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_PrinceDesVoleurs {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/PrinceDesVoleurs/all.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/PrinceDesVoleurs/all.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_PrinceDesVoleurs:hover {
-	background-image: url("../images/PrinceDesVoleurs/all.png");
+	background-image: url("../images/PrinceDesVoleurs/all.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_GJ2018 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/GJ2018/map.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/GJ2018/map.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_GJ2018:hover {
-	background-image: url("../images/GJ2018/map.png");
+	background-image: url("../images/GJ2018/map.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_ParanoCrisis {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ParanoCrisis/main_screen.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/ParanoCrisis/main_screen.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_ParanoCrisis:hover {
-	background-image: url("../images/ParanoCrisis/main_screen.png");
+	background-image: url("../images/ParanoCrisis/main_screen.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 #projet_img_BattleForPangora {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BattleForPangora/neelf.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/BattleForPangora/images/neelf.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 #projet_img_BattleForPangora:hover {
-	background-image: url("../images/BattleForPangora/neelf.png");
+	background-image: url("../images/BattleForPangora/images/neelf.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
