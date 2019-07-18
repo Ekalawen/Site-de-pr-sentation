@@ -22,7 +22,7 @@
 					It\'s a plaformer game made in 2 days.
 				</h2>
 				<section class="theme2 inlineBlock">
-					<img class="size500 resp_extend" src="images/LaFievreDuSommet/icon.jpg" alt="I am an image :D">
+					<img class="size500 resp_extend" src="images/LaFievreDuSommet/icon.jpg" alt="Icon">
 					<p>
 						Here is what the game look like :)
 					</p>
@@ -81,7 +81,7 @@
 				<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="size500 resp_extend" src="images/LaFievreDuSommet/bridge.jpg" alt="I am an image :D">
+				<img class="size500 resp_extend" src="images/LaFievreDuSommet/bridge.jpg" alt="Bridge">
 				<p>
 					A bridge and 2 different stairs :)<br>
 					The power of the pallet !
@@ -121,7 +121,7 @@
 				familier with the environment, with his Home.<br>
 			</p>
 			<section class="theme3 inlineBlock">
-				<img class="resp_extend" src="images/LaFievreDuSommet/full_level_design.jpg" alt="I am an image :D">
+				<img class="resp_extend" src="images/LaFievreDuSommet/full_level_design.jpg" alt="Full level design">
 				<p>
 					Here is the complete Level Design !<br>
 					I think, we get the better game life time of the Game Jam ;)

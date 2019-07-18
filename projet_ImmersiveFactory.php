@@ -73,7 +73,7 @@
 				... But also a sending rapport system from the simulation to the plateform, which was rather instructive. Even if I do not really like dealing with web haha.
 			</p>
 			<section class="theme3 colonne">
-				<img class="resp_extend" src="images/ImmersiveFactory/screenshot2.jpg" alt="I am an image :D">
+				<img class="resp_extend" src="images/ImmersiveFactory/screenshot2.jpg" alt="Screenshot2">
 				<p>
 					Can you find the hazard ? :p
 				</p>

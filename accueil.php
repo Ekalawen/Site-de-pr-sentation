@@ -31,7 +31,7 @@
 					<br>
 				</p>
 			</div>
-			<img id="photo_profile" class="resp_small_extend" src="images/moi/photo_profile.jpg" alt="Vous ne me voyez pas ?" />
+			<img id="photo_profile" class="resp_small_extend" src="images/moi/photo_profile.jpg" alt="photo de profile" />
 			<p id="text_photo_profile" class="centerText">
 			</p>
 		</section>

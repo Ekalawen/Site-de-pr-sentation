@@ -23,7 +23,7 @@
 					Just a bit redesigned :)
 				</h2>
 				<section class="theme2 colonne">
-					<img class="resp_extend" src="images/HadokeMDP/icon.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/HadokeMDP/icon.jpg" alt="Icon">
 					<p>
 						Ryu against Ryu, who will win ? :D
 					</p>
@@ -70,7 +70,7 @@
 					Here is a diagram of the state machine of the game :<br>
 				</p>
 				<section class="theme3 colonne">
-					<img class="resp_extend" src="images/HadokeMDP/diagram.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/HadokeMDP/diagram.jpg" alt="Diagram">
 					<p>
 						As you can see, Kick and Uppercut both take 2 frames long to arm.
 					</p>
@@ -103,7 +103,7 @@
 					Here is the loop that is used in RL algorithms :<br>
 				</p>
 				<section class="theme3 colonne">
-					<img class="resp_extend" src="images/HadokeMDP/loop.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/HadokeMDP/loop.jpg" alt="Loop">
 					<p>
 						All actions are coupled to states of the game.<br>
 						The same action in a different state could have a very different reward.<br>
@@ -177,7 +177,7 @@
 					So when I started to make 2 bots without training opposing each other, they had rather randomized behavior that you can see here :<br>
 				</p>
 				<section class="theme3 colonne">
-					<img class="resp_extend" src="images/HadokeMDP/Demo_IA_sans_experience_2.gif" alt="I am an image :D">
+					<img class="resp_extend" src="images/HadokeMDP/Demo_IA_sans_experience_2.gif" alt="Demo IA sans experience 2">
 					<p>
 						We can observe that the bots are acting very randomly, attacking when they are far away, and never blocking on the good timing.<br>
 						They even pass some frames doing nothing ! ^^\'
@@ -196,7 +196,7 @@
 						You can here observe the 2 bots after having practice 100 matches against each other :<br>
 					</p>
 					<section class="theme3 colonne">
-						<img class="resp_extend" src="images/HadokeMDP/Demo_IA_100m.gif" alt="I am an image :D">
+						<img class="resp_extend" src="images/HadokeMDP/Demo_IA_100m.gif" alt="Demo IA 100m">
 						<p>
 							We can observe that now the bots seems to have much more coherent actions, and that they are blocking at the right timing. This is a good
 							improvement !<br>
@@ -222,7 +222,7 @@
 						Each match was taking about 650ms :)<br>
 					</p>
 					<section class="theme3 colonne">
-						<img class="resp_extend" src="images/HadokeMDP/Demo_IA_15000m_new.gif" alt="I am an image :D">
+						<img class="resp_extend" src="images/HadokeMDP/Demo_IA_15000m_new.gif" alt="Demo IA 15000m new">
 						<p>
 							We can observe that now the bots have a clear strategy ! The right one is constantly moving left and right in order to push his opponent in
 							the corner !<br>
@@ -256,7 +256,7 @@
 						Here is a match of a 100 matches AI at the left, and a 15000 matches AI at the right, just to see the progression of the AI :<br>
 					</p>
 					<section class="theme3 colonne">
-						<img class="resp_extend" src="images/HadokeMDP/Demo_IA_100mL_vs_15000mR_new.gif" alt="I am an image :D">
+						<img class="resp_extend" src="images/HadokeMDP/Demo_IA_100mL_vs_15000mR_new.gif" alt="Demo IA 100mL_vs_15000m4_new">
 						<p>
 							I bet on the right one ! ;)<br>
 							We can see that this is a no-match.

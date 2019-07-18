@@ -22,7 +22,7 @@
 					It will, thanks to this, always be my favorite one.
 				</h2>
 				<section class="theme2 colonne">
-					<img class="resp_extend" src="images/ir2/projet_IR_1.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_1.jpg" alt="Projet IR 1">
 				</section>
 		</section>
 		<section class="theme2 colonne">
@@ -44,15 +44,15 @@
 					<p>
 						At the beginning of the game ...
 					</p>
-					<img class="resp_extend" src="images/ir2/projet_IR_7.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_7.jpg" alt="Projet IR 7">
 					<p>
 						A few seconds later ...
 					</p>
-					<img class="resp_extend" src="images/ir2/projet_IR_6.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_6.jpg" alt="Projet IR 6">
 					<p>
 						When everything go crazy !
 					</p>
-					<img class="resp_extend" src="images/ir2/projet_IR_5.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_5.jpg" alt="Projet IR 5">
 				</section>
 				<h3 class="mt3">
 					Part two : I love squares !
@@ -70,19 +70,19 @@
 					<p>
 						When you lauch the game ...
 					</p>
-					<img class="resp_extend" src="images/ir2/projet_IR_9.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_9.jpg" alt="Projet IR 9">
 					<p>
 						I delete the buttons for you ;)
 					</p>
-					<img class="resp_extend" src="images/ir2/projet_IR_16.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_16.jpg" alt="Projet IR 16">
 					<p>
 						When everything go crazy ! (again :p)
 					</p>
-					<img class="resp_extend" src="images/ir2/projet_IR_13.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_13.jpg" alt="Projet IR 13">
 					<p>
 						It could be softer and class too.
 					</p>
-					<img class="resp_extend" src="images/ir2/projet_IR_11.jpg" alt="I am an image :D">
+					<img class="resp_extend" src="images/ir2/projet_IR_11.jpg" alt="Projet IR 11">
 					<p>
 						And it\'s the same algorithm, only inputs are differents.
 					</p>
