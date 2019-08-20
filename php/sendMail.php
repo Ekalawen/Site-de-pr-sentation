@@ -25,7 +25,7 @@
 		header('Location: ../error.php?error=Bad email value !');
 	    exit;
 	}
-	if(IsInjected($message)) {
+	if(IsInjected($message, true)) {
 	    //echo "Bad message value !";
 		header('Location: ../error.php?error=Bad message value !');
 	    exit;
@@ -45,8 +45,11 @@
 		header('Location: ../error.php?error=Error while sending the mail ...');
 	}
 
-	function IsInjected($str) {
-	    $injections = array('(\n+)', '(\r+)', '(\t+)', '(%0A+)', '(%0D+)', '(%08+)', '(%09+)');
+	function IsInjected($str, $acceptEnter = false) {
+		if(!$acceptEnter)
+		    $injections = array('(\n+)', '(\r+)', '(\t+)', '(%0A+)', '(%0D+)', '(%08+)', '(%09+)');
+		else
+		    $injections = array('(%0A+)', '(%0D+)', '(%08+)', '(%09+)');
 	                
 	    $inject = join('|', $injections);
 	    $inject = "/$inject/i";
