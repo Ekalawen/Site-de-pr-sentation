@@ -222,3 +222,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_AlphaChessZero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/AlphaChessZero/images/classic_start_top_600px.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_AlphaChessZero:hover {
+	background-image: url("../images/AlphaChessZero/images/classic_start_top_600px.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}

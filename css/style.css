@@ -120,6 +120,10 @@ section h3 {
 	font-size: 200%;
 }
 
+section h4 {
+	font-size: 150%;
+}
+
 section p {
 	font-size: 150%;
 }
@@ -128,7 +132,7 @@ section p {
 	background-color: hsla(205, 100%, 64%, 1);
 }
 
-.theme1 h1, .theme1 h2, .theme1 h3 {
+.theme1 h1, .theme1 h2, .theme1 h3, .theme1 h4 {
 	color: white;
 	color: hsla(360, 100%, 58%, 1);
 }
@@ -146,7 +150,7 @@ section p {
 	background-color: hsla(205, 100%, 80%, 1);
 }
 
-.theme2 h1, .theme2 h2, .theme2 h3 {
+.theme2 h1, .theme2 h2, .theme2 h3, .theme2 h4 {
 	color: hsla(360, 100%, 58%, 1);
 }
 
@@ -163,7 +167,7 @@ section p {
 	background-color: hsla(360, 70%, 58%, 1);
 }
 
-.theme3 h1, .theme3 h2, .theme3 h3 {
+.theme3 h1, .theme3 h2, .theme3 h3, .theme3 h4 {
 	color: hsla(205, 100%, 80%, 1);
 }
 
@@ -180,7 +184,7 @@ section p {
 	background-color: hsla(0, 100%, 50%, 0);
 }
 
-.theme4 h1, .theme4 h2, .theme4 h3 {
+.theme4 h1, .theme4 h2, .theme4 h3, .theme4 h4 {
 	color: hsla(360, 70%, 58%, 1);
 }
 

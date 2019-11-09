@@ -21,6 +21,12 @@
 				<h2 class="fontSize200">
 					4 Heros are playing together to defeat the Grand Demon Davros !
 				</h2>
+				<section class="theme2 inlineBlock w100">
+					<iframe class="size500 video_height resp_extend" src="https://www.youtube.com/embed/4ZL9pbZVUsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>
+						Here is our trailer, enjoy !
+					</p>
+				</section>
 				<section class="theme2 inlineBlock">
 					<img class="size500 resp_extend" src="images/BattleForPangora/images/neelf.jpg" alt="Neelf">
 					<img class="size500 resp_extend" src="images/BattleForPangora/images/kiara.jpg" alt="Kiara">
@@ -28,8 +34,8 @@
 					<img class="size500 resp_extend" src="images/BattleForPangora/images/aeres.jpg" alt="Aeres">
 					<img class="size500 resp_extend" src="images/BattleForPangora/images/davros.jpg" alt="Davros">
 					<p>
-						Here are some screeshots of the game :)<br>
-						They directly come from Paragon.
+						Here are the main characters of the game :)<br>
+						Characters\' assets come from Paragon.
 					</p>
 				</section>
 		</section>
