@@ -142,7 +142,7 @@ section p {
 }
 
 .theme1 mark {
-	color: white;
+	color: hsla(360, 100%, 58%, 1);
 	font-size: 120%;
 }
 

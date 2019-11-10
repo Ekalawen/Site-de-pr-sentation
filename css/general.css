@@ -216,6 +216,12 @@
 	transition: height 800ms ease;
 	margin: 1em;
 }
+.size200 {
+	display: inline-block;
+	width: 200px;
+	transition: height 800ms ease;
+	margin: 1em;
+}
 @media all and (max-width:500px) {
 	.size300-200 {
 		width: 90%;
