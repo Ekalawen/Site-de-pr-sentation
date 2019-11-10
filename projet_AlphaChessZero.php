@@ -334,6 +334,79 @@
 					Here is an UML to visualize the whole architecture.
 				</p>
 			</section>
+		</section>
+		'.
+		// The history feature
+		'
+		<section class="theme2 colonne">
+			<h2>
+				The Replay feature
+			</h2>
+			<p class="justifyText">
+				Even before I started programming any AI, I knew I would need to be able to observe what the AI was doing, in order to debug and understand it.
+				I didn\'t want to have to read text representations of a game of chess, because they are just unreadable to me !<br>
+			</p>
+			<section class="theme1 inlineBlock">
+				<img class="resp_extend" src="images/AlphaChessZero/images/others/game_01.png" alt="game_01">
+				<p class="">
+					As you can see, it\'s not really ... convenient.
+				</p>
+			</section>
+			<p class="justifyText">
+				For this reason, I started implementing the Replay feature.<br>
+			</p>
+			<h3>
+				Game representation difficulty
+			</h3>
+			<p class="justifyText">
+				In principle a Replay isn\'t that hard, you just need to describe an initial situation and gives all the plays (as pair of board positions) of 
+				the game, one by one, and you would have a perfectly fine Replay feature ! (Just avoid to give all states after each plays because it would be
+				extremely ressources intensive !)<br>
+				<br>
+				The difficulty lies, not in the model of the game that could be really easily describes, but in the view of the game. In my Chess code, the 
+				view of the game is how I represent the board and the pieces of the game to the screen : it is the ensemble of the 3D assets that are used to
+				display the game to the screen, like the shape of pawns, bishops and so on.<br>
+				<br>
+				Because I wanted not being restreint to a certain set of types of pieces, I also needed to refer to the view a piece was attached to. And this
+				was a bit more difficult as it wasn\'t just an enumeration, it was the id of an entire asset. Fortunately the serialization feature of C# manage
+				this easily ! But it leads to others difficulies ! ...
+			</p>
+			<h3>
+				Serialization difficulties ...
+			</h3>
+			<p class="justifyText">
+				The serialization of C# is really easy to use, you just give it an object, and it will entirely serialize it for you into a json string.<br>
+				Except that it doesn\'t handle abstract classes and inheritance and List of List and references cycles. And guess what ? A GameObject (the 
+				thing you really care to serialize) is just a container that posses a lot of Components, and a Component is ... an abstract class ! So this
+				means that in the end you can\'t serialize anything easily ...<br>
+				<br>
+				To tackle this problem, we have to use a technique named Data Extraction. The idea is that for a given class, you will create a structure
+				whose only purpose is to contain the datas of your class. And then your class, which you can\'t serialize, will reference the structure you
+				have created. And you can serialize this structure. You then only need to have a conversion function that can generate your class from
+				your structure and reciprocally.<br>
+				I think this is a bad design as it\'s force you to duplicate a lot of code and have 2 class that represent the same thing, which is never
+				a good idea. However I needed that technique and I think it was the best solution overall. It could even have advantages if we want
+				to optimise cache memory by putting all the structure in the same memory space so that we can iterate over them very quickly ! (But this
+				is not something we can do in C#, it\'s more of a C++ stuff.)<br>
+
+				// Talk about binarisation aussi ! et expliquer pourquoi ça ne marche pas x)
+			</p>
+			<section class="theme1 inlineBlock">
+				<img class="resp_extend" src="images/AlphaChessZero/images/schemas/Data_Extraction_UML.png" alt="Data_Extraction_UML">
+				<p class="">
+					Here is an UML diagram that summary the Data Extraction technique.
+				</p>
+			</section>
+			<section class="theme1 inlineBlock">
+				<video controls muted class="m3 size500">
+				  <source src="images/AlphaChessZero/videos/Replay_myself_vs_myself.mp4" type="video/mp4">
+				  Your browser does not support HTML5 video.
+				</video>
+				<p class="justifyText">
+					And here we can see what it finally looks like !<br>
+					It is a Replay of a game of myself against myself :)
+				</p>
+			</section>
 			<h3>
 			</h3>
 			<p class="justifyText">
