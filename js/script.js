@@ -44,7 +44,7 @@ jQuery(document).ready(function(){
 		if(css = "undefined") {
 			css = "";
 		}
-		elem.attr("style", css + "background-color: hsla(360, 70%, 58%, 1)");
+		elem.attr("style", css + "background-color: hsla(360, 70%, 68%, 1)");
 
 		var text = elem.find(".redirection_p");
 		css = text.attr("style");
