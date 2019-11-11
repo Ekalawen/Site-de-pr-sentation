@@ -37,7 +37,7 @@
 			</p>
 		</section>
 		<section class="theme2 colonne">
-			<h2 class="fontSize200">
+			<h2 class="fontSize200 no_underline">
 				You can find more about me by checking my LinkedIn account :<br>
 			</h2>
 			<a href="https://www.linkedin.com/in/alexys-dussier/" class="" target="_blank">
@@ -51,7 +51,7 @@
 			</a>
 		</section>
 		<section class="theme1 colonne">
-			<h2 class="fontSize200">
+			<h2 class="fontSize200 no_underline">
 				And you can also find my CV here :<br>
 			</h2>
 			<a href="images/cv/Alexys_Dussier_CV_ANG_2019.pdf" class="" target="_blank">

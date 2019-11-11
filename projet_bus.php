@@ -15,13 +15,13 @@
 				<h1>
 					Greed House Bus
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					I created this game in 2 weeks for a School Geek Week.
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					Our group decided to talk about bus pollution.
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					So I made this game.
 				</h2>
 			<section class="theme2 colonne">

@@ -15,10 +15,10 @@
 				<h1>
 					HadokeMDP
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					HadokeMDP is my first attempt to design a Reinforcement Learning AI.
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					I used the classical StreetFighter combat system as the AI environment.<br>
 					Just a bit redesigned :)
 				</h2>

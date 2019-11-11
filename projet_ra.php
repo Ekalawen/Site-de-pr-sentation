@@ -15,10 +15,10 @@
 				<h1>
 					RagnArcane
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					I love HearthStone, I love Magic, I love strategic card games !
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					So I made my own.
 				</h2>
 				<section class="theme2 colonne">

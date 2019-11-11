@@ -15,17 +15,17 @@
 				<h1>
 					Digital World
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					This is the follow up of my Speed Skill Style project, several years later.<br>
 					But this time, I have access to 3D technology ! <3
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					It\'s a real time parkour game, inspired my Mirror Edge.
 				</h2>
 				<a href="projet_sss.php" class="" target="_blank">
 					<div>
 						<section class="theme3 colonne redirection pb3">
-							<h3 class="resetPaddingMargin">
+							<h3 class="resetPaddingMargin no_underline">
 								Speed Skill Style
 							</h3>
 						</section>

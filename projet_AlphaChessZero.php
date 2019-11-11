@@ -15,7 +15,7 @@
 				<h1>
 					AlphaChess Zero
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					AlphaChess Zero is an Artificial Intelligence algorithm that try to reproduce the well known
 					AlphaGo Zero from DeepMind and adapt it to the Chess game.<br>
 				</h2>
@@ -248,8 +248,9 @@
 			</p>
 			<section class="theme2 inlineBlock">
 				<img class="size500 resp_extend" src="images/AlphaChessZero/images/BDCG/knight_moves_600px.png" alt="knight_moves_600px">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/BDCG/queen_moves_600px.png" alt="queen_moves_600px">
 				<p class="">
-					Here we can instantly see where our knight can go and where he can capture.
+					Here we can instantly see where the knight and the queen can go and where they can capture.
 				</p>
 			</section>
 			<h3>

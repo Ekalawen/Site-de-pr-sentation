@@ -2,6 +2,7 @@
 HEADER
 *****************************************************/
 header {
+	/*background-image: linear-gradient(rgba(0, 0, 0, -1.1), rgba(0, 0, 0, -1.1)), url("../images/DigitalWorld/icon_200px.png");*/
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sss/sss07_200px.png");
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -114,27 +115,32 @@ section h1 {
 
 section h2 {
 	font-size: 250%;
+	text-decoration: underline;
 }
 
 section h3 {
 	font-size: 200%;
+	text-decoration: underline;
 }
 
 section h4 {
 	font-size: 150%;
+	text-decoration: underline;
 }
 
 section p {
 	font-size: 150%;
 }
 
+/******************** THEME 1 *************************/
 .theme1 {
-	background-color: hsla(205, 100%, 64%, 1);
+	background-color: hsla(205, 100%, 75%, 1);
 }
 
-.theme1 h1, .theme1 h2, .theme1 h3, .theme1 h4 {
+.theme1 h1 , .theme1 h2, .theme1 h3, .theme1 h4 {
+	/*color: hsla(360, 100%, 58%, 1);*/
 	color: white;
-	color: hsla(360, 100%, 58%, 1);
+	/*text-shadow: 0px 0px 9px #777;*/
 }
 
 .theme1 p {
@@ -142,16 +148,19 @@ section p {
 }
 
 .theme1 mark {
-	color: hsla(360, 100%, 58%, 1);
+	/*color: hsla(360, 100%, 58%, 1);*/
+	color: white;
 	font-size: 120%;
 }
 
+/******************** THEME 2 *************************/
 .theme2 {
-	background-color: hsla(205, 100%, 80%, 1);
+	background-color: hsla(205, 100%, 89%, 1);
 }
 
 .theme2 h1, .theme2 h2, .theme2 h3, .theme2 h4 {
-	color: hsla(360, 100%, 58%, 1);
+	/*color: hsla(360, 100%, 58%, 1);*/
+	color: hsla(360, 0%, 10%, 1);
 }
 
 .theme2 p {
@@ -163,12 +172,15 @@ section p {
 	font-size: 120%;
 }
 
+/******************** THEME 3 *************************/
 .theme3 {
-	background-color: hsla(360, 70%, 58%, 1);
+	background-color: hsla(360, 70%, 68%, 1);
 }
 
 .theme3 h1, .theme3 h2, .theme3 h3, .theme3 h4 {
-	color: hsla(205, 100%, 80%, 1);
+	/*color: hsla(205, 100%, 80%, 1);*/
+	color: white;
+	text-decoration: none;
 }
 
 .theme3 p {
@@ -180,6 +192,7 @@ section p {
 	font-size: 120%;
 }
 
+/******************** THEME 4 *************************/
 .theme4 {
 	background-color: hsla(0, 100%, 50%, 0);
 }

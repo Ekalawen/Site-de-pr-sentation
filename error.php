@@ -20,7 +20,7 @@
 				<a href="contact.php" class="">
 					<div>
 						<section class="theme3 colonne redirection pb3">
-							<h2 class="fontSize200 resetPaddingMargin">
+							<h2 class="fontSize200 resetPaddingMargin no_underline">
 								Go back to form
 							</h2>
 						</section>

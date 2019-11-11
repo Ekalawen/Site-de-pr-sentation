@@ -15,7 +15,7 @@
 				<h1>
 					Speed Skill Style !
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					Mirror\'s Edge was too slow. So I made my game.<br>
 					A game of flow.
 				</h2>

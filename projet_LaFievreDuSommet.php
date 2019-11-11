@@ -15,10 +15,10 @@
 				<h1>
 					La Fievre du Sommet
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					La Fievre du Sommet (Fever of the Summit) is the game we made during the Global Game Jam 2019 !
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					It\'s a plaformer game made in 2 days.
 				</h2>
 				<section class="theme2 inlineBlock">
@@ -33,7 +33,7 @@
 				<a href="https://globalgamejam.org/2019/games/la-fi%C3%A8vre-du-sommet" class="" target="_blank">
 					<div>
 						<section class="theme3 colonne redirection pb3">
-							<h3 class="resetPaddingMargin">
+							<h3 class="resetPaddingMargin no_underline">
 								GGJ 2019
 							</h3>
 						</section>
@@ -135,7 +135,7 @@
 			<a href="images/LaFievreDuSommet/LaFievreDuSommet_Windows.zip" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
-						<h3 class="resetPaddingMargin">
+						<h3 class="resetPaddingMargin no_underline">
 							Windows Build
 						</h3>
 					</section>

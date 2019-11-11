@@ -15,13 +15,13 @@
 				<h1>
 					ParanoCrisis
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					ParanoCrisis is an hybrid board game using a computer device.
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					It\'s a bluff and cooperation card game.
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					The game is intended to be edited and publish soon, so I won\'t go to much into details here.
 				</h2>
 				<section class="theme2 inlineBlock">

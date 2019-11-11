@@ -15,11 +15,11 @@
 				<h1>
 					The Prince of Thieves
 				</h1>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					It\'s a Deck Building board game where play order matters a lot.<br>
 					I named it a Tempo Deck Building.
 				</h2>
-				<h2 class="fontSize200">
+				<h2 class="fontSize200 no_underline">
 					As a thief, steal them all ! :)
 				</h2>
 				<section class="theme2 inlineBlock">
