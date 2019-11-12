@@ -15,10 +15,10 @@
 				<h1>
 					Battle for Pangora
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					Battle for Pangora is a 3D multiplayer asymetric video game.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					4 Heros are playing together to defeat the Grand Demon Davros !
 				</h2>
 				<section class="theme2 inlineBlock w100">

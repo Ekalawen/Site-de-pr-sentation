@@ -10,7 +10,7 @@
 	function getTextA_propos() {
 		$text = '
 		<section class="theme1 colonne">
-				<h3>
+				<h3 class="nocount">
 					What do I like the most in life ?
 				</h3>
 				<bouton id="btn3Things">

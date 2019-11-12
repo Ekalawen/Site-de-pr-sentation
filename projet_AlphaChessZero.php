@@ -15,7 +15,7 @@
 				<h1>
 					AlphaChess Zero
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					AlphaChess Zero is an Artificial Intelligence algorithm that try to reproduce the well known
 					AlphaGo Zero from DeepMind and adapt it to the Chess game.<br>
 				</h2>
@@ -361,7 +361,7 @@
 				For this reason, I started implementing the Replay feature.<br>
 			</p>
 			<h3>
-				Game representation difficulty
+				Game representation
 			</h3>
 			<p class="justifyText">
 				In principle a Replay isn\'t that hard, you just need to describe an initial situation and gives all the plays (as pair of board positions) of 
@@ -377,7 +377,7 @@
 				this easily! But it leads to others difficulies! ...
 			</p>
 			<h3>
-				Serialization difficulties ...
+				Serialization
 			</h3>
 			<p class="justifyText">
 				The serialization of C# is really easy to use, you just give it an object, and it will entirely serialize it for you into a json string.<br>
@@ -412,12 +412,212 @@
 					It is a Replay of a game of myself against myself :)
 				</p>
 			</section>
-			<h3>
-			</h3>
+		</section>
+		'.
+		// The challenge : code Keras + Numpy
+			// Numpy
+				// NDarray<T>
+					// Optimisation
+						// 1 array for all, using Shape, being careful about memory cache so putting adjacently
+						// Shape
+					// User friendly
+						// [] and = and others functions such as +, - Dot etc ... ==> not easy, I would love to have C++ template that are much more powerfulls than C# genericity
+		'
+		<section class="theme1 colonne">
+			<h2>
+				The Neural Network API
+			</h2>
 			<p class="justifyText">
+				As I didn\'t succeed to import a Machine Learning API such as Keras, TensorFlow, SciSharp, TensorSharp or Numpy, I decided to code my own
+				API in Machine Learning! Overall, I am glad it happened because it allowed me to learn a lot of things I wouldn\'t have discovered 
+				otherwise :)<br>
 			</p>
 			<h3>
+				Numpy Code
 			</h3>
+			<p class="justifyText">
+				The Numpy code could be easily summarized in 1 class, the NDarray class. Because Numpy is all about being able to represent arrays of datas
+				of any dimension. In fact the strenght of Numpy is that it does have 1 class that can at the same time represent, with numerical efficiency,
+				a single number, a flat array or even a n-dimensional array! And this is where all the challenge is!<br>
+				<br>
+				First of all, the NDarray class has to be a generic class NDarray<T> so that we can fit all kinds of stuff in such as int, float, bool or anything
+				we want. This is a basic feature, however I am sad I couldn\'t have use the C++ templates here as they would have been much more flexible and
+				useful for many tasks.<br>
+				<br>
+				Second, to be able to represent any kind of datas with only 1 class, a good technique was to use both a single fixed size array paired with an
+				other class that would tell what the shape of the fixed size array is. And this second class is named Shape. A Shape is just a list of integers
+				which all describe the size of their dimension. As an instance, a {2, 3, 4} list for a Shape would represents a 3 dimensional array with 2
+				numbers in the first dimension, 3 in the second and 4 in the last dimension.<br>
+				<br>
+				Third, as Numpy is the basic brick of our implementation, it is important that it is as easy to use as possible. That\'s why I spent time at
+				developing user friendly getters and setters and functions such as :<br>
+				- a flat getter: my3DNDarray[42] will return the 43th element of this 3D array starting from the element [0, 0, 0] and starting incrementing by
+				the last dimension.<br>
+				- a full dimension getter: my3DNDarray[1, 2, 3] will return the element which is 2nd in the first dimension, 3rd in the second dimension
+				and 4th in the last dimension.<br>
+				- a flat setter.<br>
+				- a full dimension setter.<br>
+				*** An important point here is that these getters and setters had to be well coded so that adjacent elements in the N dimensional array
+				would also be adjacent in the flat array representation so that we prevent memory jumps as much as possible. ***<br>
+				- a bidirectional conversion with Lists.<br>
+				- a bidirectional conversion with arrays.<br>
+				- lot of different constructor.<br>
+				- copy contructor.<br>
+				- a flatten function (just have to change the Shape, very easy :D).<br>
+				- ToString, very useful for debugging.<br>
+				- the Transpose function.<br>
+				- the Fill function.<br>
+				- a Map function that apply a delegate function to all elements of the array.<br>
+				<br>
+				Then, using C++ templates I would have been able to continue, however as C# genericity is not as strong, I had to create a subclass NDarrayF for
+				float only that would be able to implement the ohters functions I needed. Happily, most of my NDarray were NDarrayF anyway! :)<br>
+				- Max and Min.<br>
+				- Argmax and Argmin.<br>
+				- Plus, Minus, Mult, Divide, element to element.<br>
+				- Outer product.<br>
+				- Dot product, for 1D-arrays and 2D-arrays.<br>
+			</p>
+			<section class="theme2 inlineBlock">
+				<img class="resp_extend" src="images/AlphaChessZero/images/schemas/Numpy_UML.png" alt="Numpy_UML">
+				<p class="">
+					Here is an UML diagram that summary the Numpy API.
+				</p>
+			</section>
+			'.
+			// Keras 
+				// Everything is a layer ! :D
+					// Layers
+						// Input layer
+						// Flatten layer
+						// Dense Layer
+						// Softmax Layer
+				// Which activation ?
+					// Sigmoid ==> Vanishing gradient
+					// Relu ==> Dying Relu
+					// LeakyRelu
+					// A better solution ==> Using BatchNorm Layers !
+				// ==> Miss optimisations + C# is slow (talk about C#optimisations)
+				// sauvegarde du neural network ?
+				// training phase with batches ? and shuffling ?
+			// First try : without MCTS
+				// Representation of the Game ==> GameState
+				// Input and output
+				// Doens't work ! How to compute the loss ? XD What is the target ? :o The win is not enought
+			'
+			<h3>
+				Keras Code
+			</h3>
+			<p class="justifyText">
+				Keras is a TensorFlow API that allows to easily models Deep Learning architecture.<br>
+				Now that the Numpy part is completed, it is possible to start coding Keras! :)<br>
+				I decided to focus on the ModelSequential part of the Keras API for this project as it were the most suitable.
+			</p>
+			<h4>
+				Brief explanation of the ModelSequential of Keras
+			</h4>
+			<p class="justifyText">
+				The goal of a Deep Learning algorithm (a network), and so of a ModelSequential, is to approximate a function. No matter how complicated
+				(almost) the function is, a good Deep Learning network is supposed to be able at some point to represent it! It is especially interesting
+				to use a Deep neural network when the function to approximate isn\'t linear, because else it is easy and we should use others methods!
+				In our case, the function we try to approximate is the one that gives the best play to play for a given board state of chess.<br>
+				<br>
+				The plan in a ModelSequential, is to have a succession of layers so that each output of a layer will be the input of the next layer.<br>
+				This means that you are giving an input to your model, it will give it to the first layer which will compute its own ouput, give this output
+				to the next layer and so on until the last layer that will compute the final result of the model.<br>
+				<br>
+				Then, in the training phase, the final output is compared to an expected ouput and the difference (according to some metrics) is called the loss.
+				This loss is then used into the backpropagation part. The role of the backpropagation part is to update the parameters of all layers so that
+				the next time the model is given the same input it will compute a final result that is closer to the expected output then before. To do that
+				the technique of the Gradient Descent is used. The Gradient Descent will compute how to modify the parameters thanks to a local derivative, 
+				that the layer can compute itself, and the derivative of the next layer using the Chain Rule. As each layer needs for the next layer, we are
+				computing this from end to start, this is why it is called the backpropagation of the gradient.<br>
+			</p>
+			<h4>
+				Everything is a layer!
+			</h4>
+			<p class="justifyText">
+				So as I said, we have layers! But what are the purposes of these layers? So, we have a few of them :<br>
+				- the Input Layer. This one is just used for code conveniences, it doens\'t do anything. It is used as the first layer of the model.<br>
+				<br>
+				- the Flatten Layer. Its role is to flatten its input to allow next layers to work easily on it.<br>
+				<br>
+				- the Dense Layer. This is where the real work happend. A Dense Layer is simulating a number N of neurons. Each neurons is a linear combination
+				of the input using the weights of each neurons and adding a bias. This means that a Dense Layer is composed of a matrix of weights of size (N, D)
+				where N is the number of neurons and D the size of the input, and of a vector of bias of size N. The output of a Dense Layer will be a vector A of
+				size N where A[i] = sum<sub>j</sub>(Weight[i, j] * Input[j]) + Bias[i].<br>
+				It is interesting to note that if a model was only constituate of Dense Layer like describe until now, it wouldn\'t be really helpful as a 
+				composition of linear combination is still a linear combination! So we could have as many Dense Layer as we like, it would still be equivalent to
+				a single Dense Layer with weights and bias being the result of the combination of all layers, what a waste of time!<br>
+				For this reason, after computing the linear combination, non-linearity functions (also named activation function) are being introduced that
+				will allow the network to also learn non-linear function. After computing A, we will then compute Z defined by
+				Z[i] = ActivationFunction(A[i]).<br>
+				<br>
+				- the Softmax Layer. At the end of the network, we are expecting an array of probabilities, which are all representing the probability of each
+				play to be the best to chose. However the output of a Dense Layer is not normalized. We are then using the Softmax Layer that can normalize
+				an array so that it sum-up to 1. To do that we are pre-computing S = sum<sub>i</sub>(e<sup>Input[i]</sup>). And then we can compute the output
+				which is Output[i] = e<sup>Input[i]</sup> / S.<br>
+				However, there is a little problem here. If the Inputs are very larges, e<sup>Input</sup> will be even more large, easily exceeded the maximum
+				number for whatever float/int/double we are using. To do that, there is a cute little trick :) We can first observe that<br>
+				e<sup>Input[i]</sup> / S = (e<sup>Input[i]</sup> * D) / (S * D) = e<sup>Input[i] + ln(D)</sup> / sum<sub>i</sub>(e<sup>Input[i] + ln(D)</sup>)
+				for all D. As it\'s true for all D, we can remove the logarithme, as we only have to chose D\' = ln(D) and it would still be true. The
+				interest of this is that if D\' is negative and big enought, the exponential won\'t explode and it won\'t make a number overflow! In practice
+				we chose D\' = - Max<sub>i</sub>(Input[i]).<br>
+				- the Batch Normalization Layer. TODO.<br>
+				- the Convolutional Layer. TODO.<br>
+				<br>
+			</p>
+			<h5>
+				The forward pass
+			</h5>
+			<p class="justifyText">
+				The forward pass is what I describe just above. It is the first pass where layers are computing what they are meant to compute.<br>
+				In the testing phase of the neural network, we are only doing the forward pass to get the prediction of the neural network.<br>
+				In the training phase of the neural network, we are also doing the forward pass to be able to compute the loss from the prediction of
+				the neural network and the expected output. And we will use that loss for the backward pass.
+			</p>
+			<h5>
+				The backward pass
+			</h5>
+			<p class="justifyText">
+				The backward pass is, as I explained earlier, the pass where we are updating the parameters of the layers to get better results next time.<br>
+				It is important to note that only layers themselves can know how to compute the backward pass, which means that when we are coding a layer we 
+				always need to implement both the forward and the backward pass.<br>
+				<br>
+				As an instance, the parameters in the Dense Layer are the weights matrice and the bias vector which we will update using the Chain Rule and
+				the gradient of the next layer. We will also need to compute the gradient of the influence of the input over the loss so that we can propagate
+				this value for the precedent layer.<br>
+			</p>
+			<h4>
+				Which activation function?
+			</h4>
+			<p class="justifyText">
+				As I explained above, Dense Layers need an activation function.<br>
+				At first I didn\'t know how to chose between all these activation functions: Sigmoid, Hyperbolic Tangent, ReLu, LeakyRelu, ELU and so on. So
+			</p>
+			<h5>
+				The Sigmoid and the Vanishing Gradient problem
+			</h5>
+			<p class="justifyText">
+				I have chosen the Sigmoid function as it was the first to appear in the litterature.<br>
+				However, when I tried my network for the first time, I quickly noticed that my weights weren\'t updated. I tried for a while to understand
+				the reason of this annoying phenomenon and after looking online I realize that it was because of the Vanishing Gradient problem.<br>
+				<br>
+				When we look at the Sigmoid function and it\'s derivative it looks like this:
+			</p>
+			<section class="theme2 colonne">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/schemas/vanishing_gradient_sigmoid.png" alt="vanishing_gradient_sigmoid">
+				<p class="size500">
+					In blue the Sigmoid and in red it\'s derivative. We can see that the derivative is extremely small on the edges.
+				</p>
+			</section>
+			<h5>
+				The ReLu and the Dying Neuron problem
+			</h5>
+			<p class="justifyText">
+			</p>
+			<h5>
+				The final activation function : LeakyRelu
+			</h5>
 			<p class="justifyText">
 			</p>
 			<h3>

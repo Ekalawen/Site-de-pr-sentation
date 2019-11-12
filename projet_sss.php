@@ -15,11 +15,11 @@
 				<h1>
 					Speed Skill Style !
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					Mirror\'s Edge was too slow. So I made my game.<br>
 					A game of flow.
 				</h2>
-				<section class="theme2 colonne">
+				<section class="theme2 colonne nocount">
 					<img class="resp_extend" src="images/sss/sss07.jpg" alt="SSS 07">
 					<p>
 						Here is a Mirror\'s Edge theme.

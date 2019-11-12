@@ -15,10 +15,10 @@
 				<h1>
 					Immersive Factory
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					I made an internship at Immersive Factory during 2018 summer, for 3 months.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					It is a Virtual Reality company dealing with Serious Gaming.<br>
 					The main topic was about Health, Safety and Environment.
 				</h2>

@@ -15,10 +15,10 @@
 				<h1>
 					AI Boot Camp
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					AI Boot Camp is a AI coding challenges designed to teach the fundamentals of Symbolic AI.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					This is how I knew that AI would became one of my greatest passions.
 				</h2>
 				<section class="theme2 colonne">

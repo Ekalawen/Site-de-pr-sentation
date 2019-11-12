@@ -15,10 +15,10 @@
 				<h1>
 					La Fievre du Sommet
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					La Fievre du Sommet (Fever of the Summit) is the game we made during the Global Game Jam 2019 !
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					It\'s a plaformer game made in 2 days.
 				</h2>
 				<section class="theme2 inlineBlock">

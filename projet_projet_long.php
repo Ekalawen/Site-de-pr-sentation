@@ -15,10 +15,10 @@
 				<h1>
 					A RogueLike Game !
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					I created this in a group of 6 persons.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					I was both the Game Designer and the Development architect.
 				</h2>
 			<section class="theme2 colonne">

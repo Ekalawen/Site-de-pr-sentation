@@ -39,13 +39,13 @@
 			</section>
 		</section>
 		<section class="theme2 colonne">
-			<h2 class="fontSize200 no_underline">
+			<h2 class="fontSize200 no_underline nocount">
 				You can find more about me by checking my LinkedIn account :<br>
 			</h2>
 			<a href="https://www.linkedin.com/in/alexys-dussier/" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
-						<h3 class="resetPaddingMargin">
+						<h3 class="resetPaddingMargin nocount">
 							LinkedIn
 						</h3>
 					</section>
@@ -53,13 +53,13 @@
 			</a>
 		</section>
 		<section class="theme1 colonne">
-			<h2 class="fontSize200 no_underline">
+			<h2 class="fontSize200 no_underline nocount">
 				And you can also find my CV here :<br>
 			</h2>
 			<a href="images/cv/Alexys_Dussier_CV_ANG_2019.pdf" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
-						<h3 class="resetPaddingMargin">
+						<h3 class="resetPaddingMargin nocount">
 							CV
 						</h3>
 					</section>

@@ -15,10 +15,10 @@
 				<h1>
 					Icon Rush 2 !
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					This is the first video game I created.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					It will, thanks to this, always be my favorite one.
 				</h2>
 				<section class="theme2 colonne">

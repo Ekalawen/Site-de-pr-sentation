@@ -15,10 +15,10 @@
 				<h1>
 					Pixel Clicker
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					I am currently designing this game with a friend.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					We loved the famous Coockie Clicker, and wanted to create our own.<br>
 					With some more features.
 				</h2>

@@ -15,10 +15,10 @@
 				<h1>
 					Find the Bear
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					Find the Bear is a Racing game that we made in a team of 5 persons in DDJV using agile methods.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					We coded the engine of the game from scratch and built the game with it ! :)
 				</h2>
 				<section class="theme2 colonne">

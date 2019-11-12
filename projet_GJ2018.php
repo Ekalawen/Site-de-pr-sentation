@@ -15,13 +15,13 @@
 				<h1>
 					Game Jam 2018
 				</h1>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					This was an intern Game Jam into my internship company : ImmersiveFactory.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					The subject was "An alive world".
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					You can find a link to what I have done at Immersive Factory just below :
 				</h2>
 				<a href="projet_ImmersiveFactory.php" class="" target="_blank">

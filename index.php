@@ -13,7 +13,7 @@
 			<h1>
 				Projects
 			</h1>
-			<h2 class="fontSize200 no_underline">
+			<h2 class="fontSize200 no_underline nocount">
 				'. getDescription() .'
 			</h2>
 			<a href="projet_AlphaChessZero.php">
@@ -189,16 +189,16 @@
 
 		</section>
 		<section class="theme2 colonne">
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					I have done some stuff.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					None of them is imposing.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					But I loved each part of them.
 				</h2>
-				<h2 class="fontSize200 no_underline">
+				<h2 class="fontSize200 no_underline nocount">
 					Find most of them on GitHub !
 				</h2>
 				<a href="https://github.com/Ekalawen" class="" target="_blank">
