@@ -37,10 +37,6 @@
 			// Numpy
 			// Keras ==> Miss optimisations + C# is slow (talk about C#optimisations)
 
-		// MCTS
-			// 4 steps
-			// The heuristic : UCB1 or UCB
-
 		// Penser à rajouter beaucoup de schémas !
 		//- insérer github : https://gitlab.com/Ekalawen/balanceddungeonchessgenerator
 		// Penser à insérer un sommaire qui va directement aux endroits visés
@@ -499,10 +495,6 @@
 				// ==> Miss optimisations + C# is slow (talk about C#optimisations)
 				// sauvegarde du neural network ?
 				// training phase with batches ? and shuffling ?
-			// First try : without MCTS
-				// Representation of the Game ==> GameState
-				// Input and output
-				// Doens't work ! How to compute the loss ? XD What is the target ? :o The win is not enought
 			'
 			<h3>
 				Keras Code
@@ -599,6 +591,7 @@
 			</h5>
 			<p class="justifyText">
 				I have chosen the Sigmoid function as it was the first to appear in the litterature.<br>
+				Sigmoid(x) = 1 / (1 + e<sup>-x</sup>)<br>
 				However, when I tried my network for the first time, I quickly noticed that my weights weren\'t updated. I tried for a while to understand
 				the reason of this annoying phenomenon and after looking online I realize that it was because of the Vanishing Gradient problem.<br>
 				<br>
@@ -610,19 +603,193 @@
 					In blue the Sigmoid and in red it\'s derivative. We can see that the derivative is extremely small on the edges.
 				</p>
 			</section>
+			<p class="justifyText">
+				And the problem cause is that on the edges, that is to say before -4 or after 4, the derivative is extremely small. And as we might have many
+				Dense Layer in our network, the gradient will decrease exponentially fast, until it reach zero with numerical approximations. And at that point
+				the network stop learning.<br>
+				This is why it is mainly recomended today to use a Rectified Linear Unit (ReLu) as the activation function.
+			</p>
 			<h5>
 				The ReLu and the Dying Neuron problem
 			</h5>
 			<p class="justifyText">
+				The Rectified Linear Unit (ReLu) have a lot of advantages over the Sigmoid function.<br>
+				ReLu(x) = (x > 0) ? x : 0 = max(0, x)<br>
+				First of all, it is much more easy to compute as we only need one max operator where for the Sigmoid we had to compute an exponential which is
+				very expensive.<br>
+				Second, on the positive part, the gradient is always equal to 1, this means that we won\'t decrease the gradient at all, no matter how many 
+				layers we use as multiplying by 1 is the identity! So the Vanishing Gradient problem is solved.<br>
+				Third, ReLu is known for converging much faster than Sigmoid and TanH in practice.<br>
+				<br>
+				However, on the negative part the derivative of ReLu is always 0. Which means that if we always get a negative input, we will always ouput 0
+				and will always shut down the gradient. Which is a good thing as this non-continuity is the source of non-linearity for ReLu, but it will
+				totaly prevent the network from learning in these areas of the network. This is called the Dying Neuron problem.
 			</p>
+			<section class="theme2 colonne">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/schemas/relu_and_derivative.jpg" alt="relu_and_derivative">
+				<p class="size500">
+					In blue the ReLu function and in red it\'s derivative.
+				</p>
+			</section>
 			<h5>
 				The final activation function : LeakyRelu
 			</h5>
 			<p class="justifyText">
+				Having a large part of our network not being trained is not really what we want. So in order to prevent this issue, they are several
+				solutions :<br>
+				- We could use a better initilization where we would add a volontary positive bias on the bias so that most of our input of ReLu are positive<br>
+				- We could use somewhat of an upgrade of ReLu: LeakyRelu. LeakyRelu	is exactly as ReLu except in the negative part where it let pass a small
+				part of the gradient.<br>
+				LeakyRelu(x) = (x > 0) ? x : ax = max(ax, x) where a is often chosed as a = 0.01.<br>
+				LeakyRelu has all the advantages of ReLu except that it also let pass through the gradient in the negative part. It is the solution I
+				have chosen, and it worked perfectly fine!<br>
+				<br>
+				However it is even possible to go further with a parametrized LeakyRelu where the parameter a is learned in the backpropagation pass, or even
+				ELU but I won\'t describe it here.
 			</p>
+			<section class="theme2 colonne">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/schemas/LeakyReLu.png" alt="LeakyReLu.png">
+				<p class="size500">
+					LeakyRelu and ParametricReLu.
+				</p>
+			</section>
+			'.
+			// First try : without MCTS
+				// Representation of the Game ==> GameState
+				// Input and output
+				// Doens't work ! How to compute the loss ? XD What is the target ? :o The win is not enought
+			'
 			<h3>
+				First Neural Network
 			</h3>
 			<p class="justifyText">
+				I was so happy, I had designed a Neural Network architecture and it was working fine, as I already tested it on easier problems. I was really
+				excited to finally be able to test it for real on this Chess game! I knew something was missing because AlphaGo Zero was much more complicated
+				but I wanted to see what a simple neural net could learn from it and what was its limits.<br>
+				<br>
+				To do that, I needed 2 things :<br>
+				- first a way of representing a chess board that my network could understand.<br>
+				- second a way of representing the play my network had chosen so that my chess algorithm could understand it.<br>
+			</p>
+			<h4>
+				The GameState
+			</h4>
+			<p class="justifyText">
+				I already had all the useful informations to give to the neural network, I only needed to order them in the good way. The GameState class was
+				designed in this purpose.<br>
+			</p>
+			<h5>
+				Problem : A variable number of parameters
+			</h5>
+			<p class="justifyText">
+				So, what are the pertinent information to give? We will need to know where are the pieces, where are the obstacles such as forest, mountains and 
+				dungeons (I still wanted that my network could learn this homemade features, because why not :)), who is the current player, and what is the 
+				current turn (as I had to setup a maximum turn number to prevent draws from going infinite). Ok, cool.<br>
+				But a neural network is really good at understanding a fix number of features. However here, we don\'t really know in advance how many pieces
+				and how many obstacles we will have because maybe they will be captured during the game! I wanted to give the network 2 parameters by pieces,
+				the column indice and the line indice because it seemed like the easiest way of describing a position to me, but by doing that I would had
+				nbParams = 2 * (nbPieces + nbObstacles) which is a variable number. I could have use a maximum number of parameters and then not using the
+				parameters that weren\'t useful, it could have worked. But what if I needed to create a new piece during the game because of some special event
+				or something else ? I wasn\'t convinced by this solution.<br>
+			</p>
+			<h5>
+				The solution : The planes
+			</h5>
+			<p class="justifyText">
+				After looking inside the AlphaGo Zero papers I learned the solution. It is possible to use what is called a plane. A plane is a set of
+				booleans parameters as big as the board which is associated to a feature. When the feature is present on a tile, the boolean is set to true, else
+				it is set to false. And this is an amazing solution!<br>
+				Even if it is expensive, as it often as a lot of zeros for only some ones, it can ensure that if we have a plane for each possible existing
+				piece and obstacle we could represent as many pieces and obstacles as we want! Problem solved!
+			</p>
+			<section class="theme2 colonne">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/schemas/GameState_schema.png" alt="GameState_schema">
+				<p class="size500">
+					Here is a diagram of the planes representation of a GameState.
+				</p>
+			</section>
+			<h4>
+				Representation of a Play
+			</h4>
+			<p class="justifyText">
+				It is much more easier to represent a play than a piece, as we know in advance that we will only have one play, always. This means that our 
+				neural network is just a classifier that take a GameState in input and will classify the best play to make between all possibles plays.<br>
+				We only have a good way of representing all the possible plays.<br>
+				<br>
+				A good way to do this is by specifying the tile from which the piece must start and then specifying the kind of movement this piece is using. 
+				A queen have 4 directions with 7 locations on each on a 8x8 board for a total of 24 possible movements. At this we must add the 8 
+				possibles movements of the knight for a total of (4 * 7) + 8 = 36 possible movements. This means that if we have 8 * 8 = 64 starting
+				positions, we have a total of 36 * 64 = 2304 possible plays! And so our neural network will have to have 2304 outputs.<br>
+				<br>
+				The above version is what DeepMind implemented for their version of AlphaZero for Chess. However I wanted to be a little for flexible as I might
+				want to add new exotic moves. For this reason I decided to represent a play with it\'s starting position and it\'s ending position for 
+				(8 * 8) * (8 * 8) = 4096 outputs. This version is slower to train as they are more class to chose between, but it is the cost to pay for 
+				versatility.<br>
+				<br>
+				No matter the version we chose, we still need a conversion function between the indice of the play that will give the neural network and the 
+				play (with 2 parameters) we are looking for. For this we just have to order all the plays.
+			</p>
+			<h5>
+				What if the Play chosen by the Neural Network is not a valid Play ?
+			</h5>
+			<p class="justifyText">
+				If this happend, this play is just ignored and we are then considering the second best play. We are doing this until one is valid!
+				Hopefully there are always a play to do if we are not checkmate!
+			</p>
+			<h5>
+				Final output of the Neural Network
+			</h5>
+			<p class="justifyText">
+				In the AlphaGo Zero paper, they are training simultaneously the neural network to tell the percentage of chance of the current player to win
+				in this current situation. I found that very interesting so I keep it. To do that, we only need to add a last output to our 4096 and it\'s
+				role will just to print the expected winrate.
+			</p>
+			<h4>
+				Did someone talk about an expected output?
+			</h4>
+			<p class="justifyText">
+				Ok, so everything was ready. Network? Ready! Input? Ready! Output? Ready!<br>
+				But then I just went to the compute of the loss function. You know, in order that the network can train ... And I realized that I didn\'t know
+				how to train the network. I means I know how to use backpropagation, but to converge towards what? What was the expected output that the
+				network should converge towards?<br>
+				<br>
+				Well, from the previous architecture, we just can\'t calculate or even approximate it. And that\'s why Go and Chess are such challenging
+				problems!<br>
+				<br>
+				Then I understand the utility of the Monte-Carlo-Tree-Search.
+			</p>
+			'.
+			// MCTS
+				// 4 steps
+				// The heuristic : UCB1 or UCB
+				// talk about the beauty of the duality MCTS/NN
+			'
+			<h3>
+				An heuristic of the expected output: Monte-Carlo-Tree-Search (MCTS)
+			</h3>
+			<p class="justifyText">
+				In order to help us compute the expected output (which is what is are all praying for!), we will use a MCTS!<br>
+				<br>
+				A MCTS is a graph search algorithm. It\'s goal is to find the best node of the game graph by using a theoretical optimal compromise between 
+				exploration and exploitation. Ok. It is a lot of information, let\'s break it down.<br>
+				<br>
+				A game graph of chess is a graph where each node represent a board of chess with its pieces. From a node, which is a board state, we have a
+				finite number of possible moves. Each of these moves will result in a different board state, which are represented by different nodes. Each of
+				these different nodes are called the successors of the first node and are linked to it.<br>
+				<br>
+				This graph search algorithm has the objetive to search inside the game graph describe above the best child node of the current node of the current
+				game state. How to chose the "Best", which stands for "it is the best move to do", will be describe latter :)<br>
+			</p>
+			<h4>
+				Exploration and Exploitation
+			</h4>
+			<p class="justifyText">
+				The MCTS could be seen as a generalization (or extension) of the k-bandit machines problem, which is a very well known problem.<br>
+				<br>
+				In the k-bandit machines problem, we are facing k bandit machines which are slot machines. We have a finite number of turns n. At each turn
+				we can activate only one machine. Each machine i has it\'s probability p<sub>i</sub> of rewarding us. What is the best ways of activating the
+				machines in order to maximize the number of rewards? I love this problem! :)<br>
+				<br>
 			</p>
 		</section>
 			';
