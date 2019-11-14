@@ -787,12 +787,178 @@
 				The MCTS could be seen as a generalization (or extension) of the k-bandit machines problem, which is a very well known problem.<br>
 				<br>
 				In the k-bandit machines problem, we are facing k bandit machines which are slot machines. We have a finite number of turns n. At each turn
-				we can activate only one machine. Each machine i has it\'s probability p<sub>i</sub> of rewarding us. What is the best ways of activating the
-				machines in order to maximize the number of rewards? I love this problem! :)<br>
+				we can activate only one machine. Each machine i has it\'s unknown probability p<sub>i</sub> of rewarding us. What is the best ways of
+				activating the machines in order to maximize the number of rewards? I love this problem! :)<br>
 				<br>
+				We can immediately notice something:<br>
+				- first, it might seems intuitive to try to activate as often as possible the machine that seems to have the better efficiency (= 
+				numberOfRewards / numberOfActivations). This is the exploitation part.<br>
+				- second, how is it possible to know which machine has the best efficiency without trying them all? This is the exploration part.<br>
+				- third, how decide that the machine we have chosen is really the most efficient? We might have been victim of a bad sampling and have
+				chosen a sub-optimal machine.<br>
+				<br>
+				To summarize, we have at each turn to chose between 2 strategies: Exploration and Exploitation. And the balance between these two is the 
+				heart of the problem.<br>
+			</p>
+			<h4>
+				How works a MCTS?
+			</h4>
+			<p class="justifyText">
+				Now that we are understanding what are the stakes behind Exploration and Exploitation, let\'s dive down into the architecture of a MCTS.<br>
+				At the start of the MCTS, the graph is initialized with only the current state of the game as the root of our graph.<br>
+				A leaf of this graph (which is a tree) is either a final configuration (someone win or it\'s a draw) or a state from which we haven\'t launched
+				any simulations.<br>
+				In each node of this graph, we will store the number of times we have simulated this node, named N, and the number of times we have won from these
+				simulations, named W.<br>
+				<br>
+				A MCTS is a loop that can be broken down into several parts:<br>
+				- Selection.<br>
+				- Expansion.<br>
+				- Simulation.<br>
+				- Backpropagation. (again!)<br>
+				We will get out of this loop when we consider that we have gathered enought informations to make a good decision.<br>
+				In the AlphaZero algorithm, they have chosen to make 800 simulations before getting out.<br>
+				<br>
+				At the end of the MCTS loop, we will have a N and a M for each of the childs of the current state of the game. These N and M are forming an
+				heuristic of how likely we are going to win by choising this move. And this is exactly what we were looking for our Neural Network. This is 
+				going to be our expected output!
+			</p>
+			<h5>
+				Selection
+			</h5>
+			<p class="justifyText">
+				This is the most important part.<br>
+				It used a heuristic for chosing between several nodes. The choice of this heuristic is crucial and could make a huge difference between a good
+				and a not as good MCTS. So, we need to chose a heuristic. But for now, let\'s assume we have one.<br>
+				<br>
+				In this part, we will chose which node will be the next to be expanded. For this we start from the root of our tree, applying our heuristic
+				to chose the best child of this node to select, then if we aren\'t to a leaf of the graph we continue applying our heuristic until we get to a
+				leaf. This leaf is then given to the Expansion part.
+			</p>
+			<h5>
+				Expansion
+			</h5>
+			<p class="justifyText">
+				In this part, we will expand the node we have chosen in the Selection part. For this we will create a node for each of the children of this
+				node\'s configuration. We then chose a node between all these children using the same heuristic as before.
+			</p>
+			<h5>
+				Simulation
+			</h5>
+			<p class="justifyText">
+				From the chosen node, we will simulate an entire game until its end. All the plays of the game are chosen randomly and uniformly. The 
+				consecutives states of this game aren\'t stored in the graph of the MCTS. When we reach the end of the game, we store the result.
+			</p>
+			<h5>
+				Backpropagation.
+			</h5>
+			<p class="justifyText">
+				The result will then be backpropagated among all the nodes until the root of the graph, updating all the N and W. As an instance, if the final
+				node has N = 0 and W = 0 (so it was the first simulation) and we win, we will now have N = 1 and W = 1. The parent of this node would have its
+				own N and W, let\'s say N = 3 and W = 2 and we will update them accordingly: N = 4 and W = 3. And we do that until we reach the root of the graph.
+			</p>
+			<h4>
+				The Heuristics
+			</h4>
+			<h5>
+				Upper Confidence Bound (UCB)
+			</h5>
+			<p class="justifyText">
+				We have a number N of options named A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub> and we want to chose the option i that have the best
+				true efficiency/mean Q<sub>i</sub>. I am saying "true" because we don\'t know this true efficiency Q. What we know about each option is the
+				sample efficiency/mean Q\'<sub>i</sub> = W<sub>i</sub> / N<sub>i</sub>.<br>
+				<br>
+				The idea behind UCB is to compute a upper confidence bound U<sub>i</sub> (hence the name!) such that
+				Q<sub>i</sub> <= Q\'<sub>i</sub> + U<sub>i</sub> with a very hight probability. Once we have computed the U<sub>i</sub>, we greedily take
+				the action that maximize Q\'<sub>i</sub> + U<sub>i</sub>, and that\'s it!<br>
+				<br>
+				However you could argue: we know that Q<sub>i</sub> is not bigger than Q\'<sub>i</sub> + U<sub>i</sub> but maybe it is lower than
+				Q\'<sub>i</sub> so we would stick to an action that have a terrible true efficiency! Yes, but no. This paradigm is called Optimisn in the face
+				of uncertainty. The trick is that, maybe the real efficiency Q<sub>i</sub> is lower than we think, but this just means we are "victim" of
+				a favorable variance for this action, and we should keep going on it for as long as we are lucky! Once we will get back to the harsh reality
+				the algorithm will naturally switch to an other better upper bound confidence to keep optimizing our gains.<br>
+				<br>
+				Ok! Great! But how do we compute U<sub>i</sub> at each step?<br>
+				You just have to apply this formula at time t: U<sub>i</sub>(t) = sqrt(2 * log(t) / N<sub>i</sub>)<br>
+				<br>
+				Great ... But why? It is just the result of the application of Hoeffding\'s Inequality. Hoeffding\'s Inequality says that:<br>
+				P[E[X] > X<sub>mean<sub>t</sub></sub> + u] <= e<sup>-2tu<sup>2</sup></sup> with X being a random variable and X<sub>mean<sub>t</sub></sub>
+				being the mean gain for t samples of X and u is a scalar. Applying this to our problem we get:<br>
+				P[Q<sub>i</sub> > Q\'<sub>i</sub> + U<sub>i</sub>] <= e<sup>-2N<sub>i</sub>U<sub>i</sub><sup>2</sup></sup> with t the number of times we
+				have tried this action.<br>
+				T = e<sup>-2N<sub>i</sub>U<sub>i</sub><sup>2</sup></sup> is a threshold that can be as small as we want. We would like this treshold to
+				be smaller when we have more informations over the action (when t grows), so we will set T = 1 / t<sup>4</sup>. So we have:<br>
+				U<sub>i</sub>(t) = sqrt(- log(T) / (2 * N<sub>i</sub>)) = sqrt(2 * log(t) / N<sub>i</sub>)<br>
+				<br>
+				In the end, our decision process could be writen as taking the action that maximise<br>
+				X<sub>i</sub> = Q\'<sub>i</sub> + U<sub>i</sub>(t) = (W<sub>i</sub> / N<sub>i</sub>) + (sqrt(2 * log(t) / N<sub>i</sub>))<br>
+				We can see that our metric is divided into 2 parts. The first, the Q\'<sub>i</sub> part, is increasing when the sample mean of this action
+				is increaing and is therefore called the exploitation part. The second, the U<sub>i</sub>(t) part, is increasing when we didn\'t try this
+				action for a long time and is therefore called the exploration part. This is how this beautiful algorithm allows Exploitation and
+				Exploration to collaborate in a single equation! <3
+			</p>
+			<h5>
+				Predictor + Upper Confidence Bound (PUCB)
+			</h5>
+			<p class="justifyText">
+				OK! But we can do even better! The fact is that, for our problem of chess, we don\'t know anything about the actions we are going to chose
+				between. The fact is that we have a Neural Network that could tell us what actions are the most promising ones! And this is called a
+				Predictor and could be insert as a third term in our equation to converge even faster to the best action.<br>
+				<br>
+				Here is the final version I used in my algorithm:<br>
+				X<sub>i</sub> = Q\'<sub>i</sub> + U<sub>i</sub>(t) + P<sub>i</sub><br>
+				Where:<br>
+				- Q\'<sub>i</sub> = (W<sub>i</sub> / N<sub>i</sub>) as the Exploitation term as before<br>
+				- U<sub>i</sub>(t) = sqrt((3/2) * log(t) / N<sub>i</sub>) if N<sub>i</sub> > 0, otherwise 0. As the Exploration term as before.
+				(The constant change a bit but it is not that important.)<br>
+				- P<sub>i</sub> = (2 / M<sub>i</sub>) * sqrt(log(t) / t) if t > 1, otherwise 2 / M<sub>i</sub>. Where M<sub>i</sub> is the prior 
+				probability calculated by the neural network. It is the new Predictor term.<br>
+				<br>
+				You can find more explanations about this algorithm here:
+			</p>
+			<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.172.9450&rep=rep1&type=pdf" class="" target="_blank">
+				<div>
+					<section class="theme3 colonne redirection pb3">
+						<h3 class="resetPaddingMargin">
+							PUCB algorithm paper
+						</h3>
+					</section>
+				</div>
+			</a>
+			<p class="justifyText">
+				This new equation, is really amazing because it has 2 avantages:<br>
+				- according to the paper, it is as good ("good" being defined by the notion of "regret") as before even if the predictor used is the worst
+				possible. This is an important property as at start, our neural network will definitely be a worst predictor!<br>
+				- if the first actions are promising, this algorithm don\'t waste time trying all possibles actions. This could have been seen as a
+				disadvantage of the UCB version, as it always start by testing one time all possibles actions, which could be too long. This time the heuristic
+				will more stick to the best options, thanks to the predictor.<br>
+				<br>
+				This is the algorithm I chosed to use in my program.
+			</p>
+			<h4>
+				The beautiful Duality MCTS-NeuralNetwork
+			</h4>
+			<p class="justifyText">
+				What is interesting to notice, is that in the end, a MCTS is just a big number of random simulations done in a kind of intelligent way and we 
+				are just gathering all these random results to in the end greedily chose the node which has the best ratio Q = W / N. Not that much to talk
+				about.<br>
+				<br>
+				However, and this is where I really think the things are absolutely amazing, DeepMind chosed not to let the simulation being entirely random
+				but rather be decided by the trained Neural Network. So in one hand, the MCTS is providing the expected output to the Neural Network so that
+				it can backpropagate and train, and on the other hand, the Neural Network is providing the MCTS a prior probability for its heuristic in addition
+				to a good policy for choosing the plays in the simulation part! And this is, ladies and gentlemen, by this beautiful duality, how AlphaZero
+				cracked Go, Chess and Shogi!<br>
 			</p>
 		</section>
 			';
+
+			// dire que le MCTS fournit le expected output au nn
+
+		// CONCLUSION !
+
+		// S'occuper des espaces avant les caractères doubles
+		// S'occuper des reformulations pour éviter les "we"
+		// fetch for "et"
 
 		return $text;
 	}
