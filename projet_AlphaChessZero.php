@@ -391,12 +391,28 @@
 			</section>
 			<section class="theme1 inlineBlock">
 				<video controls muted class="m3 size500">
-				  <source src="images/AlphaChessZero/videos/Replay_myself_vs_myself.mp4" type="video/mp4">
+				  <source src="images/AlphaChessZero/videos/Replay_myself_vs_myself_2.mp4" type="video/mp4">
 				  Your browser does not support HTML5 video.
 				</video>
 				<p class="justifyText">
 					And here we can see what it finally looks like!<br>
 					It is a Replay of a game of myself against myself :)
+				</p>
+			</section>
+			<h3>
+				Camera
+			</h3>
+			<p class="justifyText">
+				To have a good replay feature, I was thinking that a good camera that allows us to have good vision angles on the board was also a necessity.<br>
+				So this is what the camera look like:
+			</p>
+			<section class="theme1 inlineBlock">
+				<video controls muted class="m3 size500">
+				  <source src="images/AlphaChessZero/videos/Move_arround.mp4" type="video/mp4">
+				  Your browser does not support HTML5 video.
+				</video>
+				<p class="center">
+					The Camera movements.
 				</p>
 			</section>
 		</section>
@@ -544,8 +560,20 @@
 				for all D. As it\'s true for all D, we can remove the logarithme, as we only have to chose D\' = ln(D) and it would still be true. The
 				interest of this is that if D\' is negative and big enough, the exponential won\'t explode and it won\'t make a number overflow! In practice
 				we chose D\' = - Max<sub>i</sub>(Input[i]).<br>
-				- the Batch Normalization Layer. TODO.<br>
-				- the Convolutional Layer. TODO.<br>
+				<br>
+				- the Batch Normalization Layer. Its role is to normalize and center the data of an entire batch by subtracting the mean of the batch 
+				and dividing by the variance of the batch. It does have a lot of advantages, and that\'s why we are using it after almost every other layers:
+				Improves gradient flow, allow higher learning rates, reduce dependency on initialization, and regularize. Something to add that is very
+				interesting is that a Batch Normalization Layer has 2 parameters, alpha and gamma, that allow the network to shift and scale back the data. As
+				an instance, the network could even learn how to undo the normalization and the centering if it wanted too, and this what gives the flexibility
+				to this layer.<br>
+				<br>
+				- the Convolutional Layer. It is the core layer for computing stuff on images and othes data where local neirghborhood is very important, such
+				as chessboards! A Convolutional Layer is constituted of filters. Each filter will constitute a 2 dimensional array using its own kernel by doing
+				a convolutional product between the kernel and the input image. The results are then concatenated in a 3 dimensional array, which is the
+				final output of the layer. In a way, it is very similar to a Dense Layer, except that neurons are only connected to a local part of the inputs
+				and that all neurons share the same parameters. This means that every location of the input is treated identically. It is the Convolutional Layers
+				that made image recognition to be as successful as it is today.
 				<br>
 			</p>
 			<h5>
@@ -735,6 +763,21 @@
 				role will just to print the expected winrate.
 			</p>
 			<h4>
+				Always start simple
+			</h4>
+			<p class="justifyText">
+				As I knew that would probably not succeed on the first try, and as I didn\'t want to lose time in computation if it wasn\'t going to work, I
+				decided to design smallest chessboard so that I can test and try easier and faster on them.<br>
+				Here what they look like:<br>
+			</p>
+			<section class="theme2">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/BDCG/4x4_start_top_600px.png" alt="4x4_start_top_600px">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/BDCG/6x6_start_top_600px.png" alt="6x6_start_top_600px">
+				<p class="size500">
+					The 4x4 and the 6x6 chessboards!
+				</p>
+			</section>
+			<h4>
 				Did someone talk about an expected output?
 			</h4>
 			<p class="justifyText">
@@ -847,6 +890,12 @@
 				node has N = 0 and W = 0 (so it was the first simulation) and we win, we will now have N = 1 and W = 1. The parent of this node would have its
 				own N and W, let\'s say N = 3 and W = 2 and we will update them accordingly: N = 4 and W = 3. And we do that until we reach the root of the graph.
 			</p>
+			<section class="theme2 inlineBlock">
+				<img class="size500 resp_extend" src="images/AlphaChessZero/images/schemas/MCTS_schema.png" alt="MCTS_schema">
+				<p>
+					Here a diagram of how an MCTS works.
+				</p>
+			</section>
 			<h4>
 				The Heuristics
 			</h4>
@@ -939,22 +988,43 @@
 				to a good policy for choosing the plays in the simulation part! And this is, ladies and gentlemen, by this beautiful duality, how AlphaZero
 				cracked Go, Chess and Shogi!<br>
 			</p>
+			<h2>
+				Conclusion
+			</h2>
+			<p class="justifyText">
+				I did this project in order to learn as much as possible in Machine Learning and Neural Networks and to show my motivation to a certain company
+				that I wished to join. I think that even all the difficulties that I met, it was an amazing experience that really teaches me the fundamentals
+				of Neural Networks. This project was half engineering and half research, which is why I really enjoyed it. What\'s more, I am happy because even
+				if most of it was based on work of others (AlphaZero), I didn\'t just copy them but expanded their work to something that was never made before
+				and this perspective was what motivates me the most! :)<br>
+				<br>
+				If you want to see the source code:<br>
+			</p>
+			<a href="https://gitlab.com/Ekalawen/balanceddungeonchessgenerator" class="" target="_blank">
+				<div>
+					<section class="theme3 colonne redirection pb3">
+						<h3 class="resetPaddingMargin">
+							Link to GitLab
+						</h3>
+					</section>
+				</div>
+			</a>
 		</section>
 			';
-		// CONCLUSION !
+		// CONCLUSION ! OK
 
-		// S'occuper des espaces avant les caractères doubles
-		// S'occuper des reformulations pour éviter les "we"
-		// fetch for "et"
-		// changer le cv sur mon site
-		// rajouter l'index
-		// penser aux couleurs de papa
+		// S'occuper des espaces avant les caractères doubles OK
+		// S'occuper des reformulations pour éviter les "we" OK
+		// fetch for "et" OK
 
-		// batchnorm et conv layers todo !!!
-		// rajouter des images sur la fin !
+		// batchnorm et conv layers todo !!! OK
+		// rajouter des images sur la fin ! OK
 
+		// changer le cv sur mon site OK
+		// rajouter l'index TODO
+		// penser aux couleurs de papa TODO
 
-		// relire tous les commentaires !
+		// relire tous les commentaires ! OK
 
 		return $text;
 	}

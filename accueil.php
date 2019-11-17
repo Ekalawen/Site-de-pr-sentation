@@ -56,7 +56,7 @@
 			<h2 class="fontSize200 no_underline nocount">
 				And you can also find my CV here:<br>
 			</h2>
-			<a href="images/cv/Alexys_Dussier_CV_ANG_2019.pdf" class="" target="_blank">
+			<a href="images/cv/Alexys_Dussier_CV_ANG_2019_2.pdf" class="" target="_blank">
 				<div>
 					<section class="theme3 colonne redirection pb3">
 						<h3 class="resetPaddingMargin nocount">

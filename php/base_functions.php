@@ -205,7 +205,7 @@ $(document).ready( function () {
 	function getCV() {
 
 		$cv = '
-			<iframe src="images/cv/Alexys_Dussier_CV_FR.pdf" width="100%" height="100%" align="middle"></iframe>
+			<iframe src="images/cv/Alexys_Dussier_CV_ANG_2019_2.pdf" width="100%" height="100%" align="middle"></iframe>
 		';
 
 		return $cv;
