@@ -142,7 +142,7 @@ $(document).ready( function () {
 			</div>
 			<div class="resp_small_colone">
 				<div class="footer_title">
-					Mail : 
+					Mail: 
 				</div>
 				<a href="contact.php" class="mg1">
 					<div class="resetPaddingMargin">
@@ -154,7 +154,7 @@ $(document).ready( function () {
 			</div>
 			<div class="resp_small_colone">
 				<div class="footer_title">
-					GitHub : 
+					GitHub: 
 				</div>
 				<a href="https://www.github.com/Ekalawen" class="mg1" target="_blank">
 					<div class="resetPaddingMargin">
@@ -166,7 +166,7 @@ $(document).ready( function () {
 			</div>
 			<div class="resp_small_colone">
 				<div class="footer_title">
-					Linkedin : 
+					Linkedin: 
 				</div>
 				<a href="https://www.linkedin.com/in/alexys-dussier/" class="mg1" target="_blank">
 					<div class="resetPaddingMargin">
@@ -178,7 +178,7 @@ $(document).ready( function () {
 			</div>
 			<div class="resp_small_colone">
 				<div class="footer_title">
-					Adresse :         
+					Adresse:         
 				</div>
 				<p class="mg1">
 					Toulouse, France

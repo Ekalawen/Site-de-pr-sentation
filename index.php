@@ -199,7 +199,7 @@
 					But I loved each part of them.
 				</h2>
 				<h2 class="fontSize200 no_underline nocount">
-					Find most of them on GitHub !
+					Find most of them on GitHub!
 				</h2>
 				<a href="https://github.com/Ekalawen" class="" target="_blank">
 					<div>
@@ -216,7 +216,7 @@
 			<section class="theme3 colonne redirection">
 				<div class="ligne w50 resp_extend">
 						<p class="redirection_p">
-							Do you want to see what inspired me ?
+							Do you want to see what inspired me?
 						</p>
 				</div>
 			</section>

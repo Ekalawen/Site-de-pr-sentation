@@ -29,7 +29,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnGamesAppear">
 							<p class="m1">
-								Creating and designing games has been one of my favorite hobby since forever !
+								Creating and designing games has been one of my favorite hobbies since forever!
 							</p>
 						</section>
 						<bouton id="btnAIDesigning">
@@ -37,8 +37,8 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnAIDesigningAppear">
 							<p class="m1">
-								AI design has become recently a major passion to me !<br>
-								I wish I could help designing the first Strong AI <3
+								AI design has become recently a major passion to me!<br>
+								I wish I could help designing the first General AI <3
 							</p>
 						</section>
 						<bouton id="btnSystems">
@@ -46,7 +46,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnSystemsAppear">
 							<p class="m1">
-								I only feel alive when I create, alone or with others, something that is complex enough to surpass it\'s creator !<br>
+								I only feel alive when I create, alone or with others, something that is complex enough to surpass its creator!<br>
 								It\'s even better if complex rhyme with beautiful.
 							</p>
 						</section>
@@ -70,7 +70,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnAIProgrammingAppear">
 							<p class="m1">
-								Programming AI is as fun as designing them ! <3
+								Programming AI is as fun as designing them! <3
 							</p>
 						</section>
 						<bouton id="btnArchitecture">
@@ -78,7 +78,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnArchitectureAppear">
 							<p class="m1">
-								Thinking in advance to the future problems to overcome them even before they dare appear !
+								Thinking in advance to the future problems to overcome them even before they dare appear!
 							</p>
 						</section>
 					</section>
@@ -93,7 +93,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnHardCoreAppear">
 							<p class="m1">
-								I like challenge, I like to feel myself progress and overcome difficulties !
+								I like challenge, I like to feel myself progress and overcome difficulties!
 							</p>
 						</section>
 						<bouton id="btnCompetitive">
@@ -101,7 +101,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnCompetitiveAppear">
 							<p class="m1">
-								And I think other players are one of the best source of adversity !
+								And I think other players are one of the best sources of adversity!
 							</p>
 						</section>
 						<bouton id="btnDeep">
@@ -109,7 +109,7 @@
 						</bouton>
 						<section class="theme1 hidden p1" id="btnDeepAppear">
 							<p class="m1">
-								Creating emergent strategies that designer didn\'t think of, if you can do this, then your game will drive me crazy ! <3
+								Creating emergent strategies that the designer didn\'t think of, if you can do this, then your game will drive me crazy! <3
 							</p>
 						</section>
 					</section>

@@ -21,7 +21,7 @@
 					<input type="text" class="resp_small_extend" name="email">
 					<h2 class="no_underline nocount">Enter Message *</h2>
 					<textarea class="size500 verticalSize250 resp_extend" name="message"></textarea>
-					<input class="activable resp_small_extend" type="submit" value="Send Form !">
+					<input class="activable resp_small_extend" type="submit" value="Send Form!">
 				</form>
 			</section>
 		</section>
