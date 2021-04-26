@@ -9,13 +9,24 @@
 
 	function getTextProjets() {
 		$text = '
-		<section class="theme1">
+		<section class="theme1 inlineBlockLigne">
 			<h1>
 				Projects
 			</h1>
 			<h2 class="fontSize200 no_underline nocount">
 				'. getDescription() .'
 			</h2>
+			
+			<a href="https://netrunner-awakening.com" target="_blank">
+				<div class="size300-200" id="projet_img_TheNetrunnerAwaken1ng">
+					<div class="ligne w100 h100">
+						<p class="volatileText">
+							The Netrunner Awaken1ng
+						</p>
+					</div>
+				</div>
+			</a>
+
 			<a href="projet_AlphaChessZero.php">
 				<div class="size300-200" id="projet_img_AlphaChessZero">
 					<div class="ligne w100 h100">

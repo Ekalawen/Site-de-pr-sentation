@@ -235,3 +235,16 @@ Ce fichier est là pour insérer des images en background
 	background-position: center center;
 	background-size: cover;
 }
+
+#projet_img_TheNetrunnerAwaken1ng {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/TheNetrunnerAwaken1ng/green_outside_2.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#projet_img_TheNetrunnerAwaken1ng:hover {
+	background-image: url("../images/TheNetrunnerAwaken1ng/green_outside_2.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
